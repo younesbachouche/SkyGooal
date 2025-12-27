@@ -379,7 +379,7 @@ function getMatchData() {
       matchTime: '2025-12-27T20:45:00',
       streamUrlEnglish: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/70094116.m3u8",
       streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://karwan.tv/live/sport-channel-8-1.php",
       
     },
     {
@@ -392,7 +392,7 @@ function getMatchData() {
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://cdnapisec.kaltura.com/p/6234172/playManifest/entryId/1_hja36c90/protocol/https/format/applehttp/master.m3u8"
     },
   ];
 }
