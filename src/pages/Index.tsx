@@ -319,7 +319,7 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
       matchTime: '2025-12-28T18:30:00',
-      streamUrlEnglish: "https://broadcasthub.click/hls/xIdA2QEv4ET5/index.m3u8",
+      streamUrlEnglish: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/BeinMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
       streamUrlServer4: ""
