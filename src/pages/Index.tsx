@@ -322,7 +322,7 @@ function getMatchData() {
       streamUrlEnglish: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/BeinMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://cdn.oklips.xyz/match_live/index.m3u8"
     }, 
     {
       team1: { name: "Crystal Palace", logo: "https://imgs.ysscores.com/teams/128/6121690118883.png" },
