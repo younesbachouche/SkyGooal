@@ -262,95 +262,49 @@ function getMatchData() {
     
    
     {
-      team1: { name: "Gabon", logo: "https://imgs.ysscores.com/teams/128/8751763078081.png" },
-      team2: { name: "Mozambique", logo: "https://imgs.ysscores.com/teams/128/9651763083639.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2025-12-28T13:30:00',
+      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
+      team2: { name: "ES Setif", logo: "https://imgs.ysscores.com/teams/128/4981693417652.png" },
+      competitionLogo: "https://imgs.ysscores.com/championship/150/8131693416988.png",
+      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/8131693416988.png",
+      competitionName: "Ligue 1 Mobilis",
+      matchTime: '2025-12-29T19:30:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
       streamUrlServer4: ""
     },
-     {
-      team1: { name: "Sunderland", logo: "https://imgs.ysscores.com/teams/128/10001690823905.png" },
-      team2: { name: "Leeds United", logo: "https://imgs.ysscores.com/teams/128/4691690458244.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2025-12-28T15:00:00',
-      streamUrlEnglish: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/9000.m3u8",
-      streamUrlArabic: "https://pub-73548c817b0e4ef7801df3179825e55c.r2.dev/Bein1.m3u8",
-      streamUrlServer3: "https://storage.googleapis.com/unixerwtingf1/mux_video_ts/index-1.m3u8"
       
-    },
-   
    
     {
-      team1: { name: "Equatorial Guinea", logo: "https://imgs.ysscores.com/teams/128/3871763072297.png" },
-      team2: { name: "Sudan", logo: "https://imgs.ysscores.com/teams/128/6511763087361.png" },
+      team1: { name: "Angola", logo: "https://imgs.ysscores.com/teams/128/2151763067065.png" },
+      team2: { name: "Egypt", logo: "https://imgs.ysscores.com/teams/128/9301763071949.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
-      matchTime: '2025-12-28T16:00:00',
+      matchTime: '2025-12-29T17:00:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
       streamUrlServer4: ""
     },
     
+   
     {
-      team1: { name: "Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
-      team2: { name: "Hellas Verona", logo: "https://imgs.ysscores.com/teams/128/3871690283003.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2025-12-28T12:30:00',
-      streamUrlEnglish: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/70094113.m3u8",
-      streamUrlArabic: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/70094113.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4:"https://karwan.tv/live/sport-channel-8-1.php"
-    },
-    {
-      team1: { name: "Algeria", logo: "https://imgs.ysscores.com/teams/128/2341763066345.png" },
-      team2: { name: "Burkina faso", logo: "https://imgs.ysscores.com/teams/128/9521763070286.png" },
+      team1: { name: "Zimbabwe", logo: "https://img.sofascore.com/api/v1/team/4719/image" },
+      team2: { name: "South Africa ", logo: "https://imgs.ysscores.com/teams/128/1791763086999.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
-      matchTime: '2025-12-28T18:30:00',
+      matchTime: '2025-12-28T17:00:00',
       streamUrlEnglish: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/BeinMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
       streamUrlServer4: "https://cdn.oklips.xyz/match_live/index.m3u8"
     }, 
+    
     {
-      team1: { name: "Crystal Palace", logo: "https://imgs.ysscores.com/teams/128/6121690118883.png" },
-      team2: { name: "Spurs", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2025-12-28T17:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/Bein1.m3u8",
-      streamUrlServer3: "https://d14oi63tmp1bxk.cloudfront.net/status/1/fronts.woff2?af259a"
-      
-    },
-    {
-      team1: { name: "Cremonese", logo: "https://imgs.ysscores.com/teams/128/5011690370508.png" },
-      team2: { name: "Napoli", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2025-12-28T15:00:00',
-      streamUrlEnglish: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/70094116.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      
-    },
-    {
-      team1: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
-      team2: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
+      team1: { name: "Roma", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8686.png" },
+      team2: { name: "Genoa", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/10233.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
@@ -360,13 +314,26 @@ function getMatchData() {
       streamUrlServer3: "",
       
     },
+  
     {
-      team1: { name: "Ivory Coast", logo: "https://imgs.ysscores.com/teams/128/391763071210.png" },
-      team2: { name: "Cameroon", logo: "https://imgs.ysscores.com/teams/128/1341763070498.png" },
+      team1: { name: "Zambia", logo: "https://imgs.ysscores.com/teams/128/2081763118283.png" },
+      team2: { name: "Morocco", logo: "https://imgs.ysscores.com/teams/128/6291763083538.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
-      matchTime: '2025-12-28T21:00:00',
+      matchTime: '2025-12-29T20:00:00',
+      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
+      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
+      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
+      streamUrlServer4: ""
+    },
+    {
+      team1: { name: "Comores", logo: "https://imgs.ysscores.com/teams/128/7091763070957.png" },
+      team2: { name: "Mali", logo: "https://imgs.ysscores.com/teams/128/7571763083037.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
+      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
+      competitionName: "AFCON 2025",
+      matchTime: '2025-12-29T20:00:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
