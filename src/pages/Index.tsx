@@ -290,7 +290,7 @@ function getMatchData() {
     
    
     {
-      team1: { name: "Zimbabwe", logo: "https://img.sofascore.com/api/v1/team/4719/image" },
+      team1: { name: "Zimbabwe", logo: "https://imgs.ysscores.com/teams/128/4021763118330.png" },
       team2: { name: "South Africa ", logo: "https://imgs.ysscores.com/teams/128/1791763086999.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
