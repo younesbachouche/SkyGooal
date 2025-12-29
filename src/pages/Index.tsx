@@ -268,9 +268,9 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/8131693416988.png",
       competitionName: "Ligue 1 Mobilis",
       matchTime: '2025-12-29T19:30:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
+      streamUrlEnglish: "https://www.youtube.com/embed/JXhTXLyTs9g",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },
       
