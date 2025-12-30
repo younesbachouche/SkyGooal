@@ -271,10 +271,10 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
       matchTime: '2025-12-30T17:00:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: ""
+      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax1.m3u8",
+      streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax3.m3u8",
+      streamUrlServer3: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/F0CJSyrSgBoFTGic4TAuEkLU7FHaiNUEl1GfuREsZydqVFinpCoqDWV3v0aClMj5Fe9JAYjbfyQJm6UrUJmwZQ/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live",
+      streamUrlServer4: "https://proud-sound-d42d.cloud1-e3f.workers.dev/ArryadiaTNT.m3u8"
     },
     
    
@@ -285,10 +285,10 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
       matchTime: '2025-12-30T17:00:00',
-      streamUrlEnglish: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/BeinMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: "https://cdn.oklips.xyz/match_live/index.m3u8"
+      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax2.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     }, 
     
     
