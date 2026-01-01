@@ -303,7 +303,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-01T21:00:00',
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9002.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
