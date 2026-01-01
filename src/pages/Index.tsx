@@ -290,9 +290,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-01T21:00:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
+      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/portungiherc2/mux_video_ts/index-1.m3u8",
+      streamUrlServer3: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9000.m3u8",
       streamUrlServer4: ""
     },
     {
@@ -302,9 +302,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-01T21:00:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
+      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },
   ];
