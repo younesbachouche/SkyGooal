@@ -294,12 +294,12 @@ function getMatchData() {
 
 
      {
-      team1: { name: "Nottingham", logo: "https://imgs.ysscores.com/teams/128/7741690119007.png" },
-      team2: { name: "Everton", logo: "https://imgs.ysscores.com/teams/128/8461690118694.png" },
+      team1: { name: "Sunderland", logo: "https://imgs.ysscores.com/teams/128/10001690823905.png" },
+      team2: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2025-12-30T20:30:00',
+      matchTime: '2026-01-10T21:00:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
@@ -307,12 +307,12 @@ function getMatchData() {
     },
 
      {
-      team1: { name: "West Ham", logo: "https://imgs.ysscores.com/teams/128/7191690118603.png" },
-      team2: { name: "Brighton", logo: "https://imgs.ysscores.com/teams/128/2271696710594.png" },
+      team1: { name: "Brentford", logo: "https://imgs.ysscores.com/teams/128/4791690118957.png" },
+      team2: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2025-12-30T20:30:00',
+      matchTime: '2026-01-10T21:00:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
