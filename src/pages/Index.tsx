@@ -272,7 +272,7 @@ function getMatchData() {
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2026-01-10T18:30:00',
+      matchTime: '2026-01-01T18:30:00',
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
       streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index1/javascript.json",
       streamUrlServer3: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9003.m3u8",
@@ -285,7 +285,7 @@ function getMatchData() {
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2026-01-00T18:30:00',
+      matchTime: '2026-01-01T18:30:00',
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
       streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index2/javascript.json",
       streamUrlServer3: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9000.m3u8",
@@ -299,7 +299,7 @@ function getMatchData() {
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2026-01-10T21:00:00',
+      matchTime: '2026-01-01T21:00:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
@@ -312,38 +312,14 @@ function getMatchData() {
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2026-01-10T21:00:00',
+      matchTime: '2026-01-01T21:00:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
       streamUrlServer4: ""
     },
 
-    {
-      team1: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
-      team2: { name: "Aston Villa", logo: "https://imgs.ysscores.com/teams/128/9921723414870.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2025-12-30T21:15:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
-      team2: { name: "Wolves", logo: "https://imgs.ysscores.com/teams/128/9631690118479.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2025-12-30T21:15:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: ""
-    },
+   
   ];
 }
 
