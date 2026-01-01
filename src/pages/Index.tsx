@@ -276,7 +276,7 @@ function getMatchData() {
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
       streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index1/javascript.json",
       streamUrlServer3: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9003.m3u8",
-      streamUrlServer4: "https://akotv.cc/eighty_eight.php?stream=bS2-6"
+      streamUrlServer4: "http://d4.cdntv.online/high/9mlxywika2/1022.m3u8"
     },
 
      {
@@ -289,7 +289,7 @@ function getMatchData() {
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
       streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index2/javascript.json",
       streamUrlServer3: "https://liveua.score806.cc/pt_elevensport1/index.m3u8",
-      streamUrlServer4: "https://akotv.cc/eighty_eight.php?stream=bS1-6",
+      streamUrlServer4: "http://d4.cdntv.online/high/9mlxywika2/1021.m3u8",
 
 
      {
