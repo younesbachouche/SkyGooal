@@ -268,7 +268,7 @@ function getMatchData() {
       matchTime: '2026-01-01T18:30:00',
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
       streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index1/javascript.json",
-      streamUrlServer3: "http://d4.cdntv.online/high/9mlxywika2/1022.m3u8",
+      streamUrlServer3: "https://www.cdn291.info/images/dunga2/index.m3u8",
       streamUrlServer4: "",
     },
     {
