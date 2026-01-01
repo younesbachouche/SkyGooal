@@ -259,14 +259,7 @@ function sortMatches(matches: Match[]) {
 
 function getMatchData() {
   return [
-    
-   
-  
-      
-   
-  
-
-     {
+    {
       team1: { name: "Crystal Palace", logo: "https://imgs.ysscores.com/teams/128/6121690118883.png" },
       team2: { name: "Fulham", logo: "https://imgs.ysscores.com/teams/128/4711690118927.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
@@ -278,8 +271,7 @@ function getMatchData() {
       streamUrlServer3: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9003.m3u8",
       streamUrlServer4: "http://d4.cdntv.online/high/9mlxywika2/1022.m3u8",
     },
-
-     {
+    {
       team1: { name: "Liverpool", logo: "https://imgs.ysscores.com/teams/128/4081724601375.png" },
       team2: { name: "Leeds United", logo: "https://imgs.ysscores.com/teams/128/4691690458244.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
@@ -290,9 +282,8 @@ function getMatchData() {
       streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index2/javascript.json",
       streamUrlServer3: "https://liveua.score806.cc/pt_elevensport1/index.m3u8",
       streamUrlServer4: "http://d4.cdntv.online/high/9mlxywika2/1021.m3u8",
-
-
-     {
+    },
+    {
       team1: { name: "Sunderland", logo: "https://imgs.ysscores.com/teams/128/10001690823905.png" },
       team2: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
@@ -304,8 +295,7 @@ function getMatchData() {
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
       streamUrlServer4: ""
     },
-
-     {
+    {
       team1: { name: "Brentford", logo: "https://imgs.ysscores.com/teams/128/4791690118957.png" },
       team2: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
@@ -317,8 +307,6 @@ function getMatchData() {
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
       streamUrlServer4: ""
     },
-
-   
   ];
 }
 
