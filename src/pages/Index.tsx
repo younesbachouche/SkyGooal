@@ -264,66 +264,15 @@ function getMatchData() {
   
       
    
-    {
-      team1: { name: "Tunisia", logo: "https://imgs.ysscores.com/teams/128/8201763117043.png" },
-      team2: { name: "Tanzania", logo: "https://imgs.ysscores.com/teams/128/3241763087791.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2025-12-30T17:00:00',
-      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax1.m3u8",
-      streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax3.m3u8",
-      streamUrlServer3: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/F0CJSyrSgBoFTGic4TAuEkLU7FHaiNUEl1GfuREsZydqVFinpCoqDWV3v0aClMj5Fe9JAYjbfyQJm6UrUJmwZQ/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live",
-      streamUrlServer4: "https://proud-sound-d42d.cloud1-e3f.workers.dev/ArryadiaTNT.m3u8"
-    },
-    
-   
-    {
-      team1: { name: "Uganda", logo: "https://imgs.ysscores.com/teams/128/2921763117370.png" },
-      team2: { name: "Nigeria", logo: "https://imgs.ysscores.com/teams/128/9961763084205.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2025-12-30T17:00:00',
-      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax2.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
-    
-    
-    {
-      team1: { name: "Senegal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
-      team2: { name: "Benin", logo: "https://imgs.ysscores.com/teams/128/8421763069265.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2025-12-30T20:00:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: ""
-    },
-    {
-      team1: { name: "Botswana", logo: "https://imgs.ysscores.com/teams/128/4041763069740.png" },
-      team2: { name: "DR Congo", logo: "https://imgs.ysscores.com/teams/128/9851763070992.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2025-12-30T20:00:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
-      streamUrlServer4: ""
-    },
+  
 
      {
-      team1: { name: "Chelsea", logo: "https://imgs.ysscores.com/teams/128/2571690118280.png" },
-      team2: { name: "Bournemouth", logo: "https://imgs.ysscores.com/teams/128/7651690118769.png" },
+      team1: { name: "Crystal Palace", logo: "https://imgs.ysscores.com/teams/128/6121690118883.png" },
+      team2: { name: "Fulham", logo: "https://imgs.ysscores.com/teams/128/4711690118927.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2025-12-30T20:30:00',
+      matchTime: '2026-01-10T18:30:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
