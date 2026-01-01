@@ -280,15 +280,15 @@ function getMatchData() {
     },
 
      {
-      team1: { name: "Burnley", logo: "https://imgs.ysscores.com/teams/128/7301690118156.png" },
-      team2: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
+      team1: { name: "Liverpool", logo: "https://imgs.ysscores.com/teams/128/4081724601375.png" },
+      team2: { name: "Leeds United", logo: "https://imgs.ysscores.com/teams/128/4691690458244.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2025-12-30T20:30:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
+      matchTime: '2026-01-00T18:30:00',
+      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
+      streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index2/javascript.json",
+      streamUrlServer3: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9000.m3u8",
       streamUrlServer4: ""
     },
 
