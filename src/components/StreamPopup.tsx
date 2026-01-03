@@ -17,20 +17,74 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
     const servers: Array<{ key: string; url: string; label: string; isExternal?: boolean }> = [];
     
     if (streams.english?.trim()) {
-      servers.push({ key: "english", url: streams.english.trim(), label: "Server 1" });
+      servers.push({ 
+        key: "english", 
+        url: streams.english.trim(), 
+        label: "Server 1" 
+      });
     }
     if (streams.arabic?.trim()) {
-      servers.push({ key: "arabic", url: streams.arabic.trim(), label: "Server 2" });
+      servers.push({ 
+        key: "arabic", 
+        url: streams.arabic.trim(), 
+        label: "Server 2" 
+      });
     }
     if (streams.server3?.trim()) {
-      servers.push({ key: "server3", url: streams.server3.trim(), label: "Server 3" });
+      servers.push({ 
+        key: "server3", 
+        url: streams.server3.trim(), 
+        label: "Server 3" 
+      });
     }
     if (streams.server4?.trim()) {
-      servers.push({ key: "server4", url: streams.server4.trim(), label: "Server 4", isExternal: true });
+      servers.push({ 
+        key: "server4", 
+        url: streams.server4.trim(), 
+        label: "Server 4", 
+        isExternal: true 
+      });
     }
     
     return servers;
   }, [streams]);
+
+  // Function to add autoplay parameters to URL
+  const getAutoplayUrl = (originalUrl: string): string => {
+    try {
+      const url = new URL(originalUrl);
+      
+      // Check if it's a YouTube URL
+      if (url.hostname.includes('youtube.com') || url.hostname.includes('youtu.be')) {
+        // For YouTube embeds
+        url.searchParams.set('autoplay', '1');
+        url.searchParams.set('mute', '1'); // Muted autoplay is more likely to work
+        url.searchParams.set('playsinline', '1');
+      } 
+      // Check if it's a Vimeo URL
+      else if (url.hostname.includes('vimeo.com')) {
+        url.searchParams.set('autoplay', '1');
+        url.searchParams.set('muted', '1');
+      } 
+      // Check if it's a Twitch URL
+      else if (url.hostname.includes('twitch.tv')) {
+        url.searchParams.set('autoplay', 'true');
+      }
+      // For other streaming services
+      else {
+        // Add common autoplay parameters
+        url.searchParams.set('autoplay', '1');
+        url.searchParams.set('auto_play', '1');
+        url.searchParams.set('muted', '1');
+      }
+      
+      return url.toString();
+    } catch {
+      // If URL parsing fails, try to append parameters manually
+      const separator = originalUrl.includes('?') ? '&' : '?';
+      return `${originalUrl}${separator}autoplay=1&muted=1`;
+    }
+  };
 
   const getFirst = () => {
     return availableServers[0]?.key || "english";
@@ -40,7 +94,9 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
   const [iframeKey, setIframeKey] = useState(Date.now());
 
   const activeServer = availableServers.find(s => s.key === active);
-  const url = activeServer?.url || "";
+  
+  // Get URL with autoplay parameters
+  const url = activeServer?.url ? getAutoplayUrl(activeServer.url) : "";
 
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -169,11 +225,19 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
                 key={iframeKey}
                 src={url}
                 className="absolute top-0 left-0 w-full h-full border-0"
-                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                allow="autoplay; fullscreen; encrypted-media; picture-in-picture; accelerometer; gyroscope; web-share"
                 allowFullScreen
                 title="Live Stream"
                 loading="eager"
+                // Additional attributes to encourage autoplay
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-presentation"
+                referrerPolicy="strict-origin-when-cross-origin"
               />
+              
+              {/* Loading indicator */}
+              <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+                <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"></div>
+              </div>
             </div>
           </div>
         )}
