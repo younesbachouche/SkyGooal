@@ -316,8 +316,8 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-01-03T20:45:00',
       streamUrlEnglish: "https://sportina.cc/AD-1/video.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://clodigital.sbs/svg/n4/javascript.json",
+      streamUrlServer3: "https://storage.googleapis.com/mnuhjirteng2/mux_video_ts1/index-1.m3u8",
       streamUrlServer4: "https://karwan.tv/live/sport-channel-8-1.php"
     },
       {
