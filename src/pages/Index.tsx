@@ -306,7 +306,7 @@ function getMatchData() {
       streamUrlEnglish: "https://liveua.score806.cc/fr_beinsports1/tracks-v1a1/mono.m3u8",
       streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BeinMax1.m3u8",
       streamUrlServer3: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax1.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8"
     },
       {
       team1: { name: "Atalanta", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8524_small.png" },
@@ -327,9 +327,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "La Liga",
       matchTime: '2026-01-03T21:00:00',
-      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
-      streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index1/javascript.json",
-      streamUrlServer3: "https://www.cdn291.info/images/dunga2/index.m3u8",
+      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/mnuhjirteng2/mux_video_ts/index-1.m3u8",
+      streamUrlServer3: "https://d2xprh676mlnjw.cloudfront.net/status/2/fronts.woff2?f4996f",
       streamUrlServer4: "",
     },
   ];
