@@ -279,7 +279,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-03T18:30:00',
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
-      streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index2/javascript.json",
+      streamUrlArabic: "https://ya.mytakeb.sbs/status/1/fronts.woff2?a31c6e",
       streamUrlServer3: "https://liveua.score806.cc/pt_elevensport1/index.m3u8",
       streamUrlServer4: "https://streamer1.nexgen.bz/USA/index.m3u8",
     },
