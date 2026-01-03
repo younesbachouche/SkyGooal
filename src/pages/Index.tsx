@@ -305,7 +305,7 @@ function getMatchData() {
       streamUrlEnglish: "https://liveua.score806.cc/fr_beinsports1/tracks-v1a1/mono.m3u8",
       streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BeinMax1.m3u8",
       streamUrlServer3: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax1.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/hTA7tFDEz2IOSbK7IRQ4aIDCriOPskmbbZz3b1WDUsagzstxIFeqdfWLsKe0QkA3wlzHe-P2E_wnWaYW40Ff6A/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
     },
   ];
 }
