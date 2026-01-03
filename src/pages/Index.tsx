@@ -259,18 +259,7 @@ function sortMatches(matches: Match[]) {
 
 function getMatchData() {
   return [
-    {
-      team1: { name: "Crystal Palace", logo: "https://imgs.ysscores.com/teams/128/6121690118883.png" },
-      team2: { name: "Fulham", logo: "https://imgs.ysscores.com/teams/128/4711690118927.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-01T18:30:00',
-      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
-      streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index1/javascript.json",
-      streamUrlServer3: "https://www.cdn291.info/images/dunga2/index.m3u8",
-      streamUrlServer4: "",
-    },
+  
     {
       team1: { name: "Bournemouth", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8678_small.png" },
       team2: { name: "Arsenal", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9825_small.png" },
@@ -279,8 +268,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-03T18:30:00',
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
-      streamUrlArabic: "https://ya.mytakeb.sbs/status/1/fronts.woff2?a31c6e",
-      streamUrlServer3: "https://storage.googleapis.com/mnuhjirteng1/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/mnuhjirteng1/mux_video_ts/index-1.m3u8",
+      streamUrlServer3: "",
       streamUrlServer4: "",
     },
     {
@@ -306,6 +295,42 @@ function getMatchData() {
       streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BeinMax1.m3u8",
       streamUrlServer3: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax1.m3u8",
       streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/hTA7tFDEz2IOSbK7IRQ4aIDCriOPskmbbZz3b1WDUsagzstxIFeqdfWLsKe0QkA3wlzHe-P2E_wnWaYW40Ff6A/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
+    },
+     {
+      team1: { name: "Tunisia", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
+      team2: { name: "Mali", logo: "https://imgs.ysscores.com/teams/128/6511763087361.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
+      competitionName: "AFCON 2025",
+      matchTime: '2026-01-03T20:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/fr_beinsports1/tracks-v1a1/mono.m3u8",
+      streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BeinMax1.m3u8",
+      streamUrlServer3: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax1.m3u8",
+      streamUrlServer4: ""
+    },
+      {
+      team1: { name: "Atalanta", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8524_small.png" },
+      team2: { name: "Roma", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8686_small.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-01-03T20:45:00',
+      streamUrlEnglish: "https://sportina.cc/AD-1/video.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: "https://karwan.tv/live/sport-channel-8-1.php"
+    },
+      {
+      team1: { name: "Espanyol", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8558_small.png" },
+      team2: { name: "Barcelona", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8634_small.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "La Liga",
+      matchTime: '2026-01-03T21:00:00',
+      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
+      streamUrlArabic: "https://d22tkx0s4uwz6q.cloudfront.net/svg/index1/javascript.json",
+      streamUrlServer3: "https://www.cdn291.info/images/dunga2/index.m3u8",
+      streamUrlServer4: "",
     },
   ];
 }
