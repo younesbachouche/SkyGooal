@@ -297,8 +297,8 @@ function getMatchData() {
       streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/hTA7tFDEz2IOSbK7IRQ4aIDCriOPskmbbZz3b1WDUsagzstxIFeqdfWLsKe0QkA3wlzHe-P2E_wnWaYW40Ff6A/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
     },
      {
-      team1: { name: "Tunisia", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
-      team2: { name: "Mali", logo: "https://imgs.ysscores.com/teams/128/6511763087361.png" },
+      team1: { name: "Tunisia", logo: "https://imgs.ysscores.com/teams/128/8201763117043.png" },
+      team2: { name: "Mali", logo: "https://imgs.ysscores.com/teams/128/7571763083037.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
       competitionName: "AFCON 2025",
