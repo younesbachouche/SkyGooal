@@ -280,8 +280,8 @@ function getMatchData() {
       matchTime: '2026-01-03T18:30:00',
       streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
       streamUrlArabic: "https://ya.mytakeb.sbs/status/1/fronts.woff2?a31c6e",
-      streamUrlServer3: "https://liveua.score806.cc/pt_elevensport1/index.m3u8",
-      streamUrlServer4: "https://streamer1.nexgen.bz/USA/index.m3u8",
+      streamUrlServer3: "https://storage.googleapis.com/mnuhjirteng1/mux_video_ts/index-1.m3u8",
+      streamUrlServer4: "",
     },
     {
       team1: { name: "Juventus", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9885_small.png" },
