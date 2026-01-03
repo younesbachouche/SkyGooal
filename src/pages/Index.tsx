@@ -296,15 +296,15 @@ function getMatchData() {
       streamUrlServer4: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9000.m3u8"
     },
     {
-      team1: { name: "Brentford", logo: "https://imgs.ysscores.com/teams/128/4791690118957.png" },
-      team2: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-01T21:00:00',
-      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein2.m3u8",
-      streamUrlArabic: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9002.m3u8",
-      streamUrlServer3: "",
+      team1: { name: "Senegal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
+      team2: { name: "Sudan", logo: "https://imgs.ysscores.com/teams/128/6511763087361.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
+      competitionName: "AFCON 2025",
+      matchTime: '2026-01-03T17:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/fr_beinsports1/tracks-v1a1/mono.m3u8",
+      streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BeinMax1.m3u8",
+      streamUrlServer3: "https://proud-sound-d42d.cloud1-e3f.workers.dev/BMax1.m3u8",
       streamUrlServer4: ""
     },
   ];
