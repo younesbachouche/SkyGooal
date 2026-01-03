@@ -284,16 +284,16 @@ function getMatchData() {
       streamUrlServer4: "https://streamer1.nexgen.bz/USA/index.m3u8",
     },
     {
-      team1: { name: "Sunderland", logo: "https://imgs.ysscores.com/teams/128/10001690823905.png" },
-      team2: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-01T21:00:00',
-      streamUrlEnglish: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
-      streamUrlArabic: "https://storage.googleapis.com/portungiherc2/mux_video_ts/index-1.m3u8",
-      streamUrlServer3: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/FHIMtS53kQtPQLbDLbBU8NMWHk2l-Jocfbix9EATu2cXQDWBK8FWram1Kn1xzrAa4qP_y5VtqgGtVGmyL4l5Cw/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live",
-      streamUrlServer4: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9000.m3u8"
+      team1: { name: "Juventus", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9885_small.png" },
+      team2: { name: "Lecce", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9888_small.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-01-03T18:00:00',
+      streamUrlEnglish: "https://sportina.cc/AD-1/video.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
     {
       team1: { name: "Senegal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
