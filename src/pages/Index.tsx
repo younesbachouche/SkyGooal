@@ -304,9 +304,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-04T16:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/Bein1.m3u8",
-      streamUrlServer3: "https://d14oi63tmp1bxk.cloudfront.net/status/1/fronts.woff2?af259a"
+      streamUrlEnglish: "https://d2xprh676mlnjw.cloudfront.net/status/e1/fronts.woff2",
+      streamUrlArabic: "https://storage.googleapis.com/pouovertrong1/mux_video_ts1/index-1.m3u8",
+      streamUrlServer3: ""
       
     },
     {
@@ -317,8 +317,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-04T16:00:00',
       streamUrlEnglish: "",
-      streamUrlArabic: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/Bein1.m3u8",
-      streamUrlServer3: "https://d14oi63tmp1bxk.cloudfront.net/status/1/fronts.woff2?af259a"
+      streamUrlArabic: "https://d2xprh676mlnjw.cloudfront.net/status/e3/fronts.woff2",
+      streamUrlServer3: "https://storage.googleapis.com/pouovertrong3/mux_video_ts/index-1.m3u8"
       
     },
 
@@ -329,9 +329,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-04T16:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "https://pub-d6a8fdcd06f44240973ec4501eba229c.r2.dev/Bein1.m3u8",
-      streamUrlServer3: "https://d14oi63tmp1bxk.cloudfront.net/status/1/fronts.woff2?af259a"
+      streamUrlEnglish: "https://d2xprh676mlnjw.cloudfront.net/status/e2/fronts.woff2",
+      streamUrlArabic: "",
+      streamUrlServer3: ""
       
     },
 
@@ -342,7 +342,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-04T16:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://d2xprh676mlnjw.cloudfront.net/status/e4/fronts.woff2",
       streamUrlArabic: "",
       streamUrlServer3: ""
       
