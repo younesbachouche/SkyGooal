@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Calendar, Trophy, BarChart3 } from 'lucide-react';
+import { Calendar, Trophy, BarChart3, PlayCircle } from 'lucide-react';
 
 const BottomNav = () => {
   const location = useLocation();
@@ -24,6 +24,12 @@ const BottomNav = () => {
       label: 'Stats', 
       icon: BarChart3, 
       path: '/stats' 
+    },
+    { 
+      id: 'highlights', 
+      label: 'Highlights', 
+      icon: PlayCircle, 
+      path: '/highlights' 
     }
   ];
   
