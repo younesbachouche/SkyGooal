@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Standings from "./pages/Standings";
 import Stats from "./pages/Stats";
+import Highlights from "./pages/Highlights"; // Add this import
 import NotFound from "./pages/NotFound";
 import BottomNav from "./components/BottomNav";
 import ScrollToTop from "./components/ScrollToTop";
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/standings" element={<Standings />} />
           <Route path="/stats" element={<Stats />} />
+          <Route path="/highlights" element={<Highlights />} /> {/* Add this route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
         <BottomNav />
