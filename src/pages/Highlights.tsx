@@ -18,6 +18,14 @@ const LEAGUES = [
     color: "#1E3A8A",
     description: "AFCON 2025 Highlights"
   },
+    {
+    id: "la-liga",
+    name: "La Liga",
+    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+    playlistId: "PLczz3UIGL1XqTMmx0mNANeDkjTkEpBH4o",
+    color: "#1E3A8A",
+    description: "La Liga Highlights"
+  },
   {
     id: "champions-league",
     name: "Champions League",
@@ -463,3 +471,4 @@ const Highlights = () => {
 
 
 export default Highlights;
+
