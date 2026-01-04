@@ -279,9 +279,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-04T13:30:00',
-      streamUrlEnglish: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/9000.m3u8",
-      streamUrlArabic: "https://pub-73548c817b0e4ef7801df3179825e55c.r2.dev/Bein1.m3u8",
-      streamUrlServer3: "https://storage.googleapis.com/unixerwtingf1/mux_video_ts/index-1.m3u8"
+      streamUrlEnglish: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9001.m3u8",
+      streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
+      streamUrlServer3: "https://d35264c0omvo5t.cloudfront.net/svg/n1/javascript.json"
       
     },
     {
