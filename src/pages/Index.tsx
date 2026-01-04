@@ -279,7 +279,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-04T13:30:00',
-      streamUrlEnglish: "https://long-dawn-38ea.cloud1-e3f.workers.dev/9001.m3u8",
+      streamUrlEnglish: "https://storage.googleapis.com/zzeuugen/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
       streamUrlServer3: "https://d35264c0omvo5t.cloudfront.net/svg/n1/javascript.json"
       
