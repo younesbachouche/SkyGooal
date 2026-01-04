@@ -280,8 +280,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-04T13:30:00',
       streamUrlEnglish: "https://storage.googleapis.com/zzeuugen/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://proud-sound-d42d.cloud1-e3f.workers.dev/Bein1.m3u8",
-      streamUrlServer3: "https://d35264c0omvo5t.cloudfront.net/svg/n1/javascript.json"
+      streamUrlArabic: "https://live1-d2.cloud1-e3f.workers.dev/H-Bein1.m3u8",
+      streamUrlServer3: "https://live2-d1.cloud1-e3f.workers.dev/D-Bein1.m3u8"
       
     },
     {
