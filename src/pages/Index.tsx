@@ -285,8 +285,8 @@ function getMatchData() {
       matchTime: '2026-01-05T17:00:00',
       streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
       streamUrlArabic: "https://live1-d2.cloud1-e3f.workers.dev/L-ArryadiaTNT.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer3: "https://liveua.score806.cc/fr_beinsports1/tracks-v1a1/mono.m3u8",
+      streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/rzAmOxNPHzGpz8khdiNv0ztPK_uZy2S5DEldYGr-TkXPaYZNlyFE91IFmcoZ_FWNuZNWbmSHcHkFLj6P3BVmxg/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
     },
        
    
