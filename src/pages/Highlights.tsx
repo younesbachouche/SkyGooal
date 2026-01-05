@@ -19,6 +19,14 @@ const LEAGUES = [
     description: "AFCON 2025 Highlights"
   },
     {
+    id: "premier-league",
+    name: "Premier League",
+    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+    playlistId: "PLczz3UIGL1XqrcUmtJOGV4_K9gPSF-wvY",
+    color: "#1E3A8A",
+    description: "Premier League Highlights"
+  },
+    {
     id: "la-liga",
     name: "La Liga",
     logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
@@ -471,5 +479,6 @@ const Highlights = () => {
 
 
 export default Highlights;
+
 
 
