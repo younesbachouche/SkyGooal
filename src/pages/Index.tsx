@@ -297,9 +297,9 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
       matchTime: '2026-01-05T20:00:00',
-      streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
-      streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
-      streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
+      streamUrlEnglish: "https://live2-d2.cloud1-e3f.workers.dev/L-BMax2.m3u8",
+      streamUrlArabic: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },
 
