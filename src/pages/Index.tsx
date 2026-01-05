@@ -261,20 +261,7 @@ function getMatchData() {
   return [
     
  
-    {
-      team1: { name: "Newcastle", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/10261_small.png" },
-      team2: { name: "Crystal Palace", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9826_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-04T16:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "https://d2xprh676mlnjw.cloudfront.net/status/e3/fronts.woff2",
-      streamUrlServer3: "https://storage.googleapis.com/pouovertrong3/mux_video_ts/index-1.m3u8"
-      
-    },
-
-    
+        
   
     {
       team1: { name: "Egypt", logo: "https://imgs.ysscores.com/teams/128/9301763071949.png" },
@@ -286,30 +273,30 @@ function getMatchData() {
       streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
       streamUrlArabic: "https://live1-d2.cloud1-e3f.workers.dev/L-ArryadiaTNT.m3u8",
       streamUrlServer3: "https://liveua.score806.cc/fr_beinsports1/tracks-v1a1/mono.m3u8",
-      streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/rzAmOxNPHzGpz8khdiNv0ztPK_uZy2S5DEldYGr-TkXPaYZNlyFE91IFmcoZ_FWNuZNWbmSHcHkFLj6P3BVmxg/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
+      streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/jpg_FLY3NdH72LrTKw_OmImQ5YCOi8g-HDs5ydMQTtKUYxBOCt3WUl0_bCwrM-DbUU03oQo1564d-250hW2EMQ/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
     },
        
    
     {
-      team1: { name: "Man City", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8456_small.png" },
-      team2: { name: "Chelsea", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8455_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-04T18:30:00',
-      streamUrlEnglish: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/70094116.m3u8",
+      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
+      team2: { name: "Csc", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/277392_small.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
+      competitionName: "Ligue 1 Mobilis",
+      matchTime: '2026-01-05T20:00:00',
+      streamUrlEnglish: "",
       streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlServer3: ""
       
     },
    
     {
-      team1: { name: "South Africa", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/6316_small.png" },
-      team2: { name: "Cameroon", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/6629_small.png" },
+      team1: { name: "Nigeria", logo: "https://imgs.ysscores.com/teams/128/9961763084205.png" },
+      team2: { name: "Mozambique", logo: "https://imgs.ysscores.com/teams/128/9651763083639.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
-      matchTime: '2026-01-04T20:00:00',
+      matchTime: '2026-01-05T20:00:00',
       streamUrlEnglish: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax1.m3u8",
       streamUrlArabic: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax2.m3u8",
       streamUrlServer3: "https://pub-f48f4d14f4d74af8baf6af9e01fbc000.r2.dev/BMax3.m3u8",
