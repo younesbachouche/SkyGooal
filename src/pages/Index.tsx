@@ -260,55 +260,7 @@ function sortMatches(matches: Match[]) {
 function getMatchData() {
   return [
     
-   {
-      team1: { name: "Lazio", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8543_small.png" },
-      team2: { name: "Napoli", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9875_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-01-04T12:30:00',
-      streamUrlEnglish: "https://sportina.cc/AD-1/video.m3u8",
-      streamUrlArabic: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/70094113.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4:"https://karwan.tv/live/sport-channel-8-1.php"
-    },
-     {
-      team1: { name: "Leeds United", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8463_small.png" },
-      team2: { name: "Man United", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/10260_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-04T13:30:00',
-      streamUrlEnglish: "https://storage.googleapis.com/zzeuugen/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://live1-d2.cloud1-e3f.workers.dev/H-Bein1.m3u8",
-      streamUrlServer3: "https://live2-d1.cloud1-e3f.workers.dev/D-Bein1.m3u8"
-      
-    },
-    {
-      team1: { name: "Sevilla", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8302_small.png" },
-      team2: { name: "Levante", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8581_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-01-04T14:00:00',
-      streamUrlEnglish: "https://d35264c0omvo5t.cloudfront.net/svg/n5/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
-
-     {
-      team1: { name: "Fulham", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9879_small.png" },
-      team2: { name: "Liverpool", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8650_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-04T16:00:00',
-      streamUrlEnglish: "https://d2xprh676mlnjw.cloudfront.net/status/e1/fronts.woff2",
-      streamUrlArabic: "https://storage.googleapis.com/pouovertrong1/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: ""
-      
-    },
+ 
     {
       team1: { name: "Newcastle", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/10261_small.png" },
       team2: { name: "Crystal Palace", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9826_small.png" },
@@ -322,50 +274,15 @@ function getMatchData() {
       
     },
 
+    
+  
     {
-      team1: { name: "Everton", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8668_small.png" },
-      team2: { name: "Brentford", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9937_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-04T16:00:00',
-      streamUrlEnglish: "https://d2xprh676mlnjw.cloudfront.net/status/e2/fronts.woff2",
-      streamUrlArabic: "",
-      streamUrlServer3: ""
-      
-    },
-
-    {
-      team1: { name: "Tottenham", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8586_small.png" },
-      team2: { name: "Sunderland", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8472_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-04T16:00:00',
-      streamUrlEnglish: "https://d2xprh676mlnjw.cloudfront.net/status/e4/fronts.woff2",
-      streamUrlArabic: "",
-      streamUrlServer3: ""
-      
-    },
- {
-      team1: { name: "Real Madrid", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8633_small.png" },
-      team2: { name: "Real Betis", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8603_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-01-04T16:15:00',
-      streamUrlEnglish: "https://akamaized.live/2fhd/index.m3u8",
-      streamUrlArabic: "https://d2xprh676mlnjw.cloudfront.net/status/l1/fronts.woff2",
-      streamUrlServer3: "https://storage.googleapis.com/pouovertrong4/mux_video_ts/index-1.m3u8",
-      streamUrlServer4: "https://karwan.tv/live/sport-channel-1-1.php"
-    }, 
-    {
-      team1: { name: "Morocco", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/6262_small.png" },
-      team2: { name: "Tanzania", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/7941_small.png" },
+      team1: { name: "Egypt", logo: "https://imgs.ysscores.com/teams/128/9301763071949.png" },
+      team2: { name: "Benin", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/7941_small.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
-      matchTime: '2026-01-04T17:00:00',
+      matchTime: '2026-01-05T17:00:00',
       streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
       streamUrlArabic: "https://live1-d2.cloud1-e3f.workers.dev/L-ArryadiaTNT.m3u8",
       streamUrlServer3: "",
@@ -399,31 +316,7 @@ function getMatchData() {
       streamUrlServer4: ""
     },
 
-     {
-      team1: { name: "Inter", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8636_small.png" },
-      team2: { name: "Bologna", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9857_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-01-04T20:45:00',
-      streamUrlEnglish: "https://sportina.cc/AD-1/video.m3u8",
-      streamUrlArabic: "https://pub-341f976b6ff14b25926c5a182dd72b58.r2.dev/70094113.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4:"https://karwan.tv/live/sport-channel-8-1.php"
-    },
-
-    {
-      team1: { name: "Real Sociedad", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8560_small.png" },
-      team2: { name: "Atletico Madrid", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9906_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-01-04T21:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
+   
   ];
 }
 
