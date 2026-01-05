@@ -14,7 +14,7 @@ const LEAGUES = [
     id: "afcon-2025",
     name: "AFCON 2025",
     logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-    playlistId: "PL79m9Jm7_jmAY7ZPU5hy9gY650ShYbXV1",
+    playlistId: "PLczz3UIGL1Xpo6zfSqWkh6nCYFXbD2nVG",
     color: "#1E3A8A",
     description: "AFCON 2025 Highlights"
   },
@@ -471,4 +471,5 @@ const Highlights = () => {
 
 
 export default Highlights;
+
 
