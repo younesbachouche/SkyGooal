@@ -264,14 +264,14 @@ function getMatchData() {
         
   
     {
-      team1: { name: "Egypt", logo: "https://imgs.ysscores.com/teams/128/9301763071949.png" },
-      team2: { name: "Benin", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/7941_small.png" },
+      team1: { name: "Amgeria", logo: "https://imgs.ysscores.com/teams/128/2341763066345.png" },
+      team2: { name: "DR Congo", logo: "https://imgs.ysscores.com/teams/128/9851763070992.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
       matchTime: '2026-01-05T18:00:00',
-      streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
-      streamUrlArabic: "https://live1-d2.cloud1-e3f.workers.dev/L-ArryadiaTNT.m3u8",
+      streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/L-BMax1.m3u8",
+      streamUrlArabic: "https://live2-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
       streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
       streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/jpg_FLY3NdH72LrTKw_OmImQ5YCOi8g-HDs5ydMQTtKUYxBOCt3WUl0_bCwrM-DbUU03oQo1564d-250hW2EMQ/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
     },
