@@ -264,12 +264,12 @@ function getMatchData() {
         
   
     {
-      team1: { name: "Amgeria", logo: "https://imgs.ysscores.com/teams/128/2341763066345.png" },
+      team1: { name: "Algeria", logo: "https://imgs.ysscores.com/teams/128/2341763066345.png" },
       team2: { name: "DR Congo", logo: "https://imgs.ysscores.com/teams/128/9851763070992.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
       competitionName: "AFCON 2025",
-      matchTime: '2026-01-05T18:00:00',
+      matchTime: '2026-01-06T17:00:00',
       streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/L-BMax1.m3u8",
       streamUrlArabic: "https://live2-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
       streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
