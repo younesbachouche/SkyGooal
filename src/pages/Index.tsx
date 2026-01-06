@@ -277,31 +277,7 @@ function getMatchData() {
     },
        
    
-    {
-      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
-      team2: { name: "Csc", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/277392_small.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
-      competitionName: "Ligue 1 Mobilis",
-      matchTime: '2026-01-05T20:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: ""
-      
-    },
-   
-    {
-      team1: { name: "Nigeria", logo: "https://imgs.ysscores.com/teams/128/9961763084205.png" },
-      team2: { name: "Mozambique", logo: "https://imgs.ysscores.com/teams/128/9651763083639.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/3321747861244.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2026-01-05T20:00:00',
-      streamUrlEnglish: "https://live2-d2.cloud1-e3f.workers.dev/L-BMax2.m3u8",
-      streamUrlArabic: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
+
 
    
   ];
