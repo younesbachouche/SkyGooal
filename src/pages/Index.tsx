@@ -284,9 +284,9 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-01-11T15:00:00',
       streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "https://shasha.cloud1-e3f.workers.dev/shasha1.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/paramount2/index.m3u8",
       streamUrlServer3: "https://live2.cloud1-e3f.workers.dev/14_.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://liveua.score806.cc/us_foxdeport/tracks-v1a1/mono.m3u8"
     },
      {
       team1: { name: "Portsmouth", logo: "https://imgs.ysscores.com/teams/128/5401690370525.png" },
@@ -296,7 +296,7 @@ function getMatchData() {
       competitionName: "FA Cup",
       matchTime: '2026-01-11T15:00:00',
       streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://liveua.score806.cc/uk_bts1/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
