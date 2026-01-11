@@ -269,7 +269,7 @@ function getMatchData() {
       competitionName: "Bundesliga",
       matchTime: '2026-01-11T17:30:00',
       streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://liveua.score806.cc/espn9/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
