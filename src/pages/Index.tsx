@@ -283,9 +283,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-11T15:00:00',
-      streamUrlEnglish: "https://live2.cloud1-e3f.workers.dev/14_.m3u8",
+      streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n3/javascript.json",
       streamUrlArabic: "https://shasha.cloud1-e3f.workers.dev/shasha1.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://live2.cloud1-e3f.workers.dev/14_.m3u8",
       streamUrlServer4: ""
     },
      {
