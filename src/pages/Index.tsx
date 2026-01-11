@@ -340,8 +340,8 @@ function getMatchData() {
     {
       team1: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
       team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/139.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/139.png",
       competitionName: "Super Cup",
       matchTime: '2026-01-11T20:00:00',
       streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
