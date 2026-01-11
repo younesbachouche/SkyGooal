@@ -314,53 +314,42 @@ function getMatchData() {
     },
 
      {
-      team1: { name: "Newcastle United", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/10261_small.png" },
-      team2: { name: "Bournemouth", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8678_small.png" },
+      team1: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
+      team2: { name: "Brighton", logo: "https://imgs.ysscores.com/teams/128/2271696710594.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
       competitionName: "FA Cup",
-      matchTime: '2026-01-10T16:00:00',
+      matchTime: '2026-01-11T17:30:00',
       streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
      {
-      team1: { name: "Roma", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8686_small.png" },
-      team2: { name: "Sassuolo", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/7943_small.png" },
+      team1: { name: "Hellas Verona", logo: "https://imgs.ysscores.com/teams/128/3871690283003.png" },
+      team2: { name: "Lazio", logo: "https://imgs.ysscores.com/teams/128/5111690283002.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
       competitionName: "Serie A",
-      matchTime: '2026-01-10T18:00:00',
+      matchTime: '2026-01-11T18:00:00',
       streamUrlEnglish: "https://d14aqd6qoj6jl6.cloudfront.net/status/1/fronts.woff2",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
     {
-      team1: { name: "Tottenham", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/8586_small.png" },
-      team2: { name: "Aston Villa", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/10252_small.png" },
+      team1: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
+      team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
-      competitionName: "FA Cup",
-      matchTime: '2026-01-10T18:45:00',
+      competitionName: "Super Cup",
+      matchTime: '2026-01-11T20:00:00',
       streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
-     {
-      team1: { name: "Egypt", logo: "https://imgs.ysscores.com/teams/128/9301763071949.png" },
-      team2: { name: "Ivory Coast", logo: "https://imgs.ysscores.com/teams/128/391763071210.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2026-01-10T20:00:00',
-      streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/L-BMax1.m3u8",
-      streamUrlArabic: "https://live2-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
-      streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
-      streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/jpg_FLY3NdH72LrTKw_OmImQ5YCOi8g-HDs5ydMQTtKUYxBOCt3WUl0_bCwrM-DbUU03oQo1564d-250hW2EMQ/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
-    },
+   
    
   ];
 }
