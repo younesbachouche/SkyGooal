@@ -321,7 +321,7 @@ function getMatchData() {
       competitionName: "FA Cup",
       matchTime: '2026-01-11T17:30:00',
       streamUrlEnglish: "https://liveua.score806.cc/uk_bts1/index.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://liveua.score806.cc/espn7/tracks-v1a1/mono.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
