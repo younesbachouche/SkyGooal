@@ -266,8 +266,8 @@ function getMatchData() {
      {
       team1: { name: "Lecce", logo: "https://imgs.ysscores.com/teams/128/9031690283003.png" },
       team2: { name: "Parma", logo: "https://imgs.ysscores.com/teams/128/4061690823331.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-11T12:30:00',
       streamUrlEnglish: "https://live2.cloud1-e3f.workers.dev/14_.m3u8",
