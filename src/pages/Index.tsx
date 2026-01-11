@@ -320,7 +320,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/132.png",
       competitionName: "FA Cup",
       matchTime: '2026-01-11T17:30:00',
-      streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
+      streamUrlEnglish: "https://liveua.score806.cc/uk_bts1/index.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
