@@ -343,8 +343,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-11T18:00:00',
-      streamUrlEnglish: "https://d14aqd6qoj6jl6.cloudfront.net/status/1/fronts.woff2",
-      streamUrlArabic: "",
+      streamUrlEnglish: "",
+      streamUrlArabic: "https://sawanac414-npr.hf.space/?playlist=lcdytalkkbrgmtlivkugrj5grzqweykwtjvgctkmnfkuxekmm6qwozfimfqguukznkgkfenyugszzj3cmvnvuuk3rrvkqw4vlch2rklbmwnj3iveuwsy3jksrziz5hu7mciznhslucp2pd5cvboe6t2qj5rjaysokblkcvs6urgj7juoxchgkt42jzfuyw2vt5ruws5guglfhdmor6ujxi46uwh2te4vxpc27pl7rohj6t3uqziwe3trr66mfiklq2lvet3wqwcfo3l2qke25h54joqzc63zlsjzy5eln2fyzqi&payload=lcdytalkmggiktcwmkvl5ivcuzjkde4qrzvvoydgjvkf42cqm5ij5j3qk5nfiv3djsmxm4k5jrgwndu2tv6vgtvau2kjs2epkfsf3p2oj5uuxaktjrxwmzmvsjgfez2rscp2k6luqr4w5kmzkrtkjic5xvqwezcvsomgwusljrjwe2cmkfjkrd5hucnkrduhlzju6s5gnjjfdd5frspi5deotbvvmttcroqiwyuut6nvqydelztzhdevkwtjzkfemvsyxfsyj5qflkexssovxsulu5pwqz4su2miyusrmvqeyu3kncmgkydikrju5hemnfjf4ys3m5owe53glnhi5iuovfna&type=.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
