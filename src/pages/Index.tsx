@@ -261,7 +261,18 @@ function getMatchData() {
   return [
     
  
-        
+    {
+      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
+      team2: { name: "ES Benaknoun", logo: "https://imgs.ysscores.com/teams/128/9561693418601.png" },
+      competitionLogo: "https://imgs.ysscores.com/championship/150/17647937689943.png",
+      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/17647937689943.png",
+      competitionName: "Algerian Cup",
+      matchTime: '2026-01-13T19:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
   
      {
       team1: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
