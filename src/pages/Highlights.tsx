@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Play, Calendar, Moon, Sun, RefreshCw, Filter, ChevronRight } from "lucide-react";
+import { Play, Calendar, Moon, Sun, RefreshCw, Filter, ChevronRight, EyeOff } from "lucide-react";
 import PullToRefresh from "@/components/PullToRefresh";
 
 // YouTube API Key
@@ -10,29 +10,21 @@ const YOUTUBE_API_KEY = "AIzaSyDmHS6Thxuzhl_CdmzDCJRnI1rZEBscrcQ";
 
 // League configurations
 const LEAGUES = [
-   {
+  {
+    id:"EFL Cup",
+    name:"EFL Cup",
+    logo:"https://images.fotmob.com/image_resources/logo/leaguelogo/133.png",
+    playlistId:"PLvnfVnc10KYh_u3wR9iE5c-C3mHf9XQ1B",
+    color:"#1E3A8A",
+    description:"EFL Cup Highlights"
+  },
+  {
     id: "afcon-2025",
     name: "AFCON 2025",
-    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-    playlistId: "PLczz3UIGL1Xpo6zfSqWkh6nCYFXbD2nVG",
+    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
+    playlistId: "PL79m9Jm7_jmAY7ZPU5hy9gY650ShYbXV1",
     color: "#1E3A8A",
     description: "AFCON 2025 Highlights"
-  },
-    {
-    id: "premier-league",
-    name: "Premier League",
-    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-    playlistId: "PLczz3UIGL1XqrcUmtJOGV4_K9gPSF-wvY",
-    color: "#1E3A8A",
-    description: "Premier League Highlights"
-  },
-    {
-    id: "la-liga",
-    name: "La Liga",
-    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-    playlistId: "PLczz3UIGL1XqTMmx0mNANeDkjTkEpBH4o",
-    color: "#1E3A8A",
-    description: "La Liga Highlights"
   },
   {
     id: "champions-league",
@@ -43,12 +35,44 @@ const LEAGUES = [
     description: "UEFA Champions League Highlights"
   },
   {
+    id: "premier-league",
+    name: "Premier League",
+    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+    playlistId: "PLQ_voP4Q3cfetksvjNLOrMr3h8xtViMuP",
+    color: "#1E3A8A",
+    description: "Premier League Highlights"
+  },
+  {
+    id: "La-Liga",
+    name: "La Liga",
+    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+    playlistId: "PLyXcXgUWl6Ne5G3fFA2skBEWVb8Z_sIxY",
+    color: "#1E3A8A",
+    description: "UEFA Champions League Highlights"
+  },
+  {
     id: "serie-a",
     name: "Serie A",
     logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
     playlistId: "PLSzTvlmsNKDA-99fKZ2pmLFfnqEpzOrnY",
     color: "#047857",
     description: "Italian Serie A Highlights"
+  },
+  {
+    id: "Bundesliga",
+    name: "Bundesliga",
+    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
+    playlistId: "PL3uJGozO1imdjz1dqUwBXABVn31cOKbiE",
+    color: "#047857",
+    description: "Bundesliga Highlights"
+  },
+  {
+    id: "Ligue ",
+    name: "Ligue 1",
+    logo: "https://images.fotmob.com/image_resources/logo/leaguelogo/53.png",
+    playlistId: "PL3uJGozO1imdjz1dqUwBXABVn31cOKbiE",
+    color: "#047857",
+    description: "Ligue 1 Highlights"
   }
 ];
 
@@ -75,6 +99,9 @@ interface PlaylistVideosResponse {
       };
     };
     id: string;
+    status?: {
+      privacyStatus: string;
+    };
   }>;
   nextPageToken?: string;
 }
@@ -112,7 +139,34 @@ const Highlights = () => {
     }
   }, [darkMode]);
 
-  // Fetch ALL videos from YouTube playlist
+  // Check if video is private or deleted by attempting to fetch video details
+  const checkVideoStatus = async (videoId: string): Promise<boolean> => {
+    try {
+      const url = `https://www.googleapis.com/youtube/v3/videos?part=status&id=${videoId}&key=${YOUTUBE_API_KEY}`;
+      const response = await fetch(url);
+      
+      if (!response.ok) {
+        // If API fails, assume video is accessible
+        return true;
+      }
+      
+      const data = await response.json();
+      
+      // If no items returned or video status is private/unavailable
+      if (!data.items || data.items.length === 0) {
+        return false;
+      }
+      
+      const videoStatus = data.items[0].status?.privacyStatus;
+      return videoStatus === "public";
+      
+    } catch (error) {
+      console.error('Error checking video status:', error);
+      return true; // Assume video is accessible if check fails
+    }
+  };
+
+  // Fetch ALL videos from YouTube playlist and filter out private videos
   const fetchAllVideos = async (playlistId: string): Promise<VideoItem[]> => {
     let allVideos: VideoItem[] = [];
     let nextPageToken: string | undefined = undefined;
@@ -124,7 +178,7 @@ const Highlights = () => {
         pageCount++;
         
         // Build URL with pagination
-        let url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${YOUTUBE_API_KEY}`;
+        let url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,status&maxResults=50&playlistId=${playlistId}&key=${YOUTUBE_API_KEY}`;
         if (nextPageToken) {
           url += `&pageToken=${nextPageToken}`;
         }
@@ -146,18 +200,55 @@ const Highlights = () => {
         
         const data: PlaylistVideosResponse = await response.json();
         
-        // Map the videos
-        const pageVideos: VideoItem[] = data.items
-          .filter(item => item.snippet?.resourceId?.videoId) // Filter out invalid items
-          .map(item => ({
+        // Map the videos, filtering out private ones
+        const pageVideos: VideoItem[] = [];
+        
+        for (const item of data.items) {
+          // Skip if missing required data
+          if (!item.snippet?.resourceId?.videoId) {
+            continue;
+          }
+          
+          // Check if video is private from playlist status
+          if (item.status?.privacyStatus === "private") {
+            console.log(`Skipping private video: ${item.snippet.title}`);
+            continue;
+          }
+          
+          // Check video title for private video indicators
+          const title = item.snippet.title.toLowerCase();
+          if (title.includes("private video") || title.includes("[private video]")) {
+            console.log(`Skipping video marked as private: ${item.snippet.title}`);
+            continue;
+          }
+          
+          // Additional check with video details API (commented out to save quota)
+          // const isPublic = await checkVideoStatus(item.snippet.resourceId.videoId);
+          // if (!isPublic) {
+          //   console.log(`Skipping private/unavailable video: ${item.snippet.title}`);
+          //   continue;
+          // }
+          
+          // Skip videos with generic deleted/private thumbnails
+          const thumbnail = item.snippet.thumbnails.high?.url || 
+                          item.snippet.thumbnails.medium?.url || 
+                          item.snippet.thumbnails.default?.url;
+          
+          // Check for private/deleted video thumbnail patterns
+          if (thumbnail.includes('hqdefault') && 
+              (title.includes('deleted') || title.includes('unavailable'))) {
+            console.log(`Skipping potentially deleted video: ${item.snippet.title}`);
+            continue;
+          }
+          
+          pageVideos.push({
             id: item.id,
             title: item.snippet.title,
-            thumbnail: item.snippet.thumbnails.high?.url || 
-                      item.snippet.thumbnails.medium?.url || 
-                      item.snippet.thumbnails.default?.url,
+            thumbnail: thumbnail,
             publishedAt: item.snippet.publishedAt,
             videoId: item.snippet.resourceId.videoId
-          }));
+          });
+        }
 
         allVideos = [...allVideos, ...pageVideos];
         nextPageToken = data.nextPageToken;
@@ -182,7 +273,19 @@ const Highlights = () => {
           : new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime();
       });
 
-      return allVideos;
+      // Final filtering pass for any videos that slipped through
+      const finalVideos = allVideos.filter(video => {
+        const title = video.title.toLowerCase();
+        const isPrivate = title.includes("private video") || 
+                         title.includes("[private video]") ||
+                         title.includes("unavailable") ||
+                         title.includes("deleted video");
+        
+        return !isPrivate;
+      });
+
+      console.log(`Filtered ${allVideos.length - finalVideos.length} private videos`);
+      return finalVideos;
 
     } catch (error) {
       console.error('Error fetching videos:', error);
@@ -223,7 +326,7 @@ const Highlights = () => {
   const getVideoCountText = () => {
     if (!videos) return "";
     if (videos.length >= 500) return "500+ videos";
-    return `${videos.length} videos`;
+    return `${videos.length} public videos`;
   };
 
   return (
@@ -237,7 +340,7 @@ const Highlights = () => {
                 Highlights
               </h1>
               <p className="text-xs sm:text-sm text-muted-foreground">
-                All videos from official playlists
+                Public videos from official playlists
               </p>
             </div>
             <div className="flex items-center gap-2">
@@ -310,9 +413,12 @@ const Highlights = () => {
               />
               <div>
                 <h3 className="font-bold text-lg">{selectedLeague.name}</h3>
-                <p className="text-sm text-muted-foreground">
-                  {videos ? getVideoCountText() : "Loading videos..."}
-                </p>
+                <div className="flex items-center gap-2">
+                  <p className="text-sm text-muted-foreground">
+                    {videos ? getVideoCountText() : "Loading videos..."}
+                  </p>
+                  <EyeOff className="w-3 h-3 text-muted-foreground" />
+                </div>
               </div>
             </div>
             
@@ -387,6 +493,10 @@ const Highlights = () => {
                         src={video.thumbnail}
                         alt={video.title}
                         className="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+                        onError={(e) => {
+                          // Fallback for broken thumbnails
+                          e.currentTarget.src = "https://via.placeholder.com/320x180?text=Video+Thumbnail";
+                        }}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       <div className="absolute inset-0 flex items-center justify-center">
@@ -435,7 +545,7 @@ const Highlights = () => {
               {/* Load More Button (if needed in future) */}
               <div className="mt-8 text-center">
                 <p className="text-sm text-muted-foreground">
-                  Showing all {videos.length} videos
+                  Showing {videos.length} public videos
                 </p>
               </div>
             </div>
@@ -449,7 +559,7 @@ const Highlights = () => {
               </div>
               <h3 className="font-semibold mb-2">No highlights found</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Couldn't fetch videos for {selectedLeague.name}
+                No public videos available for {selectedLeague.name}
               </p>
               <Button 
                 onClick={() => window.open(`https://www.youtube.com/playlist?list=${selectedLeague.playlistId}`, '_blank')}
@@ -457,7 +567,7 @@ const Highlights = () => {
                 className="gap-2"
               >
                 <Play className="w-4 h-4" />
-                View on YouTube
+                View Playlist on YouTube
               </Button>
             </div>
           )}
@@ -465,6 +575,12 @@ const Highlights = () => {
 
         {/* Footer Info */}
         <div className="mt-8 text-center">
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <EyeOff className="w-4 h-4 text-muted-foreground" />
+            <p className="text-xs text-muted-foreground">
+              Private videos are automatically filtered out
+            </p>
+          </div>
           <p className="text-xs text-muted-foreground">
             All videos loaded from official YouTube playlists
           </p>
@@ -477,8 +593,4 @@ const Highlights = () => {
   );
 };
 
-
 export default Highlights;
-
-
-
