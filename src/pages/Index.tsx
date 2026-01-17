@@ -270,8 +270,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-17T13:30:00',
       streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://live2.cloud1-e3f.workers.dev/75_.m3u8",
+      streamUrlServer3: "https://d35cjn5rfcrdnk.cloudfront.net/out/v1/5dcceaa062b5438eaa7c3a884cf3bbfe/index_1.m3u8",
       streamUrlServer4: ""
     },
      {
