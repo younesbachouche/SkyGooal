@@ -272,7 +272,7 @@ function getMatchData() {
       streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://live2.cloud1-e3f.workers.dev/75_.m3u8",
       streamUrlServer3: "https://d35cjn5rfcrdnk.cloudfront.net/out/v1/5dcceaa062b5438eaa7c3a884cf3bbfe/index_1.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://stream.ashur-iraq-4g.online/hls/7seen1.m3u8"
     },
      {
       team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
