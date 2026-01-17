@@ -284,7 +284,7 @@ function getMatchData() {
       streamUrlEnglish: "https://live2.cloud1-e3f.workers.dev/49_.m3u8",
       streamUrlArabic: "https://d14f3jxqe2pbff.cloudfront.net/svg/n6/javascript.json",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://dnnarq8wtr4c9.cloudfront.net/status/8/fronts.woff2?8f686d"
     },
 
      {
