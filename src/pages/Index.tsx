@@ -269,10 +269,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-17T13:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "https://akotv.cc/eighty_eight.php?stream=bsmax1-0-1",
+      streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n1/javascript.json",
+      streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: "https://akotv.cc/eighty_eight.php?stream=bsmax1-0-1"
+      streamUrlServer4: ""
     },
      {
       team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
