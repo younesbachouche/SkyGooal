@@ -262,82 +262,82 @@ function getMatchData() {
     
  
         
+  
      {
-      team1: { name: "Napoli", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9875_small.png" },
-      team2: { name: "Parma", logo: "https://imgs.ysscores.com/teams/128/4061690823331.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-01-14T18:30:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
-    
-     {
-      team1: { name: "Senegal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
-      team2: { name: "Egypt", logo: "https://imgs.ysscores.com/teams/128/9301763071949.png" },
+      team1: { name: "Algeria", logo: "https://imgs.ysscores.com/teams/128/2341763066345.png" },
+      team2: { name: "Nigeria", logo: "https://imgs.ysscores.com/teams/128/9961763084205.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
-      competitionName: "AFCON (Semi Final)",
-      matchTime: '2026-01-14T18:00:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      competitionName: "AFCON 2025",
+      matchTime: '2026-01-10T17:00:00',
+      streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/L-BMax1.m3u8",
+      streamUrlArabic: "https://live2-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
+      streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
+      streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/jpg_FLY3NdH72LrTKw_OmImQ5YCOi8g-HDs5ydMQTtKUYxBOCt3WUl0_bCwrM-DbUU03oQo1564d-250hW2EMQ/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
     },
-      {
-      team1: { name: "1.FC-Köln", logo: "https://imgs.ysscores.com/teams/150/2071690288818.png" },
-      team2: { name: "Bayern Munich", logo: "https://imgs.ysscores.com/teams/128/2351690288818.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
-      competitionName: "Bundesliga",
-      matchTime: '2026-01-14T18:30:00',
-      streamUrlEnglish: "https://d1dkjclhj8oo8w.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "",
+         {
+      team1: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
+      team2: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-01-17T13:30:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "https://akotv.cc/eighty_eight.php?stream=bsmax1-0-1",
       streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-       {
-      team1: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
-      team2: { name: "Lecce", logo: "https://imgs.ysscores.com/teams/128/9031690283003.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-01-14T20:45:00',
-      streamUrlEnglish: "https://live2.cloud1-e3f.workers.dev/14_.m3u8",
-      streamUrlArabic: "https://shasha.cloud1-e3f.workers.dev/shasha1.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://akotv.cc/eighty_eight.php?stream=bsmax1-0-1"
     },
      {
-      team1: { name: "Nigeria", logo: "https://imgs.ysscores.com/teams/128/9961763084205.png" },
-      team2: { name: "Morocco", logo: "https://imgs.ysscores.com/teams/128/6291763083538.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
-      competitionName: "AFCON (Semi Final)",
-      matchTime: '2026-01-14T21:00:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-     
-     {
-      team1: { name: "Albacete", logo: "https://imgs.ysscores.com/teams/128/7631698687618.png" },
-      team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/138.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/138.png",
-      competitionName: "Copa del Rey",
-      matchTime: '2026-01-14T21:00:00',
+      team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      team2: { name: "Levante", logo: "https://imgs.ysscores.com/teams/128/2601690370530.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+      competitionName: "La Liga",
+      matchTime: '2026-01-17T14:00:00',
       streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
+
+     {
+      team1: { name: "Udinese", logo: "https://imgs.ysscores.com/teams/128/8741690284718.png" },
+      team2: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-01-17T15:00:00',
+      streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+     {
+      team1: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
+      team2: { name: "St. Pauli", logo: "https://imgs.ysscores.com/teams/128/6091690370514.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
+      competitionName: "Bundesliga",
+      matchTime: '2026-01-10T18:00:00',
+      streamUrlEnglish: "https://d14aqd6qoj6jl6.cloudfront.net/status/1/fronts.woff2",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+    {
+      team1: { name: "Chelsea", logo: "https://imgs.ysscores.com/teams/128/2571690118280.png" },
+      team2: { name: "Brentford", logo: "https://imgs.ysscores.com/teams/128/4791690118957.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-01-17T16:00:00',
+      streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+  
    
-    
   ];
 }
 
