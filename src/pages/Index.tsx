@@ -318,8 +318,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-17T16:00:00',
-      streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
-      streamUrlArabic: "",
+      streamUrlEnglish: "",
+      streamUrlArabic: "https://d14f3jxqe2pbff.cloudfront.net/svg/n2/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -330,8 +330,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-17T16:00:00',
-      streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
-      streamUrlArabic: "",
+      streamUrlEnglish: "",
+      streamUrlArabic: "https://d35cjn5rfcrdnk.cloudfront.net/out/v1/5dcceaa062b5438eaa7c3a884cf3bbfe/index_1.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -342,7 +342,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-17T16:00:00',
-      streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
+      streamUrlEnglish: "https://d14f3jxqe2pbff.cloudfront.net/svg/n3/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
