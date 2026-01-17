@@ -282,7 +282,7 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-01-17T14:00:00',
       streamUrlEnglish: "https://d1ifnl031jwfhj.cloudfront.net/svg/n2/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://live2.cloud1-e3f.workers.dev/75_.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
