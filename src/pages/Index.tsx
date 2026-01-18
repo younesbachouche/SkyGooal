@@ -349,12 +349,12 @@ function getMatchData() {
     },
 
   {
-      team1: { name: "Egypt", logo: "https://imgs.ysscores.com/teams/128/9301763071949.png" },
-      team2: { name: "Nigeria", logo: "https://imgs.ysscores.com/teams/128/9961763084205.png" },
+      team1: { name: "Senagal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
+      team2: { name: "Morocco", logo: "https://imgs.ysscores.com/teams/128/6291763083538.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
       competitionName: "AFCON 2025",
-      matchTime: '2026-01-17T17:00:00',
+      matchTime: '2026-01-18T20:00:00',
       streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/L-BMax1.m3u8",
       streamUrlArabic: "https://live2-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
       streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
