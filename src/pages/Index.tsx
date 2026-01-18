@@ -349,13 +349,13 @@ function getMatchData() {
     },
 
   {
-      team1: { name: "Senagal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
+      team1: { name: "Senegal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
       team2: { name: "Morocco", logo: "https://imgs.ysscores.com/teams/128/6291763083538.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
       competitionName: "AFCON 2025",
       matchTime: '2026-01-18T20:00:00',
-      streamUrlEnglish: "https://live1-d2.cloud1-e3f.workers.dev/L-BMax1.m3u8",
+      streamUrlEnglish: "https://mejarhosting.cfd/backup/index.m3u8",
       streamUrlArabic: "https://live2-d2.cloud1-e3f.workers.dev/H-BeinMax1.m3u8",
       streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
       streamUrlServer4: "https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/jpg_FLY3NdH72LrTKw_OmImQ5YCOi8g-HDs5ydMQTtKUYxBOCt3WUl0_bCwrM-DbUU03oQo1564d-250hW2EMQ/transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live"
