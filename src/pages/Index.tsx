@@ -358,7 +358,7 @@ function getMatchData() {
       streamUrlEnglish: "https://mejarhosting.cfd/fhd/index.m3u8",
       streamUrlArabic: "https://mejarhosting.cfd/backup/index.m3u8",
       streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://mejarhosting.cfd/sd/index.m3u8"
     },
     {
       team1: { name: "Napoli", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
