@@ -62,7 +62,6 @@ const Index = () => {
     return Array.from(uniqueComps.values());
   }, [allMatches]);
 
-  // Filter and sort matches
   const { ongoingOrUpcoming, ended, liveMatches } = useMemo(() => {
     let filteredMatches = allMatches;
     
@@ -72,7 +71,6 @@ const Index = () => {
     
     const sorted = sortMatches(filteredMatches);
     
-    // Get live matches (started within 2 hours, not ended)
     const now = new Date().getTime();
     const live = sorted.ongoingOrUpcoming.filter(match => {
       const matchStartTime = new Date(match.matchTime).getTime();
@@ -261,49 +259,100 @@ function getMatchData() {
   return [
     
  
-            
+        
      {
-      team1: { name: "Real Sociedad", logo: "https://imgs.ysscores.com/teams/128/9441690196745.png" },
-      team2: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-01-18T21:00:00',
-      streamUrlEnglish: "https://mejarhosting.cfd/nm1hevc/index.m3u8",
-      streamUrlArabic: "https://d35cjn5rfcrdnk.cloudfront.net/out/v1/5dcceaa062b5438eaa7c3a884cf3bbfe/index_1.m3u8",
-      streamUrlServer3: "https://live2.cloud1-e3f.workers.dev/75_.m3u8",
-      streamUrlServer4: "https://dzd84jm31b20d.cloudfront.net/status/3/fronts.woff2?f3305a"
-    },
+      team1: { name: "Bodø/Glimt", logo: "https://imgs.ysscores.com/teams/128/8781690370522.png" },
+      team2: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-20T18:45:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+     {
+      team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      team2: { name: "Monaco", logo: "https://imgs.ysscores.com/teams/128/3861690287583.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-20T21:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+
+    {
+      team1: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
+      team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-20T21:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
 
      {
-      team1: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
-      team2: { name: "Lecce", logo: "https://imgs.ysscores.com/teams/128/9031690283003.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-01-18T20:45:00',
-      streamUrlEnglish: "https://live2.cloud1-e3f.workers.dev/11_.m3u8",
-      streamUrlArabic: "https://haftreyva.sbs/svg/n3/javascript.json",
+      team1: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
+      team2: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-20T21:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+
+     {
+      team1: { name: "Sporting CP", logo: "https://imgs.ysscores.com/teams/128/9791690386587.png" },
+      team2: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-20T21:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+
+     {
+      team1: { name: "Olympiacos", logo: "https://imgs.ysscores.com/teams/128/1401690370533.png" },
+      team2: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-20T21:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
     
-
-  {
-      team1: { name: "Senegal", logo: "https://imgs.ysscores.com/teams/128/1831763086441.png" },
-      team2: { name: "Morocco", logo: "https://imgs.ysscores.com/teams/128/6291763083538.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/289.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/289.png",
-      competitionName: "AFCON 2025",
-      matchTime: '2026-01-18T20:00:00',
-      streamUrlEnglish: "https://mejarhosting.cfd/fhd/index.m3u8",
-      streamUrlArabic: "https://mejarhosting.cfd/sd/index.m3u8",
-      streamUrlServer3: "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
-      streamUrlServer4: "https://akotv.cc/eighty_eight.php?stream=bsmax1-0-1"
-    },
+     {
+      team1: { name: "Villarreal", logo: "https://imgs.ysscores.com/teams/128/7121690196747.png" },
+      team2: { name: "Ajax", logo: "https://imgs.ysscores.com/teams/128/1361751718344.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-20T21:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+    
+  
    
-
-
+    
   ];
 }
 
