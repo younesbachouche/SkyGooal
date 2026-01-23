@@ -288,8 +288,8 @@ function getMatchData() {
     {
       team1: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
       team2: { name: "Pisa", logo: "https://imgs.ysscores.com/teams/128/8651691681667.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A ",
       matchTime: '2026-01-23T20:45:00',
       streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
