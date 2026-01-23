@@ -280,8 +280,8 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-01-23T20:00:00',
       streamUrlEnglish: "https://live1.cloud1-e3f.workers.dev/23_.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://dq2wtrtqxxl62.cloudfront.net/svg/n1/javascript.json",
+      streamUrlServer3: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
       streamUrlServer4: ""
     }, 
 
