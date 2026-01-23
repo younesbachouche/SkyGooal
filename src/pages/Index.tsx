@@ -261,14 +261,14 @@ function getMatchData() {
  
         
      {
-      team1: { name: "Bodø/Glimt", logo: "https://imgs.ysscores.com/teams/128/8781690370522.png" },
-      team2: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-21T18:45:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      team1: { name: "Sundowns", logo: "https://imgs.ysscores.com/teams/128/5061694715092.png" },
+      team2: { name: "Al-Hilal", logo: "https://imgs.ysscores.com/teams/128/9571692282425.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/526.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/526.png",
+      competitionName: "CAF Champions League",
+      matchTime: '2026-01-23T19:00:00',
+      streamUrlEnglish: "https://live1.cloud1-e3f.workers.dev/27_.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
