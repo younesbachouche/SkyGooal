@@ -292,9 +292,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A ",
       matchTime: '2026-01-23T20:45:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://live1.cloud1-e3f.workers.dev/11_.m3u8",
+      streamUrlArabic: "https://dq2wtrtqxxl62.cloudfront.net/svg/n2/javascript.json",
+      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/TNT-Sport-2-SD/index.m3u8",
       streamUrlServer4: ""
     }, 
 
