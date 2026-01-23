@@ -305,9 +305,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-01-23T21:00:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://live1.cloud1-e3f.workers.dev/24_.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
+      streamUrlServer3: "https://live1.cloud1-e3f.workers.dev/44_.m3u8",
       streamUrlServer4: ""
     }, 
  
