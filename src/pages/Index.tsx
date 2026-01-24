@@ -269,8 +269,8 @@ function getMatchData() {
       matchTime: '2026-01-24T13:30:00',
       streamUrlEnglish: "https://dq2wtrtqxxl62.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://sireli1307-be.hf.space/b/p/TNT-Sports-1/index.m3u8",
-      streamUrlServer3: "https://live1.cloud1-e3f.workers.dev/22_.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer3: "http://lspapp.space/BEIN-SPORT-11/video.m3u8",
+      streamUrlServer4: "https://live1.cloud1-e3f.workers.dev/22_.m3u8"
     }, 
      {
       team1: { name: "Vallecano", logo: "https://imgs.ysscores.com/teams/128/1511690196745.png" },
@@ -279,9 +279,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-01-24T14:00:00',
-      streamUrlEnglish: "https://live1.cloud1-e3f.workers.dev/23_.m3u8",
-      streamUrlArabic: "https://dq2wtrtqxxl62.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlEnglish: "https://dq2wtrtqxxl62.cloudfront.net/svg/n4/javascript.json",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
 
