@@ -269,7 +269,7 @@ function getMatchData() {
       matchTime: '2026-01-24T13:30:00',
       streamUrlEnglish: "https://dq2wtrtqxxl62.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://sireli1307-be.hf.space/b/p/TNT-Sports-1/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://live1.cloud1-e3f.workers.dev/22_.m3u8",
       streamUrlServer4: ""
     }, 
      {
