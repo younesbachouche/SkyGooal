@@ -280,8 +280,8 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-01-24T14:00:00',
       streamUrlEnglish: "https://dq2wtrtqxxl62.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/BEIN-SPORTS-MAX-9/index.m3u8",
+      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/Premier-Sports-1/index.m3u8",
       streamUrlServer4: ""
     }, 
 
