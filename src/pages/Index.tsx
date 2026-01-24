@@ -267,7 +267,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-24T13:30:00',
-      streamUrlEnglish: "https://live1.cloud1-e3f.workers.dev/27_.m3u8",
+      streamUrlEnglish: "https://dq2wtrtqxxl62.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
