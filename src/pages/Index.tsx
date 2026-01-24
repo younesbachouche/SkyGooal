@@ -463,6 +463,18 @@ function getMatchData() {
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
+    },  
+    {
+      team1: { name: "Lecce", logo: "https://imgs.ysscores.com/teams/128/9031690283003.png" },
+      team2: { name: "Lazio", logo: "https://imgs.ysscores.com/teams/128/5111690283002.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-01-24T21:00:00',
+      streamUrlEnglish: "https://liveua.score806.cc/paramount3/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     }, 
   ];
 }
