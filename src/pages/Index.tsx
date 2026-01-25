@@ -268,8 +268,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-25T20:45:00',
-      streamUrlEnglish: "https://d2gvljzyfaudw2.cloudfront.net/svg/n5/javascript.json",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Seria-A-09/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Seria-A-09/index.m3u8",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
       streamUrlServer3: "https://sawanac414-be.hf.space/b/p/TNT-Sports-1/index.m3u8",
       streamUrlServer4: "https://liveua.score806.cc/paramount3/index.m3u8"
     }, 
