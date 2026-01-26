@@ -285,6 +285,18 @@ function getMatchData() {
       streamUrlServer3: "https://sireli1307-be.hf.space/b/p/DAZN-UK-2/index.m3u8",
       streamUrlServer4: "https://karwan.tv/live/sport-channel-8-1.php"
     }, 
+     {
+      team1: { name: "Girona", logo: "https://imgs.ysscores.com/teams/128/3151690196742.png" },
+      team2: { name: "Getafe", logo: "https://imgs.ysscores.com/teams/128/3451691957863.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
+      competitionName: "La Liga",
+      matchTime: '2026-01-26T21:00:00',
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-MAX-5/index.m3u8",
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
   ];
   
 }
