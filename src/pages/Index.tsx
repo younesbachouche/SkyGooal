@@ -281,7 +281,7 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-01-26T20:45:00',
       streamUrlEnglish: "https://karwan.tv/live/sport-channel-8-1.php",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://shoofkoora.sbs/hlsx/4c3pgaldzi_hi/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
