@@ -268,10 +268,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-26T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/DAZN-1-Spain/index.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-1/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Sky-Sports-Main-Event/index.m3u8",
+      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/DAZN-1-Spain/index.m3u8",
+      streamUrlServer4: "https://mocef38798-be.hf.space/b/p/Sky-Sports-Premier-League/index.m3u8"
     }, 
      {
       team1: { name: "Hellas Verona", logo: "https://imgs.ysscores.com/teams/128/3871690283003.png" },
