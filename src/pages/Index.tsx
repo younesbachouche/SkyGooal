@@ -262,18 +262,31 @@ function getMatchData() {
         
    
     {
-      team1: { name: "AS Roma", logo: "https://imgs.ysscores.com/teams/128/1041749305816.png" },
-      team2: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-01-25T20:45:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Seria-A-09/index.m3u8",
-      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
+      team1: { name: "Everton", logo: "https://imgs.ysscores.com/teams/128/8461690118694.png" },
+      team2: { name: "Leeds United", logo: "https://imgs.ysscores.com/teams/128/4691690458244.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-01-26T21:00:00',
+      streamUrlEnglish: "https://d2gvljzyfaudw2.cloudfront.net/svg/n5/javascript.json",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Seria-A-09/index.m3u8",
       streamUrlServer3: "https://sawanac414-be.hf.space/b/p/TNT-Sports-1/index.m3u8",
       streamUrlServer4: "https://liveua.score806.cc/paramount3/index.m3u8"
     }, 
+     {
+      team1: { name: "Hellas Verona", logo: "https://imgs.ysscores.com/teams/128/3871690283003.png" },
+      team2: { name: "Udinese", logo: "https://imgs.ysscores.com/teams/128/8741690284718.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-01-26T20:45:00',
+      streamUrlEnglish: "https://karwan.tv/live/sport-channel-8-1.php",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
   ];
+  
 }
 
 export default Index;
