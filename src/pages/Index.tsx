@@ -280,10 +280,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-26T20:45:00',
-      streamUrlEnglish: "https://karwan.tv/live/sport-channel-8-1.php",
+      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/Seria-A-10/index.m3u8",
       streamUrlArabic: "https://shoofkoora.sbs/hlsx/4c3pgaldzi_hi/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/DAZN-UK-2/index.m3u8",
+      streamUrlServer4: "https://karwan.tv/live/sport-channel-8-1.php"
     }, 
   ];
   
