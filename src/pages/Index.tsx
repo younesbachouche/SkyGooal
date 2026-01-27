@@ -262,41 +262,32 @@ function getMatchData() {
         
    
     {
-      team1: { name: "Everton", logo: "https://imgs.ysscores.com/teams/128/8461690118694.png" },
-      team2: { name: "Leeds United", logo: "https://imgs.ysscores.com/teams/128/4691690458244.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-01-26T21:00:00',
-      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-1/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Sky-Sports-Main-Event/index.m3u8",
-      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/DAZN-1-Spain/index.m3u8",
-      streamUrlServer4: "https://mocef38798-be.hf.space/b/p/Sky-Sports-Premier-League/index.m3u8"
-    }, 
-     {
-      team1: { name: "Hellas Verona", logo: "https://imgs.ysscores.com/teams/128/3871690283003.png" },
-      team2: { name: "Udinese", logo: "https://imgs.ysscores.com/teams/128/8741690284718.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-01-26T20:45:00',
-      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/Seria-A-10/index.m3u8",
-      streamUrlArabic: "https://shoofkoora.sbs/hlsx/4c3pgaldzi_hi/index.m3u8",
-      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/DAZN-UK-2/index.m3u8",
-      streamUrlServer4: "https://karwan.tv/live/sport-channel-8-1.php"
-    }, 
-     {
-      team1: { name: "Girona", logo: "https://imgs.ysscores.com/teams/128/3151690196742.png" },
-      team2: { name: "Getafe", logo: "https://imgs.ysscores.com/teams/128/3451691957863.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-01-26T21:00:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-MAX-5/index.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
+      team1: { name: "St. Pauli", logo: "https://imgs.ysscores.com/teams/128/6091690370514.png" },
+      team2: { name: "RB Leipzig", logo: "https://imgs.ysscores.com/teams/128/8361734715237.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
+      competitionName: "Bundesliga",
+      matchTime: '2026-01-27T20:30:00',
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/BEIN-SPORTS-2/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
+ {
+      team1: { name: "Bremen", logo: "https://imgs.ysscores.com/teams/128/9771690288817.png" },
+      team2: { name: "Hoffenheim", logo: "https://imgs.ysscores.com/teams/128/5141690288816.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
+      competitionName: "Bundesliga",
+      matchTime: '2026-01-27T20:30:00',
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+
+     
+    
   ];
   
 }
