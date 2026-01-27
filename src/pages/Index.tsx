@@ -270,7 +270,7 @@ function getMatchData() {
       matchTime: '2026-01-27T20:30:00',
       streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
       streamUrlArabic: "https://mocef38798-be.hf.space/b/p/BEIN-SPORTS-2/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://cdntv.online/high/9mlxywika2/1022.m3u8",
       streamUrlServer4: ""
     }, 
  {
