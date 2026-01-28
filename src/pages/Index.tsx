@@ -268,9 +268,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
-      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/BEIN-SPORTS-2/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-4/index.m3u8",
+      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/Liga-De-Campeones-1-BU/index.m3u8",
       streamUrlServer4: ""
     }, 
     {
@@ -280,9 +280,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/TNT-Sports-4/index.m3u8",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-5/index.m3u8",
+      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/Liga-De-Campeones-10-BU/index.m3u8",
       streamUrlServer4: ""
     }, 
 
@@ -293,10 +293,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/CBS-Sports-Network/index.m3u8",
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/CANAL-LIVE-6/index.m3u8",
+      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-9-BU/index.m3u8",
+      streamUrlServer4: "https://mocef38798-be.hf.space/b/p/CBS-Sports-Network-BU/index.m3u8"
     },
 
     {
@@ -306,10 +306,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/TNT-Sports-3/index.m3u8",
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/CANAL-LIVE-1/index.m3u8",
+      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/Liga-De-Campeones-6-BU/index.m3u8",
+      streamUrlServer4: "https://sireli1307-be.hf.space/b/p/TNT-Sport-3-SD/index.m3u8"
     },
 
      {
@@ -319,8 +319,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-7/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Liga-De-Campeones-2-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -331,8 +331,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-11/index.m3u8",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/Liga-De-Campeones-14-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -344,9 +344,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/TNT-Sports-6-BU/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-9/index.m3u8",
+      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/Liga-De-Campeones-8-BU/index.m3u8",
       streamUrlServer4: ""
     },
 
@@ -357,8 +357,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-15/index.m3u8",
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-5-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -370,8 +370,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/TNT-Sports-7-BU/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-12/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -383,9 +383,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/TNT-Sports-2/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-8/index.m3u8",
+      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-16-BU/index.m3u8",
       streamUrlServer4: ""
     },
 
@@ -396,8 +396,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-3/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Liga-De-Campeones-11-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -408,7 +408,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/CANAL-LIVE-13/index.m3u8",
       streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
@@ -421,8 +421,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-10/index.m3u8",
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-3-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -433,8 +433,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-2/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Liga-De-Campeones-15-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -446,8 +446,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-16/index.m3u8",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/Liga-De-Campeones-12-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -459,8 +459,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/CANAL-LIVE-17/index.m3u8",
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-13-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
