@@ -1,438 +1,196 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
-import MatchCard from "@/components/MatchCard";
-import { Button } from "@/components/ui/button";
-import StreamPopup from "@/components/StreamPopup";
-import CompetitionFilter from "@/components/CompetitionFilter";
-import LiveTicker from "@/components/LiveTicker";
-import PullToRefresh from "@/components/PullToRefresh";
-import { Moon, Sun, RefreshCw } from "lucide-react";
+import React, { useState, useEffect } from "react";
 
 interface Team {
   name: string;
   logo: string;
 }
 
-interface Match {
-  team1: Team;
-  team2: Team;
-  competitionLogo: string;
-  competitionDarkLogo: string;
-  competitionName: string;
-  matchTime: string;
-  streamUrlEnglish: string;
-  streamUrlArabic: string;
-  streamUrlServer3: string;
-  streamUrlServer4?: string;
+interface MatchProps {
+  match: {
+    team1: Team;
+    team2: Team;
+    competitionLogo: string;
+    competitionDarkLogo: string;
+    competitionName: string;
+    matchTime: string;
+    streamUrlEnglish: string;
+    streamUrlArabic: string;
+    streamUrlServer3: string;
+    streamUrlServer4?: string;
+  };
+  index: number;
+  onOpenStream: (englishUrl: string, arabicUrl: string, server3Url: string, server4Url?: string) => void;
+  isEnded?: boolean;
 }
 
-const Index = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(false);
-  const [allMatches, setAllMatches] = useState<Match[]>([]);
-  const [selectedCompetition, setSelectedCompetition] = useState<string | null>(null);
-  const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
-  const [isRefreshing, setIsRefreshing] = useState(false);
-  const [currentStreamUrls, setCurrentStreamUrls] = useState<{ 
-    english: string; 
-    arabic: string; 
-    server3: string;
-    server4?: string;
-  } | null>(null);
-  
+const MatchCard = ({ match, onOpenStream, isEnded = false }: MatchProps) => {
+  const [matchStatus, setMatchStatus] = useState<"upcoming" | "starting-soon" | "live" | "ended">(
+    isEnded ? "ended" : "upcoming"
+  );
+  const [countdown, setCountdown] = useState("00:00:00");
+
   useEffect(() => {
-    const savedDarkMode = localStorage.getItem("dark-mode") === "true";
-    setDarkMode(savedDarkMode);
-    if (savedDarkMode) {
-      document.documentElement.classList.add("dark");
-    }
-    
-    setAllMatches(getMatchData());
-  }, []);
+    const updateStatus = () => {
+      const now = Date.now();
+      const start = new Date(match.matchTime).getTime();
+      const end = start + 2 * 60 * 60 * 1000; // 2 hours
 
-  // Get unique competitions from matches
-  const competitions = useMemo(() => {
-    const uniqueComps = new Map<string, { name: string; logo: string }>();
-    allMatches.forEach(match => {
-      if (!uniqueComps.has(match.competitionName)) {
-        uniqueComps.set(match.competitionName, {
-          name: match.competitionName,
-          logo: match.competitionLogo
-        });
+      if (now >= end) {
+        setMatchStatus("ended");
+      } else if (now >= start) {
+        setMatchStatus("live");
+      } else if (now >= start - 30 * 60 * 1000) {
+        setMatchStatus("starting-soon");
+      } else {
+        setMatchStatus("upcoming");
+
+        const diff = start - now;
+        const hours = Math.floor(diff / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+        setCountdown(
+          `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds
+            .toString()
+            .padStart(2, "0")}`
+        );
       }
-    });
-    return Array.from(uniqueComps.values());
-  }, [allMatches]);
+    };
 
-  const { ongoingOrUpcoming, ended, liveMatches } = useMemo(() => {
-    let filteredMatches = allMatches;
-    
-    if (selectedCompetition) {
-      filteredMatches = allMatches.filter(m => m.competitionName === selectedCompetition);
-    }
-    
-    const sorted = sortMatches(filteredMatches);
-    
-    const now = new Date().getTime();
-    const live = sorted.ongoingOrUpcoming.filter(match => {
-      const matchStartTime = new Date(match.matchTime).getTime();
-      return now >= matchStartTime - 5 * 60 * 1000; // Started or starting in 5 min
-    });
-    
-    return { ...sorted, liveMatches: live };
-  }, [allMatches, selectedCompetition]);
+    updateStatus();
+    const interval = setInterval(updateStatus, 1000);
+    return () => clearInterval(interval);
+  }, [match.matchTime, isEnded]);
 
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode;
-    setDarkMode(newDarkMode);
-    localStorage.setItem("dark-mode", String(newDarkMode));
-    
-    if (newDarkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
+  const convertToLocalTime = (time: string) => {
+    try {
+      return new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit", hour12: false }).format(
+        new Date(time)
+      );
+    } catch {
+      const matchTime = time.match(/T(\d{2}):(\d{2})/);
+      return matchTime ? `${matchTime[1]}:${matchTime[2]}` : time;
     }
   };
 
-  const refreshMatches = useCallback(async () => {
-    setIsRefreshing(true);
-    // Simulate network delay
-    await new Promise(resolve => setTimeout(resolve, 500));
-    setAllMatches(getMatchData());
-    setIsRefreshing(false);
-  }, []);
+  const handleOpenStream = () => {
+    onOpenStream(match.streamUrlEnglish, match.streamUrlArabic, match.streamUrlServer3, match.streamUrlServer4);
+  };
 
-  const openStreamPopup = (englishUrl: string, arabicUrl: string, server3Url: string, server4Url?: string) => {
-    setCurrentStreamUrls({
-      english: englishUrl,
-      arabic: arabicUrl,
-      server3: server3Url,
-      server4: server4Url
-    });
-    setIsPopupVisible(true);
+  const StatusIndicator = () => {
+    switch (matchStatus) {
+      case "live":
+        return (
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+            <span className="text-sm font-medium text-red-600 dark:text-red-400">LIVE</span>
+          </div>
+        );
+      case "starting-soon":
+        return (
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 bg-green-500 rounded-full" />
+            <span className="text-sm font-medium text-green-600 dark:text-green-400">SOON</span>
+          </div>
+        );
+      case "ended":
+        return (
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 bg-gray-400 rounded-full" />
+            <span className="text-sm font-medium text-gray-600 dark:text-gray-400">ENDED</span>
+          </div>
+        );
+      default:
+        return null;
+    }
   };
-  
-  const closeStreamPopup = () => {
-    setIsPopupVisible(false);
-    setCurrentStreamUrls(null);
-  };
-  
+
   return (
-    <>
-      <PullToRefresh onRefresh={refreshMatches} className="min-h-screen bg-background pb-20">
-      {/* Header */}
-      <header className="sticky top-0 z-40 bg-background/95 backdrop-blur-lg border-b border-border/50">
-        <div className="px-4 py-3 max-w-4xl mx-auto">
-          <div className="flex justify-between items-center">
-            <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-primary">
-                Sky Live
-              </h1>
-              <p className="text-xs sm:text-sm text-muted-foreground">
-                by Younes
-              </p>
-            </div>
-            <div className="flex items-center gap-2">
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={refreshMatches}
-                disabled={isRefreshing}
-                className="rounded-full"
+    <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+      {/* Competition Header */}
+      <div className="px-4 py-3 border-b border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <img
+            src={document.documentElement.classList.contains("dark") ? match.competitionDarkLogo : match.competitionLogo}
+            alt="Competition"
+            className="w-4 h-4"
+            onError={(e) => {
+              e.currentTarget.src =
+                'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%236b7280"><path d="M4 6h16v12H4z"/></svg>';
+            }}
+          />
+          <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{match.competitionName}</span>
+        </div>
+        <StatusIndicator />
+      </div>
+
+      {/* Match Content */}
+      <div className="p-4 flex items-center justify-between">
+        {/* Team 1 */}
+        <div className="flex flex-col items-center flex-1">
+          <img
+            src={match.team1.logo}
+            alt={match.team1.name}
+            className="w-12 h-12 mb-2"
+            onError={(e) => {
+              e.currentTarget.src =
+                'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%236b7280"><circle cx="12" cy="12" r="10"/></svg>';
+            }}
+          />
+          <span className="text-sm font-medium text-gray-900 dark:text-white text-center">{match.team1.name}</span>
+        </div>
+
+        {/* Center */}
+        <div className="flex flex-col items-center mx-4 min-w-[100px]">
+          <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">{convertToLocalTime(match.matchTime)}</div>
+          <div className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-3">VS</div>
+
+          {/* Fixed space for buttons/countdown */}
+          <div className="h-10 flex items-center justify-center">
+            {matchStatus === "upcoming" && (
+              <div className="text-sm font-mono font-medium text-blue-600 dark:text-blue-400">{countdown}</div>
+            )}
+            {matchStatus === "starting-soon" && (
+              <button
+                onClick={handleOpenStream}
+                className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-medium rounded-md transition-colors"
               >
-                <RefreshCw className={`h-5 w-5 ${isRefreshing ? 'animate-spin' : ''}`} />
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={toggleDarkMode}
-                className="rounded-full"
+                Starts Soon
+              </button>
+            )}
+            {matchStatus === "live" && (
+              <button
+                onClick={handleOpenStream}
+                className="px-4 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium rounded-md flex items-center gap-2 transition-colors"
               >
-                {darkMode ? (
-                  <Sun className="h-5 w-5" />
-                ) : (
-                  <Moon className="h-5 w-5" />
-                )}
-              </Button>
-            </div>
+                <div className="w-2 h-2 bg-white rounded-full" />
+                LIVE NOW
+              </button>
+            )}
+            {matchStatus === "ended" && (
+              <div className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 text-sm font-medium rounded-md">
+                Ended
+              </div>
+            )}
           </div>
         </div>
-      </header>
-      
-      {/* Live Ticker */}
-      <LiveTicker matches={liveMatches} />
-      
-      <main className="px-3 sm:px-4 py-4 max-w-4xl mx-auto space-y-3">
-        {/* Competition Filter */}
-        {competitions.length > 1 && (
-          <CompetitionFilter
-            competitions={competitions}
-            selectedCompetition={selectedCompetition}
-            onSelectCompetition={setSelectedCompetition}
+
+        {/* Team 2 */}
+        <div className="flex flex-col items-center flex-1">
+          <img
+            src={match.team2.logo}
+            alt={match.team2.name}
+            className="w-12 h-12 mb-2"
+            onError={(e) => {
+              e.currentTarget.src =
+                'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%236b7280"><circle cx="12" cy="12" r="10"/></svg>';
+            }}
           />
-        )}
-
-        {/* Live/Upcoming Matches */}
-        {ongoingOrUpcoming.length > 0 && (
-          <div className="space-y-3">
-            <div className="flex items-center gap-2 px-1">
-              <div className="w-2 h-2 rounded-full bg-destructive animate-pulse" />
-              <h2 className="text-base sm:text-lg font-semibold">Live & Upcoming</h2>
-              <span className="text-xs text-muted-foreground">({ongoingOrUpcoming.length})</span>
-            </div>
-            {ongoingOrUpcoming.map((match, index) => (
-              <MatchCard 
-                key={index} 
-                match={match} 
-                index={index} 
-                onOpenStream={openStreamPopup}
-              />
-            ))}
-          </div>
-        )}
-        
-        {/* Ended Matches */}
-        {ended.length > 0 && (
-          <div className="space-y-3 mt-6">
-            <div className="flex items-center gap-2 px-1">
-              <h2 className="text-base sm:text-lg font-semibold text-muted-foreground">Ended Matches</h2>
-              <span className="text-xs text-muted-foreground">({ended.length})</span>
-            </div>
-            {ended.map((match, index) => (
-              <MatchCard 
-                key={index} 
-                match={match} 
-                index={ongoingOrUpcoming.length + index} 
-                onOpenStream={openStreamPopup}
-                isEnded={true}
-              />
-            ))}
-          </div>
-        )}
-
-        {ongoingOrUpcoming.length === 0 && ended.length === 0 && (
-          <div className="bg-card rounded-2xl border border-border/50 p-12 text-center">
-            <p className="text-muted-foreground">
-              {selectedCompetition 
-                ? `No matches found for ${selectedCompetition}` 
-                : 'No matches scheduled'}
-            </p>
-          </div>
-        )}
-      </main>
-
-      </PullToRefresh>
-
-      {isPopupVisible && currentStreamUrls && (
-        <StreamPopup 
-          streams={currentStreamUrls}
-          onClose={closeStreamPopup}
-        />
-      )}
-    </>
+          <span className="text-sm font-medium text-gray-900 dark:text-white text-center">{match.team2.name}</span>
+        </div>
+      </div>
+    </div>
   );
 };
 
-function sortMatches(matches: Match[]) {
-  const now = new Date().getTime();
-  const ongoingOrUpcoming: Match[] = [];
-  const ended: Match[] = [];
-
-  matches.forEach(match => {
-    // Parse match time - treat as UTC if it has 'Z', otherwise as local time
-    const matchStartTime = new Date(match.matchTime).getTime();
-    const matchEndTime = matchStartTime + 2 * 60 * 60 * 1000; // 2 hours after match start
-
-    if (now >= matchEndTime) {
-      ended.push(match);
-    } else {
-      ongoingOrUpcoming.push(match);
-    }
-  });
-
-  
-  ongoingOrUpcoming.sort((a, b) => new Date(a.matchTime).getTime() - new Date(b.matchTime).getTime());
-  ended.sort((a, b) => new Date(b.matchTime).getTime() - new Date(a.matchTime).getTime());
-
-  return { ongoingOrUpcoming, ended };
-}
-
-function getMatchData() {
-  return [
-    
- 
-        
-   
-    {
-      team1: { name: "SL Benfica", logo: "https://imgs.ysscores.com/teams/128/4491690386690.png" },
-      team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
-      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/BEIN-SPORTS-2/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
-    {
-      team1: { name: "SSC Napoli", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
-      team2: { name: "Chelsea", logo: "https://imgs.ysscores.com/teams/128/2571690118280.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
-
-    {
-      team1: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
-      team2: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
-      team2: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
-      team2: { name: "Copenhagen", logo: "https://imgs.ysscores.com/teams/128/1701690822703.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
-      team2: { name: "Galatasaray", logo: "https://imgs.ysscores.com/teams/128/2081756067376.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
-      team2: { name: "Villarreal", logo: "https://imgs.ysscores.com/teams/128/7121690196747.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
-      team2: { name: "Kairat", logo: "https://imgs.ysscores.com/teams/128/5591718101124.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "Liverpool", logo: "https://imgs.ysscores.com/teams/128/4081724601375.png" },
-      team2: { name: "Qarabag FK", logo: "https://imgs.ysscores.com/teams/128/5151690822077.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Monaco", logo: "https://imgs.ysscores.com/teams/128/3861690287583.png" },
-      team2: { name: "Juventus", logo: "https://imgs.ysscores.com/teams/128/9331690283003.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-     {
-      team1: { name: "Frankfurt", logo: "https://imgs.ysscores.com/teams/128/231690288818.png" },
-      team2: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
-      team2: { name: "Bodø/Glimt", logo: "https://imgs.ysscores.com/teams/128/8781690370522.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-     {
-      team1: { name: "Club Brugge", logo: "https://imgs.ysscores.com/teams/128/121690370520.png" },
-      team2: { name: "Marseille", logo: "https://imgs.ysscores.com/teams/128/6031690287269.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-  
-
-     
-    
-  ];
-  
-}
-
-export default Index;
+export default MatchCard;
