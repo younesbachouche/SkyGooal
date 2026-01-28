@@ -324,6 +324,18 @@ function getMatchData() {
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
+    {
+      team1: { name: "PSV", logo: "https://imgs.ysscores.com/teams/128/3391690378187.png" },
+      team2: { name: "Bayern Munich", logo: "https://imgs.ysscores.com/teams/128/2351690288818.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-28T21:00:00',
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
 
      {
       team1: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
@@ -427,6 +439,31 @@ function getMatchData() {
       streamUrlServer4: ""
     },
 
+     {
+      team1: { name: "Ajax", logo: "https://imgs.ysscores.com/teams/128/1361751718344.png" },
+      team2: { name: "Olympiacos", logo: "https://imgs.ysscores.com/teams/128/1401690370533.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-28T21:00:00',
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+
+    {
+      team1: { name: "St.Gilloise", logo: "https://imgs.ysscores.com/teams/128/3651690370510.png" },
+      team2: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-28T21:00:00',
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/Sky-Bundesliga-2/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
   
 
      
