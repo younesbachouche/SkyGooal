@@ -259,7 +259,18 @@ function getMatchData() {
   return [
     
  
-        
+       {
+      team1: { name: "Goals Show", logo: "https://i.imgur.com/ZQpTOrG.png" },
+      team2: { name: "Goals Show", logo: "https://i.imgur.com/ZQpTOrG.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-01-28T21:00:00',
+      streamUrlEnglish: "http://135.125.109.73:9000/beinsport2_.m3u8",
+      streamUrlArabic: "http://141.147.77.69:8080/mo3ad/live.m3u8",
+      streamUrlServer3: "https://karwan.tv/live/koblenz-sport-1-1.php",
+      streamUrlServer4: ""
+    },  
    
     {
       team1: { name: "SL Benfica", logo: "https://imgs.ysscores.com/teams/128/4491690386690.png" },
