@@ -279,7 +279,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://storage.googleapis.com/chaungioverspo2/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-4/index.m3u8",
       streamUrlServer3: "https://mocef38798-be.hf.space/b/p/Liga-De-Campeones-1-BU/index.m3u8",
       streamUrlServer4: ""
