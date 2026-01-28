@@ -333,7 +333,7 @@ function getMatchData() {
       streamUrlEnglish: "https://d2gvljzyfaudw2.cloudfront.net/svg/n6/javascript.json",
       streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Liga-De-Campeones-2-BU/index.m3u8",
       streamUrlServer3: "https://sireli1307-be.hf.space/b/p/CANAL-LIVE-7/index.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://can.yalla--shoots.live/bein-premium3/CH1.php"
     },
     {
       team1: { name: "PSV", logo: "https://imgs.ysscores.com/teams/128/3391690378187.png" },
