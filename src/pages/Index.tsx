@@ -369,7 +369,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
       competitionName: "Europa League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://sdmax111.provegooott.com/6_.m3u8",
       streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-1-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
@@ -395,8 +395,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
       competitionName: "Europa League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "http://135.125.109.73:9000/beinsport2_.m3u8",
-      streamUrlArabic: "http://141.147.77.69:8080/mo3ad/live.m3u8",
+      streamUrlEnglish: "http://135.125.109.73:9000/beinsport1_.m3u8",
+      streamUrlArabic: "https://sdmm162.provegooott.com/1_.m3u8",
       streamUrlServer3: "https://karwan.tv/live/koblenz-sport-1-1.php",
       streamUrlServer4: ""
     },  
@@ -408,7 +408,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
       competitionName: "Europa League",
       matchTime: '2026-01-28T21:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "http://135.125.109.73:9000/beinsport5_.m3u8",
       streamUrlArabic: "https://mocef38798-be.hf.space/b/p/Liga-De-Campeones-9-BU/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
