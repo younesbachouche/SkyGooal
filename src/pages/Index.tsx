@@ -431,9 +431,9 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-01-30T21:00:00',
       streamUrlEnglish: "http://135.125.109.73:9000/beinsport1_.m3u8",
-      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
-      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8",
-      streamUrlServer4: ""
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
+      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/La-Liga-TV/index.m3u8",
+      streamUrlServer4: "https://sireli1307-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8"
     },  
    
     
