@@ -405,10 +405,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-30T20:45:00',
-      streamUrlEnglish: "https://afahkjq2jh4hjkasf.shop/live/genoa-vs-lazio720p/index.m3u8",
+      streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "https://sireli1307-be.hf.space/b/p/FOX-DEPORTES-BU/index.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://afahkjq2jh4hjkasf.shop/live/genoa-vs-lazio720p/index.m3u8"
     },  
      {
       team1: { name: "Lens", logo: "https://imgs.ysscores.com/teams/128/1281690287063.png" },
@@ -430,10 +430,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-01-30T21:00:00',
-      streamUrlEnglish: "https://afahkjq2jh4hjkasf.shop/live/alav%C3%A9s-vs-espanyol720p/index.m3u8",
+      streamUrlEnglish: "",
       streamUrlArabic: "https://sawanac414-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
       streamUrlServer3: "https://sawanac414-be.hf.space/b/p/La-Liga-TV/index.m3u8",
-      streamUrlServer4: "https://sireli1307-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8"
+      streamUrlServer4: "https://afahkjq2jh4hjkasf.shop/live/alav%C3%A9s-vs-espanyol720p/index.m3u8"
     },  
    
     
