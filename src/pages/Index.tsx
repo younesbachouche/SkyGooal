@@ -418,8 +418,8 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-01-30T20:45:00',
       streamUrlEnglish: "https://sdmax111.provegooott.com/2_.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/LIGUE1-1/index.m3u8",
-      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/BEIN-SPORT-USA-BU/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/LIGUE1-1/index.m3u8",
+      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/Bein-Sports-USA/index.m3u8",
       streamUrlServer4: ""
     },  
    
