@@ -392,9 +392,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-01-30T20:30:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://afahkjq2jh4hjkasf.shop/live/vfl-wolfsburg-vs-fc-cologne720p/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
+      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-3/index.m3u8",
       streamUrlServer4: ""
     },  
    
