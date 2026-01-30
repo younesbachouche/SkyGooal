@@ -381,7 +381,7 @@ function getMatchData() {
       competitionName: "CAF Champions League",
       matchTime: '2026-01-30T20:00:00',
       streamUrlEnglish: "https://sdmax111.provegooott.com/1_.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://razkomoknine.blogspot.com/",
       streamUrlServer3: "",
       streamUrlServer4: "https://akotv.cc/eighty_eight.php?stream=bS1-6"
     }, 
