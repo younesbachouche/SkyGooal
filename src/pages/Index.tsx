@@ -405,8 +405,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-30T20:45:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
+      streamUrlEnglish: "https://afahkjq2jh4hjkasf.shop/live/genoa-vs-lazio720p/index.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "https://sireli1307-be.hf.space/b/p/FOX-DEPORTES-BU/index.m3u8",
       streamUrlServer4: ""
     },  
