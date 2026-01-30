@@ -368,10 +368,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/536.png",
       competitionName: "Saudi Pro League",
       matchTime: '2026-01-30T18:30:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/6_.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-1-BU/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlEnglish: "https://shoofkoora.sbs/hlsx/o93djrcddu_hi/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Fox-Sports-2/index.m3u8",
+      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/Portugal-Sport-TV-1-BU/index.m3u8",
+      streamUrlServer4: "https://mocef38798-be.hf.space/b/p/FOX-DEPORTES/index.m3u8"
     }, 
   {
       team1: { name: "Al-Hilal", logo: "https://imgs.ysscores.com/teams/128/9571692282425.png" },
