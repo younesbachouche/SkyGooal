@@ -380,8 +380,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/526.png",
       competitionName: "CAF Champions League",
       matchTime: '2026-01-30T20:00:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/6_.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Liga-De-Campeones-1-BU/index.m3u8",
+      streamUrlEnglish: "https://sdmax111.provegooott.com/1_.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
