@@ -405,7 +405,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-30T20:45:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/2_.m3u8",
+      streamUrlEnglish: "https://sawanac414-be.hf.space/b/p/FOX-DEPORTES/index.m3u8,
       streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
       streamUrlServer3: "https://sawanac414-be.hf.space/b/p/FOX-DEPORTES/index.m3u8",
       streamUrlServer4: ""
