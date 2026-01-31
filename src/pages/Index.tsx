@@ -531,7 +531,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-31T21:00:00',
       streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?783239",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://storage.googleapis.com/unicertyngitr1/mux_video_ts/index-1.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },  
@@ -543,8 +543,8 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-01-31T21:00:00',
       streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/4/fronts.woff2?601dcd",
-      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
-      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-2/index.m3u8",
+      streamUrlServer3: "https://storage.googleapis.com/unicertyngitr2/mux_video_ts/index-1.m3u8",
       streamUrlServer4: ""
     },  
   ];
