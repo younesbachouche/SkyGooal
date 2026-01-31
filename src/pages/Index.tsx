@@ -443,9 +443,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-01-31T16:15:00',
-      streamUrlEnglish: "http://135.125.109.73:9000/beinsport1_.m3u8",
+      streamUrlEnglish: "https://sdmax111.provegooott.com/3_.m3u8",
       streamUrlArabic: "https://mocef38798-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
-      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8",
+      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/La-Liga-TV/index.m3u8",
       streamUrlServer4: ""
     },  
      {
@@ -505,9 +505,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-01-31T16:15:00',
-      streamUrlEnglish: "http://135.125.109.73:9000/beinsport1_.m3u8",
-      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
-      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-MAX-4/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },  
      {
