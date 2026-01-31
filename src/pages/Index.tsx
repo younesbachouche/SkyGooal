@@ -530,9 +530,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-31T21:00:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/2_.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
-      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/FOX-DEPORTES/index.m3u8",
+      streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?783239",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },  
      {
@@ -542,7 +542,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-01-31T21:00:00',
-      streamUrlEnglish: "http://135.125.109.73:9000/beinsport1_.m3u8",
+      streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/4/fronts.woff2?601dcd",
       streamUrlArabic: "https://mocef38798-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
       streamUrlServer3: "https://mocef38798-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8",
       streamUrlServer4: ""
