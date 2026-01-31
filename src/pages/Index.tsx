@@ -374,7 +374,18 @@ function getMatchData() {
       streamUrlServer4: ""
     }, 
   
-   
+   {
+      team1: { name: "Young Africans", logo: "https://imgs.ysscores.com/teams/128/2951692283216.png" },
+      team2: { name: "Al Ahly SC", logo: "https://imgs.ysscores.com/teams/128/9591694714907.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/526.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/526.png",
+      competitionName: "CAF Champions League",
+      matchTime: '2026-01-31T14:00:00',
+      streamUrlEnglish: "http://135.125.109.73:9000/beinsport2_.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
     
   ];
   
