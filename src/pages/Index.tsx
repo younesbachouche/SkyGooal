@@ -406,7 +406,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-31T16:00:00',
       streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?1f7df6",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
+      streamUrlArabic: "https://d2gvljzyfaudw2.cloudfront.net/svg/n1/javascript.json",
       streamUrlServer3: "https://sawanac414-be.hf.space/b/p/FOX-DEPORTES/index.m3u8",
       streamUrlServer4: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?1f7df6"
     },  
@@ -418,9 +418,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-31T16:00:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/2_.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
-      streamUrlServer3: "https://sawanac414-be.hf.space/b/p/FOX-DEPORTES/index.m3u8",
+      streamUrlEnglish: "https://d2gvljzyfaudw2.cloudfront.net/svg/n3/javascript.json",
+      streamUrlArabic: "https://d37w970r8uelg1.cloudfront.net/status/2/fronts.woff2?fae4d8",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },  
 
@@ -431,8 +431,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-01-31T16:00:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/2_.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/Portugal-Sport-TV-2-BU/index.m3u8",
+      streamUrlEnglish: "https://d2gvljzyfaudw2.cloudfront.net/svg/n2/javascript.json",
+      streamUrlArabic: "https://d37w970r8uelg1.cloudfront.net/status/3/fronts.woff2?c4e5ea",
       streamUrlServer3: "https://sawanac414-be.hf.space/b/p/FOX-DEPORTES/index.m3u8",
       streamUrlServer4: ""
     },  
