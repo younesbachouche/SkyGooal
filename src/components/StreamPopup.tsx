@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo, useCallback } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { X, ExternalLink } from "lucide-react";
 
 interface StreamPopupProps {
@@ -26,17 +26,22 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
       servers.push({ key: "server3", url: streams.server3.trim(), label: "Server 3" });
     }
     if (streams.server4?.trim()) {
-      servers.push({ key: "server4", url: streams.server4.trim(), label: "Server 4", isExternal: true });
+      servers.push({ 
+        key: "server4", 
+        url: streams.server4.trim(), 
+        label: "Server 4", 
+        isExternal: true 
+      });
     }
     
     return servers;
   }, [streams]);
 
-  const getFirst = () => {
-    return availableServers[0]?.key || "english";
+  const getFirstNonExternal = () => {
+    return availableServers.find(s => !s.isExternal)?.key || "english";
   };
 
-  const [active, setActive] = useState<string>(getFirst());
+  const [active, setActive] = useState<string>(getFirstNonExternal());
   const [iframeKey, setIframeKey] = useState(Date.now());
 
   const activeServer = availableServers.find(s => s.key === active);
@@ -52,28 +57,30 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
   useEffect(() => {
     // Update active if current server is no longer available
     if (!activeServer && availableServers.length > 0) {
-      setActive(availableServers[0].key);
+      const nonExternal = availableServers.find(s => !s.isExternal);
+      if (nonExternal) {
+        setActive(nonExternal.key);
+      }
     }
   }, [activeServer, availableServers]);
 
-  const handleServerChange = useCallback((serverKey: string) => {
+  const handleServerChange = (serverKey: string) => {
     const server = availableServers.find(s => s.key === serverKey);
     if (!server) return;
     
     // Skip if same server
     if (serverKey === active) return;
     
-    // If external server (server4), open in new tab
+    // If external server (server4), open in new tab and don't switch in popup
     if (server.isExternal) {
-      window.open(server.url, '_blank');
+      window.open(server.url, '_blank', 'noopener,noreferrer');
       return;
     }
     
-    // Immediately switch server without showing loading
+    // For non-external servers, switch in the popup
     setActive(serverKey);
-    // Force iframe reload by changing key
     setIframeKey(Date.now());
-  }, [availableServers, active]);
+  };
 
   // Function to create autoplay URL
   const createAutoplayUrl = (url: string): string => {
@@ -104,7 +111,7 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
     }
   };
 
-  if (availableServers.length === 0 || !url) {
+  if (availableServers.length === 0) {
     onClose();
     return null;
   }
@@ -185,7 +192,7 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
         </div>
 
         {/* Stream Container - 16:9 Ratio */}
-        {!activeServer?.isExternal && (
+        {!activeServer?.isExternal && activeServer?.url && (
           <div className="relative w-full bg-black">
             <div 
               className="relative w-full mx-auto"
