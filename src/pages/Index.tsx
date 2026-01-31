@@ -455,9 +455,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
       competitionName: "Ligue 1",
       matchTime: '2026-01-31T17:00:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/2_.m3u8",
-      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/Bein-Sports-USA/index.m3u8",
-      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/BEIN-SPORTS-1/index.m3u8",
+      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Bein-Sports-USA/index.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-1/index.m3u8",
+      streamUrlServer3: "https://hls.theblacks.site/hls/0ab31159-ba10-4602-88e0-0c1ef0f1a1f7/index.m3u8",
       streamUrlServer4: ""
     },  
      {
