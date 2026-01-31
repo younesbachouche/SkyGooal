@@ -467,9 +467,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-01-31T18:00:00',
-      streamUrlEnglish: "https://sdmax111.provegooott.com/2_.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/LIGUE1-1/index.m3u8",
-      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/BEIN-SPORT-USA-BU/index.m3u8",
+      streamUrlEnglish: "",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/FOX-DEPORTES/index.m3u8",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },  
    
