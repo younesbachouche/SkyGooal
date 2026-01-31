@@ -381,8 +381,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/526.png",
       competitionName: "CAF Champions League",
       matchTime: '2026-01-31T14:00:00',
-      streamUrlEnglish: "http://135.125.109.73:9000/beinsport2_.m3u8",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://razkomoknine.blogspot.com/",
+      streamUrlArabic: "http://135.125.109.73:9000/beinsport2_.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
