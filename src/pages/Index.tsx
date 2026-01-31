@@ -407,8 +407,8 @@ function getMatchData() {
       matchTime: '2026-01-31T16:00:00',
       streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?1f7df6",
       streamUrlArabic: "https://d2gvljzyfaudw2.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/EPL-02/index.m3u8",
+      streamUrlServer4: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-5/index.m3u8"
     },  
 
      {
