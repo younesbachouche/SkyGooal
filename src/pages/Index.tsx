@@ -481,7 +481,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-01-31T18:30:00',
       streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?3f680d",
-      streamUrlArabic: "https://storage.googleapis.com/unicertyngitr1/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/75_.m3u88",
       streamUrlServer3: "https://sawanac414-be.hf.space/b/p/DAZN-1-Spain/index.m3u8",
       streamUrlServer4: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-5/index.m3u8"
     },  
