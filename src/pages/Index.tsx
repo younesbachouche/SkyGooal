@@ -492,9 +492,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-01-31T18:30:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/BEIN-SPORTS-MAX-4/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://storage.googleapis.com/unicertyngitr3/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
+      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/BEIN-SPORTS-2/index.m3u8",
       streamUrlServer4: ""
     },  
     
@@ -504,8 +504,8 @@ function getMatchData() {
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
-      matchTime: '2026-01-31T16:15:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/BEIN-SPORTS-MAX-4/index.m3u8",
+      matchTime: '2026-01-31T18:30:00',
+      streamUrlEnglish: "https://d2gvljzyfaudw2.cloudfront.net/svg/n4/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
