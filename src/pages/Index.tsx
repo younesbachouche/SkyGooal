@@ -385,7 +385,7 @@ function getMatchData() {
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
       streamUrlArabic: "https://mocef38798-be.hf.space/b/p/Seria-A-07/index.m3u8",
       streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/66_.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://storage.googleapis.com/gambingosover3/mux_video_ts1/index-1.m3u8"
     }, 
     {
       team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
