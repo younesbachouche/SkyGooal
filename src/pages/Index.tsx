@@ -370,9 +370,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-01T17:30:00',
-      streamUrlEnglish: "https://blink182.money-namer.shop/2gEmk9Yp1NGRUN5qOUxbCdxa-EcC-UyZ3Jr0-zt6Mp9G-epr2pisqX0RSKF9IKI1HnG1yQ6oD00c-Zl7lQj4OD_Ef8yIlV4/354fb74eec436fc62464d0b050a71a80.m3u8",
-      streamUrlArabic: "https://blink182.money-namer.shop/8xASkUWTwewSYh_gsQgoSN1s6qLYCZh0YrPGhCiqY6FEgkDGpJTTxalMhXY5W5QGvODGVvtt4zCVUbLUW7LFJEaxlNhNGRA/e4e201b20153014480e55a17edf51d0a.m3u8",
-      streamUrlServer3: "https://blink182.money-namer.shop/dclZ-oxCobX9pcmJCvyYt5NrhkVeoR8ZrBxJVtWg6zFTysY-EKtte-lJ560AOTz-F-fhY1VWeK8KbYqNVj1IwHCgePdCt1k/aa43ad25b19dbfb29b039a5eb7812d3e.m3u8",
+      streamUrlEnglish: "https://s3.us-east-1.amazonaws.com/kamal.onewebaws/nbcsn.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/gambingosover1/mux_video_ts1/index-1.m3u8",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },  
  {
