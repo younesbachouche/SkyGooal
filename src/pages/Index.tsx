@@ -387,7 +387,18 @@ function getMatchData() {
       streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/66_.m3u8",
       streamUrlServer4: ""
     }, 
-    
+    {
+      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
+      team2: { name: "Saint Eloi Lupopo", logo: "https://imgs.ysscores.com/teams/128/801758966567.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/526.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/526.png",
+      competitionName: "CAF Champions League",
+      matchTime: '2026-02-01T20:00:00',
+      streamUrlEnglish: "http://135.125.109.73:9000/beinsport1_.m3u8",
+      streamUrlArabic: "https://mocef38798-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
+      streamUrlServer3: "https://mocef38798-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8",
+      streamUrlServer4: ""
+    }, 
   ];
   
 }
