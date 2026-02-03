@@ -380,8 +380,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-02-03T20:45:00',
-      streamUrlEnglish: "http://135.125.109.73:9000/beinsport2_.m3u8",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/12_.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
