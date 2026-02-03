@@ -394,7 +394,7 @@ function getMatchData() {
       matchTime: '2026-02-03T21:00:00',
       streamUrlEnglish: "https://dgzz4gmtu2krx.cloudfront.net/status/1/fronts.woff2?1089a7",
       streamUrlArabic: "https://sawanac414-be.hf.space/b/p/BEIN-SPORTS-MAX-4/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://mejarhosting.cfd/posttv720p/ch01/master.m3u8",
       streamUrlServer4: ""
     },  
    
