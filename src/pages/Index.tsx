@@ -392,7 +392,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/133.png",
       competitionName: "EFL Cup",
       matchTime: '2026-02-03T21:00:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
+      streamUrlEnglish: "https://dgzz4gmtu2krx.cloudfront.net/status/1/fronts.woff2?1089a7",
       streamUrlArabic: "https://sawanac414-be.hf.space/b/p/BEIN-SPORTS-MAX-4/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
@@ -405,10 +405,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/138.png",
       competitionName: "Copa del Rey",
       matchTime: '2026-02-03T21:00:00',
-      streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?1f7df6",
-      streamUrlArabic: "https://d2gvljzyfaudw2.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/EPL-02/index.m3u8",
-      streamUrlServer4: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-5/index.m3u8"
+      streamUrlEnglish: "https://storage.googleapis.com/othertrungius/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },  
 
     
