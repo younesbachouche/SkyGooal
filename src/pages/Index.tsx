@@ -368,9 +368,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/209.png",
       competitionName: "DFB Pokal",
       matchTime: '2026-02-03T20:45:00',
-      streamUrlEnglish: "https://mocef38798-be.hf.space/b/p/ESPN-Deportes/index.m3u8",
-      streamUrlArabic: "https://sireli1307-be.hf.space/b/p/La-Liga-TV/index.m3u8",
-      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/LA-LIGA-TV-BU/index.m3u8",
+      streamUrlEnglish: "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8",
+      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/BEIN-SPORTS-MAX-5/index.m3u8",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
   {
