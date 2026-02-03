@@ -382,7 +382,7 @@ function getMatchData() {
       matchTime: '2026-02-03T20:45:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
       streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/12_.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://mejarhosting.cfd/posttv720p/ch05/master.m3u8",
       streamUrlServer4: ""
     }, 
        {
