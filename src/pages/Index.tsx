@@ -380,8 +380,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-02-07T15:30:00',
-      streamUrlEnglish: "https://sireli1307-be.hf.space/b/p/Sky-Bundesliga-1/index.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/BEIN-SPORTS-MAX-4/index.m3u8",
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/67_.m3u8",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/41_.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
