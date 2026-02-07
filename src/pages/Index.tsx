@@ -362,54 +362,17 @@ function getMatchData() {
   return [
     
      {
-      team1: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
-      team2: { name: "St. Pauli", logo: "https://imgs.ysscores.com/teams/128/6091690370514.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/209.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/209.png",
-      competitionName: "DFB Pokal",
-      matchTime: '2026-02-03T20:45:00',
-      streamUrlEnglish: "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/BEIN-SPORTS-MAX-5/index.m3u8",
+      team1: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
+      team2: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-07T13:30:00',
+      streamUrlEnglish: "https://d1lgd3xdc194i4.cloudfront.net/status/1/fronts.woff2?39ece5",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
-  {
-      team1: { name: "Bologna", logo: "https://imgs.ysscores.com/teams/128/4281690283003.png" },
-      team2: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-02-03T20:45:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
-      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/12_.m3u8",
-      streamUrlServer3: "https://mejarhosting.cfd/posttv720p/ch05/master.m3u8",
-      streamUrlServer4: ""
-    }, 
-       {
-      team1: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
-      team2: { name: "Chelsea", logo: "https://imgs.ysscores.com/teams/128/2571690118280.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/133.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/133.png",
-      competitionName: "EFL Cup",
-      matchTime: '2026-02-03T21:00:00',
-      streamUrlEnglish: "https://dgzz4gmtu2krx.cloudfront.net/status/1/fronts.woff2?1089a7",
-      streamUrlArabic: "https://sawanac414-be.hf.space/b/p/BEIN-SPORTS-MAX-4/index.m3u8",
-      streamUrlServer3: "https://mejarhosting.cfd/posttv720p/ch01/master.m3u8",
-      streamUrlServer4: "https://mejarhosting.cfd/posttv1080p/ch01/master.m3u8"
-    },  
-   
-     {
-      team1: { name: "Albacete", logo: "https://imgs.ysscores.com/teams/128/7631698687618.png" },
-      team2: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/138.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/138.png",
-      competitionName: "Copa del Rey",
-      matchTime: '2026-02-03T21:00:00',
-      streamUrlEnglish: "https://storage.googleapis.com/othertrungius/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://mejarhosting.cfd/posttv1080p/ch02/master.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },  
 
     
   ];
