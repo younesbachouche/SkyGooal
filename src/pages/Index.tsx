@@ -408,7 +408,7 @@ function getMatchData() {
       matchTime: '2026-02-07T16:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/pourtytnvvsde2/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/3_.m3u8",
       streamUrlServer4: ""
     }, 
 
@@ -420,7 +420,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-07T16:00:00',
       streamUrlEnglish: "https://d2j7633p2yhdob.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/26_.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -447,7 +447,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-07T16:00:00',
       streamUrlEnglish: "https://d2j7633p2yhdob.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/25_.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
