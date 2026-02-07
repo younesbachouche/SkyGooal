@@ -407,7 +407,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-07T16:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/pourtytnvvsde2/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://d1lgd3xdc194i4.cloudfront.net/status/5/fronts.woff2?6cc70f",
       streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/3_.m3u8",
       streamUrlServer4: ""
     }, 
