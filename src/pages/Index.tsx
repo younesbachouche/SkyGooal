@@ -472,10 +472,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Serie A",
       matchTime: '2026-02-07T18:00:00',
-      streamUrlEnglish: "https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?1f7df6",
-      streamUrlArabic: "https://d2gvljzyfaudw2.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "https://sireli1307-be.hf.space/b/p/EPL-02/index.m3u8",
-      streamUrlServer4: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-5/index.m3u8"
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/63_.m3u8",
+      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
+      streamUrlServer4: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/13_.m3u8"
     }, 
 
     {
