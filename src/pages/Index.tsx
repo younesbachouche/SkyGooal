@@ -511,9 +511,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/526.png",
       competitionName: "CAF Champions League",
       matchTime: '2026-02-07T20:00:00',
-      streamUrlEnglish: "https://d2j7633p2yhdob.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/25_.m3u8",
-      streamUrlServer3: "https://d1lgd3xdc194i4.cloudfront.net/status/1/fronts.woff2?23652e",
+      streamUrlEnglish: "https://razkomoknine.blogspot.com",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
   ];
