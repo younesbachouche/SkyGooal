@@ -478,9 +478,31 @@ function getMatchData() {
       streamUrlServer4: "https://mocef38798-be.hf.space/b/p/CANAL-LIVE-5/index.m3u8"
     }, 
 
-   
+    {
+      team1: { name: "Sevilla", logo: "https://imgs.ysscores.com/teams/128/6931690196743.png" },
+      team2: { name: "Girona", logo: "https://imgs.ysscores.com/teams/128/3151690196742.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
+      competitionName: "La Liga",
+      matchTime: '2026-02-07T18:30:00',
+      streamUrlEnglish: "https://d1lgd3xdc194i4.cloudfront.net/status/6/fronts.woff2?60de61",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/76_.m3u8",
+      streamUrlServer3: "https://d2j7633p2yhdob.cloudfront.net/svg/n6/javascript.json",
+      streamUrlServer4: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/37_.m3u8"
+    },  
 
-
+    {
+      team1: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
+      team2: { name: "Brentford", logo: "https://imgs.ysscores.com/teams/128/4791690118957.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-07T18:30:00',
+      streamUrlEnglish: "https://d2j7633p2yhdob.cloudfront.net/svg/n3/javascript.json",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/25_.m3u8",
+      streamUrlServer3: "https://d1lgd3xdc194i4.cloudfront.net/status/1/fronts.woff2?23652e",
+      streamUrlServer4: ""
+    }, 
     
   ];
   
