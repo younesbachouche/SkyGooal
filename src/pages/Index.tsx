@@ -370,7 +370,7 @@ function getMatchData() {
       matchTime: '2026-02-08T17:30:00',
       streamUrlEnglish: "https://liveua.score806.cc/uk_ssepl/index.m3u8",
       streamUrlArabic: "https://liveua.cdnfly.click/epl_liv/index.m3u8",
-      streamUrlServer3: "https://razkomoknine.blogspot.com/",
+      streamUrlServer3: "https://liveua.score806.cc/event2/index.m3u8",
       streamUrlServer4: ""
     }, 
     
