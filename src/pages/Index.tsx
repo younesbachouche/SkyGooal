@@ -409,10 +409,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-02-09T21:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/76_.m3u8",
-      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/36_.m3u8",
-      streamUrlServer4: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/76_.m3u8"
+      streamUrlEnglish: "https://mejarhosting.cfd/posttv1080p/ch03/master.m3u8",
+      streamUrlArabic: "http://135.125.109.73:9000/beinsport3_.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },  
     
   ];
