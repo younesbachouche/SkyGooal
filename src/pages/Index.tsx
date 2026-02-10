@@ -369,8 +369,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: "2026-02-10T20:30:00",
       streamUrlArabic: "https://ye.petsasangood.sbs/status/1/fronts.woff2?cd460e",
-      streamUrlEnglish: "",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://liveua.score806.cc/uk_bts4/index.m3u8",
+      streamUrlServer3: "https://liveua.score806.cc/epl_che/tracks-v1a1/mono.m3u8",
       streamUrlServer4: "",
     },
 
@@ -382,9 +382,9 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: "2026-02-10T20:30:00",
       streamUrlArabic: "https://no.freegandom.sbs/status/2/fronts.woff2?8f98fc",
-      streamUrlEnglish: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
+      streamUrlEnglish: "https://liveua.cdnfly.click/uk_bts5/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "https://liveua.score806.cc/epl_eve/tracks-v1a1/mono.m3u8",
+      streamUrlServer4: "https://liveua.cdnfly.click/event1/tracks-v1a1/mono.m3u8",
     },
 
     {
@@ -395,9 +395,9 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: "2026-02-10T20:30:00",
       streamUrlArabic: "https://pa.karajballrat.sbs/status/3/fronts.woff2?ac94a1",
-      streamUrlEnglish: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
+      streamUrlEnglish: "https://liveua.score806.cc/epl_tot/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "https://liveua.score806.cc/event2/tracks-v1a1/mono.m3u8",
+      streamUrlServer4: "https://liveua.score806.cc/pt_elevensport3/tracks-v1a1/mono.m3u8",
     },
     
     
