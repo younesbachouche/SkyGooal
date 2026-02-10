@@ -9,9 +9,9 @@ export interface League {
 export const leagues: League[] = [
   {
     id: 'afcon',
-    name: 'AFCON 2025',
-    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,dpr_2,d_Countries:Round:44.png/v11/Competitions/light/167',
-    apiUrl: 'https://webws.365scores.com/web/standings/?langId=15&competitions=167',
+    name: 'CAF Champions League',
+    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,dpr_2,d_Countries:Round:44.png/v11/Competitions/light/624',
+    apiUrl: 'https://webws.365scores.com/web/standings/?langId=15&competitions=624',
     hasGroups: true
   },
   {
