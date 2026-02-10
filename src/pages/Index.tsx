@@ -418,8 +418,8 @@ function getMatchData() {
     {
       team1: { name: "SSC Napoli", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
       team2: { name: "CComo", logo: "https://imgs.ysscores.com/teams/128/8641690823614.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/109.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/109.png",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/141.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/141.png",
       competitionName: "Coppa Italia",
       matchTime: '2026-02-10T21:00:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
