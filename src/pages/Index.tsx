@@ -368,10 +368,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: "2026-02-10T20:30:00",
-      streamUrlArabic: "",
-      streamUrlEnglish: "https://mejarhosting.cfd/posttv720p/ch01/stream_0.m3u8",
+      streamUrlArabic: "https://ye.petsasangood.sbs/status/1/fronts.woff2?cd460e",
+      streamUrlEnglish: "",
       streamUrlServer3: "",
-      streamUrlServer4: "https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/CbYnyvtK-YJBSRVrRYUAdb7_32erqyKiHfU0FX1qEo-K3kQfh47K-LrE3TxXpTKsTTY6yi7H47zgkdk8PTbnXw/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live",
+      streamUrlServer4: "",
     },
 
      {
