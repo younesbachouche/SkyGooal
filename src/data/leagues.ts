@@ -47,14 +47,14 @@ export const leagues: League[] = [
   {
     id: 'ligue1',
     name: 'Ligue 1',
-    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,dpr_2,d_Countries:Round:5.png/v5/Competitions/light/57',
-    apiUrl: 'https://webws.365scores.com/web/standings/?langId=1&competitions=57'
+    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,dpr_2,d_Countries:Round:5.png/v5/Competitions/light/35',
+    apiUrl: 'https://webws.365scores.com/web/standings/?langId=1&competitions=35'
   },
   {
     id: 'eredivisie',
     name: 'Eredivisie',
-    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,dpr_2,d_Countries:Round:5.png/v5/Competitions/light/35',
-    apiUrl: 'https://webws.365scores.com/web/standings/?langId=1&competitions=35'
+    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,dpr_2,d_Countries:Round:5.png/v5/Competitions/light/57',
+    apiUrl: 'https://webws.365scores.com/web/standings/?langId=1&competitions=57'
   },
   {
     id: 'ucl',
