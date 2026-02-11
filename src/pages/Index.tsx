@@ -394,10 +394,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: "2026-02-11T20:30:00",
-      streamUrlArabic: "https://pa.karajballrat.sbs/status/3/fronts.woff2?ac94a1",
-      streamUrlEnglish: "https://liveua.score806.cc/epl_tot/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "https://liveua.score806.cc/event2/tracks-v1a1/mono.m3u8",
-      streamUrlServer4: "https://liveua.score806.cc/pt_elevensport3/tracks-v1a1/mono.m3u8",
+      streamUrlArabic: "https://d1tq91t4hsq0gx.cloudfront.net/status/2/fronts.woff2?bcd98e",
+      streamUrlEnglish: "",
+      streamUrlServer3: "",
+      streamUrlServer4: "",
     },
 
      {
