@@ -370,7 +370,7 @@ function getMatchData() {
       matchTime: "2026-02-11T20:30:00",
       streamUrlArabic: "https://d1tq91t4hsq0gx.cloudfront.net/status/3/fronts.woff2?b1e9b0",
       streamUrlEnglish: "https://mejarhosting.cfd/alfajer720p/ch01/master.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://mejarhosting.cfd/posttv720p/ch03/master.m3u8",
       streamUrlServer4: "",
     },
 
