@@ -423,7 +423,7 @@ function getMatchData() {
       competitionName: "DFB Pokal",
       matchTime: '2026-02-11T20:45:00',
       streamUrlEnglish: "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://karwan.tv/live/sport-channel-1-1.php",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
