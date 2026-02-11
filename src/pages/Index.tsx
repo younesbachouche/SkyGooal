@@ -368,9 +368,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: "2026-02-11T20:30:00",
-      streamUrlArabic: "https://ye.petsasangood.sbs/status/1/fronts.woff2?cd460e",
-      streamUrlEnglish: "https://liveua.score806.cc/uk_bts4/index.m3u8",
-      streamUrlServer3: "https://liveua.score806.cc/epl_che/tracks-v1a1/mono.m3u8",
+      streamUrlArabic: "https://d1tq91t4hsq0gx.cloudfront.net/status/3/fronts.woff2?b1e9b0",
+      streamUrlEnglish: "",
+      streamUrlServer3: "",
       streamUrlServer4: "",
     },
 
