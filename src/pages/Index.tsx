@@ -458,9 +458,9 @@ function getMatchData() {
      {
       team1: { name: "West Ham", logo: "https://imgs.ysscores.com/teams/128/7191690118603.png" },
       team2: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
       matchTime: '2026-02-11T21:15:00',
       streamUrlEnglish: "https://mejarhosting.cfd/posttv1080p/ch03/master.m3u8",
       streamUrlEnglish: "https://mejarhosting.cfd/posttv720p/ch01/stream_0.m3u8",
