@@ -448,8 +448,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/138.png",
       competitionName: "Copa del Rey",
       matchTime: '2026-02-11T21:00:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
-      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/61_.m3u8",
+      streamUrlEnglish: "http://streaming.sattvgo.com.br/ESPN4_HD/index.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
