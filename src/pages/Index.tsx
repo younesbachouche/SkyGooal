@@ -372,7 +372,7 @@ function getMatchData() {
       matchTime: '2026-02-12T21:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/atlertunghfer/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://smarthard.click/hls/epddZRPMVIM/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://karwan.tv/live/sport-channel-1-1.php",
       streamUrlServer4: ""
     }, 
    
