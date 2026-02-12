@@ -373,7 +373,7 @@ function getMatchData() {
       streamUrlEnglish: "https://storage.googleapis.com/atlertunghfer/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://smarthard.click/hls/epddZRPMVIM/index.m3u8",
       streamUrlServer3: "https://karwan.tv/live/sport-channel-1-1.php",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8"
     }, 
    
 
