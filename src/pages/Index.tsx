@@ -364,31 +364,20 @@ function getMatchData() {
 
 
      {
-      team1: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
-      team2: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
+      team1: { name: "Sundowns", logo: "https://imgs.ysscores.com/teams/128/5061694715092.png" },
+      team2: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/138.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/138.png",
-      competitionName: "Copa del Rey",
-      matchTime: '2026-02-12T21:00:00',
-      streamUrlEnglish: "https://storage.googleapis.com/atlertunghfer/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://smarthard.click/hls/epddZRPMVIM/index.m3u8",
-      streamUrlServer3: "https://karwan.tv/live/sport-channel-1-1.php",
-      streamUrlServer4: "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8"
+      competitionName: "CAF Champions League",
+      matchTime: '2026-02-14T14:00:00',
+      streamUrlEnglish: "https://razkomoknine.blogspot.com/",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     }, 
    
 
-     {
-      team1: { name: "Brentford", logo: "https://imgs.ysscores.com/teams/128/4791690118957.png" },
-      team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-12T21:00:00',
-      streamUrlEnglish: "https://d1lgd3xdc194i4.cloudfront.net/status/1/fronts.woff2?6d6d39",
-      streamUrlEnglish: "https://storage.googleapis.com/portybnghfiuh1/mux_video_ts/index-1.m3u8",
-      streamUrlServer3: "https://storage.googleapis.com/portybnghfiuh1/mux_video_ts/index-1.m3u8",
-      streamUrlServer4: "",
-    },
+   
   ];
   
 }
