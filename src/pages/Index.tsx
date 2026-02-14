@@ -371,9 +371,9 @@ function getMatchData() {
       competitionName: "CAF Champions League",
       matchTime: '2026-02-14T14:00:00',
       streamUrlEnglish: "https://ligspain.blogspot.com",
-      streamUrlArabic: "http://135.125.109.73:9000/beinsport2_.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://www.youtube.com/embed/hj5DlelHGTg"
+      streamUrlArabic: "",
+      streamUrlServer3: "https://www.youtube.com/embed/hj5DlelHGTg",
+      streamUrlServer4: "http://135.125.109.73:9000/beinsport2_.m3u8"
     }, 
    
 
