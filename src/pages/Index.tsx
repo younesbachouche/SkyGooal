@@ -371,7 +371,7 @@ function getMatchData() {
       competitionName: "CAF Champions League",
       matchTime: '2026-02-14T14:00:00',
       streamUrlEnglish: "https://razkomoknine.blogspot.com/",
-      streamUrlArabic: "",
+      streamUrlArabic: "http://135.125.109.73:9000/beinsport2_.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
