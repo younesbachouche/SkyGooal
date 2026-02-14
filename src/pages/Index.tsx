@@ -366,8 +366,8 @@ function getMatchData() {
      {
       team1: { name: "Sundowns", logo: "https://imgs.ysscores.com/teams/128/5061694715092.png" },
       team2: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/138.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/138.png",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/526.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/526.png",
       competitionName: "CAF Champions League",
       matchTime: '2026-02-14T14:00:00',
       streamUrlEnglish: "https://ligspain.blogspot.com",
