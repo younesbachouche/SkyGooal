@@ -422,10 +422,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/132.png",
       competitionName: "FA Cup",
       matchTime: '2026-02-15T14:30:00',
-      streamUrlEnglish: "https://sh.moyombarat.sbs/status/2/fronts.woff2?9c3d70",
+      streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://sh.moyombarat.sbs/status/2/fronts.woff2?9c3d70"
     }, 
     
      {
@@ -435,10 +435,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/132.png",
       competitionName: "FA Cup",
       matchTime: '2026-02-15T15:00:00',
-      streamUrlEnglish: "https://sh.moyombarat.sbs/status/4/fronts.woff2?6e544b",
+      streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://sh.moyombarat.sbs/status/4/fronts.woff2?6e544b"
     }, 
 
      {
