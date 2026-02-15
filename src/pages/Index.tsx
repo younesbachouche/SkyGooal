@@ -423,7 +423,7 @@ function getMatchData() {
       competitionName: "FA Cup",
       matchTime: '2026-02-15T14:30:00',
       streamUrlEnglish: "https://ioswatch.xyz/ios/embed_view.php?id=41f482c461db1587",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://ioswatch.xyz/ios/embed_view.php?id=92d9ff37dfb30882",
       streamUrlServer3: "",
       streamUrlServer4: "https://sh.moyombarat.sbs/status/2/fronts.woff2?9c3d70"
     }, 
