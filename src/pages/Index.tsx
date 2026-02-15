@@ -424,7 +424,7 @@ function getMatchData() {
       matchTime: '2026-02-15T14:30:00',
       streamUrlEnglish: "",
       streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://ioswatch.xyz/ios/embed_view.php?id=41f482c461db1587",
       streamUrlServer4: "https://ioswatch.xyz/ios/embed_view.php?id=41f482c461db1587"
     }, 
     
