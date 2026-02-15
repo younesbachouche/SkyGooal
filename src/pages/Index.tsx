@@ -435,7 +435,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/132.png",
       competitionName: "FA Cup",
       matchTime: '2026-02-15T15:00:00',
-      streamUrlEnglish: "https://sh.moyombarat.sbs/status/1/fronts.woff2?691cd5",
+      streamUrlEnglish: "https://sh.moyombarat.sbs/status/4/fronts.woff2?6e544b",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
