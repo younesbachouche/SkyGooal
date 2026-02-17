@@ -396,7 +396,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-02-17T21:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?8f204e",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
@@ -410,7 +410,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-02-17T21:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://d3rzj7h9lnm2kf.cloudfront.net/status/3/fronts.woff2?6acefa",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
