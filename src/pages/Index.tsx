@@ -383,9 +383,9 @@ function getMatchData() {
       competitionName: "Champions League",
       matchTime: '2026-02-17T21:00:00',
       streamUrlEnglish: "https://d3rzj7h9lnm2kf.cloudfront.net/status/2/fronts.woff2?8b00e9",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/22_.m3u8",
+      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/1_.m3u8",
+      streamUrlServer4: "https://match3dzt.blogspot.com/"
     }, 
     
 
