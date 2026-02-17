@@ -371,7 +371,7 @@ function getMatchData() {
       matchTime: '2026-02-17T18:45:00',
       streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?b8b70d",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://d3r8pf1u64jsoc.cloudfront.net/out/v1/efe2396f3d2d49559edb992c14909e42/index/index.m3u8",
       streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
     },  
 
