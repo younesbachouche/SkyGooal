@@ -363,26 +363,26 @@ function getMatchData() {
     
      
      {
-      team1: { name: "Birmingham", logo: "https://imgs.ysscores.com/teams/128/3121690370534.png" },
-      team2: { name: "Leeds United", logo: "https://imgs.ysscores.com/teams/128/4691690458244.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/132.png",
-      competitionName: "FA Cup",
-      matchTime: '2026-02-15T13:00:00',
-      streamUrlEnglish: "https://sh.moyombarat.sbs/status/1/fronts.woff2?691cd5",
+      team1: { name: "Galatasaray", logo: "https://imgs.ysscores.com/teams/128/2081756067376.png" },
+      team2: { name: "Juventus", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9885_small.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-17T18:45:00',
+      streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },  
 
     {
-      team1: { name: "Real Oviedo", logo: "https://imgs.ysscores.com/teams/128/1891698830716.png" },
-      team2: { name: "A.Bilbao", logo: "https://imgs.ysscores.com/teams/128/1061690197944.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-02-15T14:00:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/24_.m3u8",
+      team1: { name: "SL Benfica", logo: "https://imgs.ysscores.com/teams/128/4491690386690.png" },
+      team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-17T21:00:00',
+      streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
@@ -390,71 +390,31 @@ function getMatchData() {
     
 
     {
-      team1: { name: "Udinese", logo: "https://imgs.ysscores.com/teams/128/8741690284718.png" },
-      team2: { name: "Sassuolo", logo: "https://imgs.ysscores.com/teams/128/731690283001.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
-      competitionName: "Serie A",
-      matchTime: '2026-02-15T15:00:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
-      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/61_.m3u8",
+      team1: { name: "Monaco", logo: "https://imgs.ysscores.com/teams/128/3861690287583.png" },
+      team2: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-17T21:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
 
     
      {
-      team1: { name: "Cremonese", logo: "https://imgs.ysscores.com/teams/128/5011690370508.png" },
-      team2: { name: "Genoa", logo: "https://imgs.ysscores.com/teams/128/1891690283004.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
-      competitionName: "Serie A",
-      matchTime: '2026-02-15T15:00:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
-      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/61_.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
-    {
-      team1: { name: "Grimsby Town", logo: "https://imgs.ysscores.com/teams/128/4721690370550.png" },
-      team2: { name: "Wolves", logo: "https://imgs.ysscores.com/teams/128/9631690118479.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/132.png",
-      competitionName: "FA Cup",
-      matchTime: '2026-02-15T14:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "https://ioswatch.xyz/ios/embed_view.php?id=41f482c461db1587",
-      streamUrlServer4: "https://ioswatch.xyz/ios/embed_view.php?id=41f482c461db1587"
-    }, 
-    
-     {
-      team1: { name: "Stoke City", logo: "https://imgs.ysscores.com/teams/128/6781690388673.png" },
-      team2: { name: "Fulham", logo: "https://imgs.ysscores.com/teams/128/4711690118927.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/132.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/132.png",
-      competitionName: "FA Cup",
-      matchTime: '2026-02-15T15:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://sh.moyombarat.sbs/status/4/fronts.woff2?6e544b"
-    }, 
-
-     {
-      team1: { name: "Vallecano", logo: "https://imgs.ysscores.com/teams/128/1511690196745.png" },
-      team2: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-02-15T16:15:00',
+      team1: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
+      team2: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-17T21:00:00',
       streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
-
-     
     
   ];
   
