@@ -370,7 +370,7 @@ function getMatchData() {
       competitionName: "Champions League",
       matchTime: '2026-02-17T18:45:00',
       streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5",
       streamUrlServer3: "https://mocef38798-be.hf.space/b/p/TNT-Sports-1/index.m3u8",
       streamUrlServer4: ""
     },  
