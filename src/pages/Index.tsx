@@ -371,7 +371,7 @@ function getMatchData() {
       matchTime: '2026-02-18T18:45:00',
       streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://cdn.zicotv.cc/liga-campeones-2/index.fmp4.m3u8",
       streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
     },  
 
