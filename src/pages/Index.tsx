@@ -375,43 +375,69 @@ function getMatchData() {
       streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
     },  
 
+     {
+      team1: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
+      team2: { name: "Como", logo: "https://imgs.ysscores.com/teams/128/8641690823614.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Serie A",
+      matchTime: '2026-02-18T20:45:00',
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
+      streamUrlArabic: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/12_.m3u8",
+      streamUrlServer3: "https://daddy.cdnfan.site/topembed/live.m3u8?id=ArenaSport4[Serbia]&vtoken=exp=1771435107~acl=/*~id=ArenaSport4[Serbia]~ip=105.101.232.10~hmac=86018d41c04f84f1a87a26fccc4480778e1a66d8&format=.m3u8",
+      streamUrlServer4: "https://daddy.cdnfan.site/topembed/watch?id=ArenaSport4[Serbia]"
+    },  
+    
+
     {
-      team1: { name: "SL Benfica", logo: "https://imgs.ysscores.com/teams/128/4491690386690.png" },
-      team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      team1: { name: "Bodø/Glimt", logo: "https://imgs.ysscores.com/teams/128/8781690370522.png" },
+      team2: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-17T21:00:00',
-      streamUrlEnglish: "https://d3rzj7h9lnm2kf.cloudfront.net/status/2/fronts.woff2?8b00e9",
-      streamUrlArabic: "https://razkomoknine.blogspot.com/",
-      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/22_.m3u8",
-      streamUrlServer4: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/1_.m3u8"
+      matchTime: '2026-02-18T21:00:00',
+      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     }, 
     
 
     {
-      team1: { name: "Monaco", logo: "https://imgs.ysscores.com/teams/128/3861690287583.png" },
-      team2: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
+      team1: { name: "Olympiacos", logo: "https://imgs.ysscores.com/teams/128/1401690370533.png" },
+      team2: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-17T21:00:00',
-      streamUrlEnglish: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?8f204e",
-      streamUrlArabic: "https://razkosportenlive.blogspot.com/",
+      matchTime: '2026-02-18T21:00:00',
+      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n2/javascript.json",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
 
     
      {
-      team1: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
-      team2: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
+      team1: { name: "Club Brugge", logo: "https://imgs.ysscores.com/teams/128/121690370520.png" },
+      team2: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-17T21:00:00',
-      streamUrlEnglish: "https://d3rzj7h9lnm2kf.cloudfront.net/status/3/fronts.woff2?6acefa",
-      streamUrlArabic: "https://moknineraz.blogspot.com/",
+      matchTime: '2026-02-18T21:00:00',
+      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n3/javascript.json",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+      {
+      team1: { name: "Wolves", logo: "https://imgs.ysscores.com/teams/128/9631690118479.png" },
+      team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-18T21:00:00',
+      streamUrlEnglish: "https://gametimes.plus/4444.php",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
