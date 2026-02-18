@@ -378,8 +378,8 @@ function getMatchData() {
      {
       team1: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
       team2: { name: "Como", logo: "https://imgs.ysscores.com/teams/128/8641690823614.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-02-18T20:45:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/11_.m3u8",
@@ -437,7 +437,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-18T21:00:00',
       streamUrlEnglish: "https://gametimes.plus/4444.php",
-      streamUrlArabic: "https://daddy.cdnfan.site/topembed/watch?id=SkySportsPremierLeague[UK]",
+      streamUrlArabic: "https://daddy.cdnfan.site/topembed/live.m3u8?id=SkySportsPremierLeague[UK]&vtoken=exp=1771435785~acl=/*~id=SkySportsPremierLeague[UK]~ip=105.101.232.10~hmac=b8f18fe2298bfbd4e56345bf89db1f4da10098cb&format=.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: "https://daddy.cdnfan.site/topembed/watch?id=SkySportsPremierLeague[UK]"
     }, 
