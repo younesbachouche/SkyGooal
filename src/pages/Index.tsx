@@ -363,15 +363,15 @@ function getMatchData() {
     
      
      {
-      team1: { name: "Galatasaray", logo: "https://imgs.ysscores.com/teams/128/2081756067376.png" },
-      team2: { name: "Juventus", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/9885_small.png" },
+      team1: { name: "Qarabag FK", logo: "https://imgs.ysscores.com/teams/128/5151690822077.png" },
+      team2: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-17T18:45:00',
+      matchTime: '2026-02-18T18:45:00',
       streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?b8b70d",
-      streamUrlServer3: "https://d3r8pf1u64jsoc.cloudfront.net/out/v1/efe2396f3d2d49559edb992c14909e42/index/index.m3u8",
+      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
+      streamUrlServer3: "",
       streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
     },  
 
