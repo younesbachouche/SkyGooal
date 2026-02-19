@@ -369,10 +369,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
       competitionName: "Europa League",
       matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/24_.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
+      streamUrlServer4: ""
     },  
 
      {
@@ -382,10 +382,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
       competitionName: "Europa League",
       matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/22_.m3u8",
+      streamUrlArabic: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/bein01.m3u8",
+      streamUrlServer3: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/multi-01.m3u8",
+      streamUrlServer4: ""
     },  
      {
       team1: { name: "PAOK", logo: "https://imgs.ysscores.com/teams/128/2801690370532.png" },
@@ -394,10 +394,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
       competitionName: "Europa League",
       matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/25_.m3u8",
+      streamUrlArabic: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/multi-03.m3u8",
       streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
+      streamUrlServer4: ""
     },  
      {
       team1: { name: "SK Brann", logo: "https://imgs.ysscores.com/teams/128/9801690370526.png" },
@@ -406,10 +406,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
       competitionName: "Europa League",
       matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/26_.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
+      streamUrlServer4: ""
     },  
 
     {
