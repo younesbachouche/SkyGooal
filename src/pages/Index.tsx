@@ -383,7 +383,7 @@ function getMatchData() {
       competitionName: "Europa League",
       matchTime: '2026-02-19T18:45:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/22_.m3u8",
-      streamUrlArabic: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/bein01.m3u8",
+      streamUrlArabic: "https://cdn.zicotv.cc/liga-campeones-2/index.m3u8",
       streamUrlServer3: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/multi-01.m3u8",
       streamUrlServer4: ""
     },  
@@ -396,7 +396,7 @@ function getMatchData() {
       matchTime: '2026-02-19T18:45:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/25_.m3u8",
       streamUrlArabic: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/multi-03.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://cdn.zicotv.cc/liga-campeones-3/index.m3u8",
       streamUrlServer4: ""
     },  
      {
