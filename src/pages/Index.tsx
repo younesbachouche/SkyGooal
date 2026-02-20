@@ -417,7 +417,7 @@ function getMatchData() {
 
 
     {
-      team1: { name: "MC Oran", logo: "https://imgs.ysscores.com/teams/128/1061690197944.png" },
+      team1: { name: "MC Oran", logo: "https://images.fotmob.com/image_resources/logo/teamlogo/101636.png" },
       team2: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/516.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
@@ -428,6 +428,20 @@ function getMatchData() {
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
+
+    {
+      team1: { name: "CR Belouizdad", logo: "https://imgs.ysscores.com/teams/128/4951692205804.png" },
+      team2: { name: "El Bayadh", logo: "https://imgs.ysscores.com/teams/128/6821693418375.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/516.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
+      competitionName: "Ligue 1 Mobilis",
+      matchTime: '2026-02-20T22:00:00',
+      streamUrlEnglish: "https://razkosportenlive.blogspot.com",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+     
 
      
     
