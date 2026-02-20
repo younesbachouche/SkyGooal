@@ -371,8 +371,8 @@ function getMatchData() {
       competitionName: "Bundesliga",
       matchTime: '2026-02-20T20:40:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/18_.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://liveua.score806.cc/pt_elevensport2/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "https://liveua.cdnfly.click/espn0/tracks-v1a1/mono.m3u8",
       streamUrlServer4: ""
     },  
      {
@@ -383,8 +383,8 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-02-20T20:45:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/14_.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://liveua.score806.cc/us_foxdeport/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "https://liveua.cdnfly.click/event1/tracks-v1a1/mono.m3u8",
       streamUrlServer4: ""
     }, 
 
@@ -396,7 +396,7 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-02-20T20:45:00',
       streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/76_.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },  
