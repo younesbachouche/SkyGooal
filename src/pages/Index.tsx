@@ -408,8 +408,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-02-20T21:00:00',
-      streamUrlEnglish: "https://p1.akhbarpress.net/mobile/e7ogzzL6_2BqNb0yMO9Q2w/1771620744/1771620483/0/multi-01.m3u8",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8",
+      streamUrlArabic: "https://p1.akhbarpress.net/mobile/e7ogzzL6_2BqNb0yMO9Q2w/1771620744/1771620483/0/multi-01.m3u8",
+
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
