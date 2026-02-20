@@ -388,6 +388,19 @@ function getMatchData() {
       streamUrlServer4: ""
     }, 
 
+     {
+      team1: { name: "Brestois", logo: "https://imgs.ysscores.com/teams/128/7551690287380.png" },
+      team2: { name: "Marseille", logo: "https://imgs.ysscores.com/teams/128/6031690287269.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/53.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
+      competitionName: "Ligue 1",
+      matchTime: '2026-02-20T20:45:00',
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/76_.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },  
+
      
     
   ];
