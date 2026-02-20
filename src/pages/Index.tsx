@@ -415,6 +415,20 @@ function getMatchData() {
       streamUrlServer4: ""
     },
 
+
+    {
+      team1: { name: "MC Oran", logo: "https://imgs.ysscores.com/teams/128/1061690197944.png" },
+      team2: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/516.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
+      competitionName: "Ligue 1 Mobilis",
+      matchTime: '2026-02-20T22:00:00',
+      streamUrlEnglish: "https://razkomoknine.blogspot.com/",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+
      
     
   ];
