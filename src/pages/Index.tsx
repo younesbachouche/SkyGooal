@@ -362,81 +362,19 @@ function getMatchData() {
   return [
     
      
+     
      {
-      team1: { name: "Dinamo Zagreb", logo: "https://imgs.ysscores.com/teams/128/7051690823026.png" },
-      team2: { name: "KRC Genk", logo: "https://imgs.ysscores.com/teams/128/8001690823226.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/73.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
-      competitionName: "Europa League",
-      matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/24_.m3u8",
+      team1: { name: "Mainz 05", logo: "https://imgs.ysscores.com/teams/128/8131690288819.png" },
+      team2: { name: "Hamburger SV", logo: "https://imgs.ysscores.com/teams/128/261690370540.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
+      competitionName: "Bundesliga",
+      matchTime: '2026-02-20T20:40:00',
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/18_.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },  
-
-     {
-      team1: { name: "Fenerbahce", logo: "https://imgs.ysscores.com/teams/128/681690127723.png" },
-      team2: { name: "Nottingham", logo: "https://imgs.ysscores.com/teams/128/7741690119007.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/73.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
-      competitionName: "Europa League",
-      matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/22_.m3u8",
-      streamUrlArabic: "https://cdn.zicotv.cc/liga-campeones-2/index.m3u8",
-      streamUrlServer3: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/multi-01.m3u8",
-      streamUrlServer4: ""
-    },  
-     {
-      team1: { name: "PAOK", logo: "https://imgs.ysscores.com/teams/128/2801690370532.png" },
-      team2: { name: "Celta Vigo", logo: "https://imgs.ysscores.com/teams/128/9611690196747.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/73.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
-      competitionName: "Europa League",
-      matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/25_.m3u8",
-      streamUrlArabic: "https://p1.akhbarpress.net/mobile/UfQ7hBOF98W7R283mNE7qA/1771525253/1771524992/0/multi-03.m3u8",
-      streamUrlServer3: "https://cdn.zicotv.cc/liga-campeones-3/index.m3u8",
-      streamUrlServer4: ""
-    },  
-     {
-      team1: { name: "SK Brann", logo: "https://imgs.ysscores.com/teams/128/9801690370526.png" },
-      team2: { name: "Bologna", logo: "https://imgs.ysscores.com/teams/128/4281690283003.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/73.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
-      competitionName: "Europa League",
-      matchTime: '2026-02-19T18:45:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/26_.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },  
-
-    {
-      team1: { name: "Celtic", logo: "https://imgs.ysscores.com/teams/128/9291690387713.png" },
-      team2: { name: "VfB Stuttgart", logo: "https://imgs.ysscores.com/teams/128/8731690288819.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/73.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
-      competitionName: "Europa League",
-      matchTime: '2026-02-19T21:00:00',
-      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
-    },
-
-    {
-      team1: { name: "Lille", logo: "https://imgs.ysscores.com/teams/128/381690287334.png" },
-      team2: { name: "Crvena Zvezda", logo: "https://imgs.ysscores.com/teams/128/7061690370536.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/73.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/73.png",
-      competitionName: "Europa League",
-      matchTime: '2026-02-19T21:00:00',
-      streamUrlEnglish: "https://d37wczqm9lv2qo.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d3rzj7h9lnm2kf.cloudfront.net/status/1/fronts.woff2?4e279b",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=d1531a7e6d817cd5"
-    },
 
 
      
