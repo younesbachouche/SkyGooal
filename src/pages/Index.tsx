@@ -411,7 +411,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-21T16:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://liveua.cdnfly.click/epl_che/tracks-v1a1/mono.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
