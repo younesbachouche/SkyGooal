@@ -424,8 +424,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-21T16:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://liveua.score806.cc/epl_bre/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "https://liveua.score806.cc/event3/tracks-v1a1/mono.m3u8",
       streamUrlServer4: ""
     }, 
 
@@ -437,8 +437,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-21T16:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n2/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://liveua.score806.cc/epl_avl/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "https://liveua.score806.cc/event4/tracks-v1a1/mono.m3u8",
       streamUrlServer4: ""
     }, 
     
