@@ -534,7 +534,7 @@ function getMatchData() {
       matchTime: '2026-02-21T21:00:00',
       streamUrlEnglish: "https://d2v20w69eet76w.cloudfront.net/status/1/fronts.woff2?0c7424",
       streamUrlArabic: "https://storage.googleapis.com/overgamesdjhqa1/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://601.833577.xyz/tnt.m3u8",
       streamUrlServer4: "http://xcarscharge.pro:8080/bn1hd/tracks-v1a1/mono.m3u8"
     }, 
 
@@ -546,7 +546,7 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-02-21T21:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://daffodil.833577.xyz/dep.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -558,7 +558,7 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-02-21T21:05:00',
       streamUrlEnglish: "https://storage.googleapis.com/overgamesdjhqa3/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://daffodil.833577.xyz/beines.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
