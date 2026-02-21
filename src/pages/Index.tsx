@@ -495,7 +495,7 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-02-21T18:30:00',
       streamUrlEnglish: "https://storage.googleapis.com/overgamesdjhqa2/mux_video_ts1/index-1.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://storage.googleapis.com/otletinguhrtyngv/mux_video_ts/index-1.m3u8",
       streamUrlServer3: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/dep.m3u8",
       streamUrlServer4: "https://601.xn--1000-ugoxe8a5a7g4h.com/rma.m3u8"
     },
