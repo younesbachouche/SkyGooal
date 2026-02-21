@@ -452,9 +452,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-02-21T16:15:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/77_.m3u8",
+      streamUrlArabic: "https://tv.beinconnect.us/dlhd.php?id=beINAR3",
+      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/3_.m3u8",
       streamUrlServer4: ""
     },
 
