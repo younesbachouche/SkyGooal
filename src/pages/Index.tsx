@@ -509,8 +509,8 @@ function getMatchData() {
       matchTime: '2026-02-21T18:30:00',
       streamUrlEnglish: "https://storage.googleapis.com/overgamesdjhqa1/mux_video_ts1/index-1.m3u8",
       streamUrlArabic: "https://d282htkhzzfhrq.cloudfront.net/status/1/fronts.woff2?8f0e37",
-      streamUrlServer3: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/main.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer3: "https://river-3-369.rtbcdn.ru/stream/genetta-319.m9.rutube.ru/vSk9lKETM0zfL9cXtp1WBA/1772293524/9585fdae92af45f113fdcc9f6c4ba442/360p_stream.m3u8",
+      streamUrlServer4: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/7.m3u8"
     }, 
      {
       team1: { name: "Cagliari", logo: "https://imgs.ysscores.com/teams/128/7311690283001.png" },
