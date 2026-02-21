@@ -496,8 +496,8 @@ function getMatchData() {
       matchTime: '2026-02-21T18:30:00',
       streamUrlEnglish: "",
       streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=5073a8fae44cb6e3"
+      streamUrlServer3: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/dep.m3u8",
+      streamUrlServer4: ""
     },
 
      {
