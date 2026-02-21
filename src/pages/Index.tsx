@@ -464,7 +464,7 @@ function getMatchData() {
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/53.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
       competitionName: "Ligue 1",
-      matchTime: '2026-02-21T16:15:00',
+      matchTime: '2026-02-21T17:00:00',
       streamUrlEnglish: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/4.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
