@@ -387,7 +387,7 @@ function getMatchData() {
       streamUrlEnglish: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
       streamUrlArabic: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/one.m3u8",
       streamUrlServer3: "https://smarthard.click/hls/zGkz9Oc8we1P/index.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/one.m3u8"
     }, 
 
     {
