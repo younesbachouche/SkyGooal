@@ -466,7 +466,7 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-02-21T17:00:00',
       streamUrlEnglish: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/4.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/beines.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
