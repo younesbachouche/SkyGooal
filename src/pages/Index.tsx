@@ -481,7 +481,7 @@ function getMatchData() {
       matchTime: '2026-02-21T18:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n4/javascript.json",
       streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/14_.m3u8",
       streamUrlServer4: ""
     },
 
