@@ -372,7 +372,7 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-02-21T15:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://daffodil.xn--1000-ugoxe8a5a7g4h.com/golazo.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=1a5ed81df455ef25"
     }, 
