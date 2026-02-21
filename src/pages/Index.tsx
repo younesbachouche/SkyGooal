@@ -558,7 +558,7 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-02-21T21:05:00',
       streamUrlEnglish: "https://storage.googleapis.com/overgamesdjhqa3/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://daffodil.833577.xyz/beines.m3u8",
+      streamUrlArabic: "https://liveh12.vtvprime.vn/hls/TV5/03.m3u8",
       streamUrlServer3: "https://liveua.cdnfly.click/live05/index.m3u8",
       streamUrlServer4: ""
     }, 
