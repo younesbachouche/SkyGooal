@@ -533,7 +533,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-21T21:00:00',
       streamUrlEnglish: "https://d2v20w69eet76w.cloudfront.net/status/1/fronts.woff2?0c7424",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://storage.googleapis.com/overgamesdjhqa1/mux_video_ts1/index-1.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: "http://xcarscharge.pro:8080/bn1hd/tracks-v1a1/mono.m3u8"
     }, 
