@@ -384,9 +384,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-02-21T15:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
+      streamUrlArabic: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/one.m3u8",
+      streamUrlServer3: "https://smarthard.click/hls/zGkz9Oc8we1P/index.m3u8",
       streamUrlServer4: ""
     }, 
 
@@ -397,7 +397,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-02-21T15:30:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
