@@ -382,9 +382,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-22T15:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/2/default.default",
+      streamUrlArabic: "https://d16hmfe2m9krvw.cloudfront.net/svg/n2/javascript.json",
+      streamUrlServer3: "https://da.thermometer30.sbs/status/3/fronts.woff2?7fb6eb",
       streamUrlServer4: ""
     }, 
     
@@ -397,8 +397,8 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-22T15:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://sh.keypish.sbs/status/2/fronts.woff2?c41747",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
+      streamUrlServer3: "https://sh.keypish.sbs/status/2/fronts.woff2?c41747",
       streamUrlServer4: ""
     }, 
 
