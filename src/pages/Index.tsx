@@ -370,8 +370,8 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-02-22T14:00:00',
       streamUrlEnglish: "https://tv.beinconnect.us/dlhd.php?id=beINAR3",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://liveua.score806.cc/uk_premiersports1/tracks-v1a1/mono.m3u8",
+      streamUrlServer3: "https://liveua.cdnfly.click/uk_premiersports1/index.m3u8",
       streamUrlServer4: ""
     },  
 
