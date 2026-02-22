@@ -424,7 +424,7 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-02-22T15:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n5/javascript.json",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://encryptrates.store/default/4/default.default",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
