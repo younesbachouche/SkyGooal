@@ -412,7 +412,7 @@ function getMatchData() {
       matchTime: '2026-02-22T15:00:00',
       streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n3/javascript.json",
       streamUrlArabic: "https://ye.betterbetter.sbs/status/1/fronts.woff2?9b4b4c",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://d26j67yylfyzqx.cloudfront.net/default/3/default.default",
       streamUrlServer4: ""
     },
     
