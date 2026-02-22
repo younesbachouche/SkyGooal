@@ -1,570 +1,119 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
-import MatchCard from "@/components/MatchCard";
-import { Button } from "@/components/ui/button";
-import StreamPopup from "@/components/StreamPopup";
-import CompetitionFilter from "@/components/CompetitionFilter";
-import LiveTicker from "@/components/LiveTicker";
-import PullToRefresh from "@/components/PullToRefresh";
-import { Moon, Sun, RefreshCw, X, Send } from "lucide-react";
+ {
+      team1: { name: "Getafe", logo: "https://imgs.ysscores.com/teams/128/3451691957863.png" },
+      team2: { name: "Sevilla", logo: "https://imgs.ysscores.com/teams/128/6931690196743.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
+      competitionName: "La Liga",
+      matchTime: '2026-02-22T14:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },  
 
-interface Team {
-  name: string;
-  logo: string;
-}
-
-interface Match {
-  team1: Team;
-  team2: Team;
-  competitionLogo: string;
-  competitionDarkLogo: string;
-  competitionName: string;
-  matchTime: string;
-  streamUrlEnglish: string;
-  streamUrlArabic: string;
-  streamUrlServer3: string;
-  streamUrlServer4?: string;
-}
-
-const TELEGRAM_CHANNEL_URL = "https://t.me/skylivebyyounes";
-
-const Index = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(false);
-  const [allMatches, setAllMatches] = useState<Match[]>([]);
-  const [selectedCompetition, setSelectedCompetition] = useState<string | null>(null);
-  const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
-  const [isRefreshing, setIsRefreshing] = useState(false);
-  const [showTelegramPopup, setShowTelegramPopup] = useState<boolean>(false);
-  const [currentStreamUrls, setCurrentStreamUrls] = useState<{ 
-    english: string; 
-    arabic: string; 
-    server3: string;
-    server4?: string;
-  } | null>(null);
-  
-  useEffect(() => {
-    const savedDarkMode = localStorage.getItem("dark-mode") === "true";
-    setDarkMode(savedDarkMode);
-    if (savedDarkMode) {
-      document.documentElement.classList.add("dark");
-    }
+    {
+      team1: { name: "Nottingham", logo: "https://imgs.ysscores.com/teams/128/7741690119007.png" },
+      team2: { name: "Liverpool", logo: "https://imgs.ysscores.com/teams/128/4081724601375.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-22T15:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
     
-    setAllMatches(getMatchData());
+
+    {
+      team1: { name: "Crystal Palace", logo: "https://imgs.ysscores.com/teams/128/6121690118883.png" },
+      team2: { name: "Wolves", logo: "https://imgs.ysscores.com/teams/128/9631690118479.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-22T15:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+
     
-    // Show Telegram popup on first visit (check localStorage)
-    const hasSeenTelegramPopup = localStorage.getItem("has-seen-telegram-popup");
-    if (!hasSeenTelegramPopup) {
-      setTimeout(() => {
-        setShowTelegramPopup(true);
-      }, 1000); // Show after 1 second
-    }
-  }, []);
-
-  // Get unique competitions from matches
-  const competitions = useMemo(() => {
-    const uniqueComps = new Map<string, { name: string; logo: string }>();
-    allMatches.forEach(match => {
-      if (!uniqueComps.has(match.competitionName)) {
-        uniqueComps.set(match.competitionName, {
-          name: match.competitionName,
-          logo: match.competitionLogo
-        });
-      }
-    });
-    return Array.from(uniqueComps.values());
-  }, [allMatches]);
-
-  const { ongoingOrUpcoming, ended, liveMatches } = useMemo(() => {
-    let filteredMatches = allMatches;
-    
-    if (selectedCompetition) {
-      filteredMatches = allMatches.filter(m => m.competitionName === selectedCompetition);
-    }
-    
-    const sorted = sortMatches(filteredMatches);
-    
-    const now = new Date().getTime();
-    const live = sorted.ongoingOrUpcoming.filter(match => {
-      const matchStartTime = new Date(match.matchTime).getTime();
-      return now >= matchStartTime - 5 * 60 * 1000; // Started or starting in 5 min
-    });
-    
-    return { ...sorted, liveMatches: live };
-  }, [allMatches, selectedCompetition]);
-
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode;
-    setDarkMode(newDarkMode);
-    localStorage.setItem("dark-mode", String(newDarkMode));
-    
-    if (newDarkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  };
-
-  const refreshMatches = useCallback(async () => {
-    setIsRefreshing(true);
-    // Simulate network delay
-    await new Promise(resolve => setTimeout(resolve, 500));
-    setAllMatches(getMatchData());
-    setIsRefreshing(false);
-  }, []);
-
-  const openStreamPopup = (englishUrl: string, arabicUrl: string, server3Url: string, server4Url?: string) => {
-    setCurrentStreamUrls({
-      english: englishUrl,
-      arabic: arabicUrl,
-      server3: server3Url,
-      server4: server4Url
-    });
-    setIsPopupVisible(true);
-  };
-  
-  const closeStreamPopup = () => {
-    setIsPopupVisible(false);
-    setCurrentStreamUrls(null);
-  };
-
-  const closeTelegramPopup = () => {
-    setShowTelegramPopup(false);
-    localStorage.setItem("has-seen-telegram-popup", "true");
-  };
-
-  const openTelegramChannel = () => {
-    window.open(TELEGRAM_CHANNEL_URL, "_blank");
-  };
-  
-  return (
-    <>
-      <PullToRefresh onRefresh={refreshMatches} className="min-h-screen bg-background pb-20">
-      {/* Header */}
-      <header className="sticky top-0 z-40 bg-background/95 backdrop-blur-lg border-b border-border/50">
-        <div className="px-4 py-3 max-w-4xl mx-auto">
-          <div className="flex justify-between items-center">
-            <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-primary">
-                Sky Live
-              </h1>
-              <p className="text-xs sm:text-sm text-muted-foreground">
-                by Younes
-              </p>
-            </div>
-            <div className="flex items-center gap-2">
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={refreshMatches}
-                disabled={isRefreshing}
-                className="rounded-full"
-              >
-                <RefreshCw className={`h-5 w-5 ${isRefreshing ? 'animate-spin' : ''}`} />
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={toggleDarkMode}
-                className="rounded-full"
-              >
-                {darkMode ? (
-                  <Sun className="h-5 w-5" />
-                ) : (
-                  <Moon className="h-5 w-5" />
-                )}
-              </Button>
-            </div>
-          </div>
-        </div>
-      </header>
-      
-      {/* Live Ticker */}
-      <LiveTicker matches={liveMatches} />
-      
-      <main className="px-3 sm:px-4 py-4 max-w-4xl mx-auto space-y-3">
-        {/* Competition Filter */}
-        {competitions.length > 1 && (
-          <CompetitionFilter
-            competitions={competitions}
-            selectedCompetition={selectedCompetition}
-            onSelectCompetition={setSelectedCompetition}
-          />
-        )}
-
-        {/* Live/Upcoming Matches */}
-        {ongoingOrUpcoming.length > 0 && (
-          <div className="space-y-3">
-            <div className="flex items-center gap-2 px-1">
-              <div className="w-2 h-2 rounded-full bg-destructive animate-pulse" />
-              <h2 className="text-base sm:text-lg font-semibold">Live & Upcoming</h2>
-              <span className="text-xs text-muted-foreground">({ongoingOrUpcoming.length})</span>
-            </div>
-            {ongoingOrUpcoming.map((match, index) => (
-              <MatchCard 
-                key={index} 
-                match={match} 
-                index={index} 
-                onOpenStream={openStreamPopup}
-              />
-            ))}
-          </div>
-        )}
-        
-        {/* Ended Matches */}
-        {ended.length > 0 && (
-          <div className="space-y-3 mt-6">
-            <div className="flex items-center gap-2 px-1">
-              <h2 className="text-base sm:text-lg font-semibold text-muted-foreground">Ended Matches</h2>
-              <span className="text-xs text-muted-foreground">({ended.length})</span>
-            </div>
-            {ended.map((match, index) => (
-              <MatchCard 
-                key={index} 
-                match={match} 
-                index={ongoingOrUpcoming.length + index} 
-                onOpenStream={openStreamPopup}
-                isEnded={true}
-              />
-            ))}
-          </div>
-        )}
-
-        {ongoingOrUpcoming.length === 0 && ended.length === 0 && (
-          <div className="bg-card rounded-2xl border border-border/50 p-12 text-center">
-            <p className="text-muted-foreground">
-              {selectedCompetition 
-                ? `No matches found for ${selectedCompetition}` 
-                : 'No matches scheduled'}
-            </p>
-          </div>
-        )}
-      </main>
-
-      </PullToRefresh>
-
-      {isPopupVisible && currentStreamUrls && (
-        <StreamPopup 
-          streams={currentStreamUrls}
-          onClose={closeStreamPopup}
-        />
-      )}
-
-      {/* Telegram Popup */}
-      {showTelegramPopup && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
-          <div className="relative bg-card rounded-2xl border border-border shadow-2xl max-w-md w-full animate-in fade-in zoom-in duration-300">
-            {/* Close Button */}
-            <button
-              onClick={closeTelegramPopup}
-              className="absolute top-4 right-4 z-10 rounded-full p-1.5 hover:bg-accent transition-colors"
-            >
-              <X className="h-5 w-5 text-muted-foreground" />
-            </button>
-            
-            <div className="p-6 sm:p-8">
-              {/* Telegram Logo */}
-              <div className="flex justify-center mb-6">
-                <div className="relative">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
-                    <Send className="h-10 w-10 text-white" />
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-10 h-10 rounded-full bg-card border-4 border-background flex items-center justify-center">
-                    <span className="text-2xl">📢</span>
-                  </div>
-                </div>
-              </div>
-              
-              {/* Content */}
-              <div className="text-center space-y-4">
-                <h3 className="text-xl sm:text-2xl font-bold">
-                  Join Our Community
-                </h3>
-                
-                <p className="text-muted-foreground">
-                  Get the latest updates, match schedules, and stream links directly on Telegram!
-                </p>
-                
-                <div className="pt-2">
-                  <ul className="text-sm text-left text-muted-foreground space-y-2">
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Instant match notifications</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Backup stream links</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Live score updates</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Community support</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              
-              {/* Join Button */}
-              <div className="mt-8">
-                <button
-                  onClick={openTelegramChannel}
-                  className="w-full py-4 px-6 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold rounded-xl flex items-center justify-center gap-3 transition-all hover:shadow-lg hover:scale-[1.02] active:scale-[0.98]"
-                >
-                  <Send className="h-5 w-5" />
-                  <span>Join Our Telegram Channel</span>
-                </button>
-                
-                <p className="text-center text-xs text-muted-foreground mt-3">
-                  Over 1k+ members already joined!
-                </p>
-              </div>
-              
-              {/* Footer Note */}
-              <div className="mt-6 pt-6 border-t border-border/50">
-                <p className="text-xs text-center text-muted-foreground">
-                  Join to stay updated with all live matches and never miss a game!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
-  );
-};
-
-function sortMatches(matches: Match[]) {
-  const now = new Date().getTime();
-  const ongoingOrUpcoming: Match[] = [];
-  const ended: Match[] = [];
-
-  matches.forEach(match => {
-    // Parse match time - treat as UTC if it has 'Z', otherwise as local time
-    const matchStartTime = new Date(match.matchTime).getTime();
-    const matchEndTime = matchStartTime + 2 * 60 * 60 * 1000; // 2 hours after match start
-
-    if (now >= matchEndTime) {
-      ended.push(match);
-    } else {
-      ongoingOrUpcoming.push(match);
-    }
-  });
-
-  
-  ongoingOrUpcoming.sort((a, b) => new Date(a.matchTime).getTime() - new Date(b.matchTime).getTime());
-  ended.sort((a, b) => new Date(b.matchTime).getTime() - new Date(a.matchTime).getTime());
-
-  return { ongoingOrUpcoming, ended };
-}
-
-function getMatchData() {
-  return [
-    
-     
-     
-     
      {
-      team1: { name: "Juventus", logo: "https://imgs.ysscores.com/teams/128/9331690283003.png" },
-      team2: { name: "Como", logo: "https://imgs.ysscores.com/teams/128/8641690823614.png" },
+      team1: { name: "Sunderland", logo: "https://imgs.ysscores.com/teams/128/10001690823905.png" },
+      team2: { name: "Fulham", logo: "https://imgs.ysscores.com/teams/128/4711690118927.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-22T15:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+    
+     {
+      team1: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
+      team2: { name: "SSC Napoli ", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
-      matchTime: '2026-02-21T15:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "https://daffodil.xn--1000-ugoxe8a5a7g4h.com/golazo.m3u8",
+      matchTime: '2026-02-22T15:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: "https://aa.eryx68.shop/embed_view.php?id=1a5ed81df455ef25"
-    }, 
+      streamUrlServer4: ""
+    },
 
      {
-      team1: { name: "Bayern Munich", logo: "https://imgs.ysscores.com/teams/128/2351690288818.png" },
-      team2: { name: "Frankfurt", logo: "https://imgs.ysscores.com/teams/128/231690288818.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
-      competitionName: "Bundesliga",
-      matchTime: '2026-02-21T15:30:00',
-      streamUrlEnglish: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
-      streamUrlArabic: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/one.m3u8",
-      streamUrlServer3: "https://smarthard.click/hls/zGkz9Oc8we1P/index.m3u8",
-      streamUrlServer4: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/one.m3u8"
-    }, 
-
-    {
-      team1: { name: "Union Berlin", logo: "https://imgs.ysscores.com/teams/128/6521690288816.png" },
-      team2: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
-      competitionName: "Bundesliga",
-      matchTime: '2026-02-21T15:30:00',
-      streamUrlEnglish: "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8",
+      team1: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
+      team2: { name: "Levante", logo: "https://imgs.ysscores.com/teams/128/2601690370530.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
+      competitionName: "La Liga",
+      matchTime: '2026-02-22T16:15:00',
+      streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
 
      {
-      team1: { name: "Chelsea", logo: "https://imgs.ysscores.com/teams/128/2571690118280.png" },
-      team2: { name: "Burnley", logo: "https://imgs.ysscores.com/teams/128/7301690118156.png" },
+      team1: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
+      team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2026-02-21T16:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "https://liveua.cdnfly.click/epl_che/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://foootfy.site/mss/embed_view.php?id=aef223b8fd1dc40d"
-    }, 
-
-    {
-      team1: { name: "Brentford", logo: "https://imgs.ysscores.com/teams/128/4791690118957.png" },
-      team2: { name: "Brighton", logo: "https://imgs.ysscores.com/teams/128/2271696710594.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-21T16:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://liveua.score806.cc/epl_bre/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "https://liveua.score806.cc/event3/tracks-v1a1/mono.m3u8",
-      streamUrlServer4: ""
-    }, 
-
-    {
-      team1: { name: "Aston Villa", logo: "https://imgs.ysscores.com/teams/128/9921723414870.png" },
-      team2: { name: "Leeds United", logo: "https://imgs.ysscores.com/teams/128/4691690458244.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-21T16:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n2/javascript.json",
-      streamUrlArabic: "https://liveua.score806.cc/epl_avl/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "https://liveua.score806.cc/event4/tracks-v1a1/mono.m3u8",
-      streamUrlServer4: ""
-    }, 
-    
-    
-    
-
-     {
-      team1: { name: "Real Betis", logo: "https://imgs.ysscores.com/teams/128/17645945054618.png" },
-      team2: { name: "Vallecano", logo: "https://imgs.ysscores.com/teams/128/1511690196745.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-02-21T16:15:00',
-      streamUrlEnglish: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/77_.m3u8",
-      streamUrlArabic: "https://tv.beinconnect.us/dlhd.php?id=beINAR3",
-      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/3_.m3u8",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Lens", logo: "https://imgs.ysscores.com/teams/128/1281690287063.png" },
-      team2: { name: "Monaco", logo: "https://imgs.ysscores.com/teams/128/3861690287583.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/53.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
-      competitionName: "Ligue 1",
-      matchTime: '2026-02-21T17:00:00',
-      streamUrlEnglish: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/4.m3u8",
-      streamUrlArabic: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/beines.m3u8",
+      matchTime: '2026-02-22T17:30:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
 
-
     {
-      team1: { name: "Lecce", logo: "https://imgs.ysscores.com/teams/128/9031690283003.png" },
-      team2: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
+      team1: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
+      team2: { name: "Parma", logo: "https://imgs.ysscores.com/teams/128/4061690823331.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "serie A",
-      matchTime: '2026-02-21T18:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "https://liveua.score806.cc/event1/index.m3u8",
-      streamUrlServer3: "https://pub-41becd24fbe14338b1f8ff15149e2cf7.r2.dev/14_.m3u8",
-      streamUrlServer4: ""
-    },
-
-    
-
-    {
-      team1: { name: "Osasuna", logo: "https://imgs.ysscores.com/teams/128/7961690196745.png" },
-      team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-02-21T18:30:00',
-      streamUrlEnglish: "https://storage.googleapis.com/overgamesdjhqa2/mux_video_ts1/index-1.m3u8",
-      streamUrlArabic: "https://storage.googleapis.com/otletinguhrtyngv/mux_video_ts/index-1.m3u8",
-      streamUrlServer3: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/dep.m3u8",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "West Ham", logo: "https://imgs.ysscores.com/teams/128/7191690118603.png" },
-      team2: { name: "Bournemouth", logo: "https://imgs.ysscores.com/teams/128/7651690118769.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-21T18:30:00',
-      streamUrlEnglish: "https://storage.googleapis.com/overgamesdjhqa1/mux_video_ts1/index-1.m3u8",
-      streamUrlArabic: "https://d282htkhzzfhrq.cloudfront.net/status/1/fronts.woff2?8f0e37",
-      streamUrlServer3: "https://river-3-369.rtbcdn.ru/stream/genetta-319.m9.rutube.ru/vSk9lKETM0zfL9cXtp1WBA/1772293524/9585fdae92af45f113fdcc9f6c4ba442/360p_stream.m3u8",
-      streamUrlServer4: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/7.m3u8"
-    }, 
-     {
-      team1: { name: "Cagliari", logo: "https://imgs.ysscores.com/teams/128/7311690283001.png" },
-      team2: { name: "Lazio", logo: "https://imgs.ysscores.com/teams/128/5111690283002.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "serie A",
-      matchTime: '2026-02-21T20:45:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount3/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/event1/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "https://liveua.cdnfly.click/paramount3/tracks-v1a1/mono.m3u8",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
-      team2: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-21T21:00:00',
-      streamUrlEnglish: "https://d2v20w69eet76w.cloudfront.net/status/1/fronts.woff2?0c7424",
-      streamUrlArabic: "https://storage.googleapis.com/overgamesdjhqa1/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://601.833577.xyz/tnt.m3u8",
-      streamUrlServer4: "http://xcarscharge.pro:8080/bn1hd/tracks-v1a1/mono.m3u8"
-    }, 
-
-     {
-      team1: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
-      team2: { name: "Espanyol", logo: "https://imgs.ysscores.com/teams/128/4481690370529.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-02-21T21:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "https://daffodil.833577.xyz/dep.m3u8",
+      competitionName: "Serie A",
+      matchTime: '2026-02-22T18:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
-     {
-      team1: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
-      team2: { name: "Metz", logo: "https://imgs.ysscores.com/teams/128/5631690287157.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/53.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
-      competitionName: "Ligue 1",
-      matchTime: '2026-02-21T21:05:00',
-      streamUrlEnglish: "https://storage.googleapis.com/overgamesdjhqa3/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://liveh12.vtvprime.vn/hls/TV5/03.m3u8",
-      streamUrlServer3: "https://liveua.cdnfly.click/live05/index.m3u8",
-      streamUrlServer4: ""
-    }, 
-    
-  ];
-  
-}
 
-export default Index;
+    {
+      team1: { name: "Roma", logo: "https://imgs.ysscores.com/teams/128/1041749305816.png" },
+      team2: { name: "Cremonese", logo: "https://imgs.ysscores.com/teams/128/5011690370508.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-02-22T20:45:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+       
