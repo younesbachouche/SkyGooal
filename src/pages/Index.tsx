@@ -476,7 +476,7 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-02-22T20:45:00',
       streamUrlEnglish: "https://liveua.score806.cc/uk_bts3/index.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://liveua.score806.cc/paramount4/tracks-v1a1/mono.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
