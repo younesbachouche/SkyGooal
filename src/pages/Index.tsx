@@ -480,6 +480,19 @@ function getMatchData() {
       streamUrlServer3: "https://liveua.score806.cc/event1/index.m3u8",
       streamUrlServer4: "https://liveua.score806.cc/paramount4/tracks-v1a1/mono.m3u8"
     },
+
+    {
+      team1: { name: "Strasbourg", logo: "https://imgs.ysscores.com/teams/128/8951690287872.png" },
+      team2: { name: "Lyon", logo: "https://imgs.ysscores.com/teams/128/4081690287528.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/53.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
+      competitionName: "Ligue 1",
+      matchTime: '2026-02-22T20:45:00',
+      streamUrlEnglish: "https://encryptrates.store/default/2/default.default",
+      streamUrlArabic: "https://liveua.cdnfly.click/pt_sporttv3/index.m3u8",
+      streamUrlServer3: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
+      streamUrlServer4: ""
+    },
        
     
   ];
