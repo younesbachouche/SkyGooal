@@ -369,7 +369,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-23T21:00:00',
-      streamUrlEnglish: "https://storage.googleapis.com/fangazett/mux_video_ts1/index-1.m3u8",
+      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
       streamUrlArabic: "https://d1pds5gq7p4s0a.cloudfront.net/status/1/fronts.woff2?6dff72",
       streamUrlServer3: "https://mando.mohamedabomalek632.workers.dev/?url=http://het000.4rouwanda-shop.store/live/918454578001/index.m3u8",
       streamUrlServer4: "https://ioswatch.xyz/ios/embed_view.php?id=6dcd08803db4e29b"
