@@ -362,137 +362,18 @@ function getMatchData() {
   return [
     
      
-     {
-      team1: { name: "Getafe", logo: "https://imgs.ysscores.com/teams/128/3451691957863.png" },
-      team2: { name: "Sevilla", logo: "https://imgs.ysscores.com/teams/128/6931690196743.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-02-22T14:00:00',
-      streamUrlEnglish: "https://tv.beinconnect.us/dlhd.php?id=beINAR3",
-      streamUrlArabic: "https://liveua.score806.cc/uk_premiersports1/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "https://liveua.cdnfly.click/uk_premiersports1/index.m3u8",
-      streamUrlServer4: ""
-    },  
-
-    {
-      team1: { name: "Nottingham", logo: "https://imgs.ysscores.com/teams/128/7741690119007.png" },
-      team2: { name: "Liverpool", logo: "https://imgs.ysscores.com/teams/128/4081724601375.png" },
+   {
+      team1: { name: "Everton", logo: "https://imgs.ysscores.com/teams/128/8461690118694.png" },
+      team2: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
-      matchTime: '2026-02-22T15:00:00',
-      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/2/default.default",
-      streamUrlArabic: "https://d16hmfe2m9krvw.cloudfront.net/svg/n2/javascript.json",
-      streamUrlServer3: "https://da.thermometer30.sbs/status/3/fronts.woff2?7fb6eb",
-      streamUrlServer4: ""
+      matchTime: '2026-02-23T21:00:00',
+      streamUrlEnglish: "https://storage.googleapis.com/fangazett/mux_video_ts1/index-1.m3u8",
+      streamUrlArabic: "https://d1pds5gq7p4s0a.cloudfront.net/status/1/fronts.woff2?6dff72",
+      streamUrlServer3: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
+      streamUrlServer4: "https://cdn.zicotv.cc/dazn-1/index.m3u8"
     }, 
-    
-
-    {
-      team1: { name: "Crystal Palace", logo: "https://imgs.ysscores.com/teams/128/6121690118883.png" },
-      team2: { name: "Wolves", logo: "https://imgs.ysscores.com/teams/128/9631690118479.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-22T15:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlServer3: "https://sh.keypish.sbs/status/2/fronts.woff2?c41747",
-      streamUrlServer4: ""
-    }, 
-
-    
-     {
-      team1: { name: "Sunderland", logo: "https://imgs.ysscores.com/teams/128/10001690823905.png" },
-      team2: { name: "Fulham", logo: "https://imgs.ysscores.com/teams/128/4711690118927.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-22T15:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "https://ye.betterbetter.sbs/status/1/fronts.woff2?9b4b4c",
-      streamUrlServer3: "https://d26j67yylfyzqx.cloudfront.net/default/3/default.default",
-      streamUrlServer4: ""
-    },
-    
-     {
-      team1: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
-      team2: { name: "SSC Napoli ", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-02-22T15:00:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n5/javascript.json",
-      streamUrlArabic: "https://encryptrates.store/default/4/default.default",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
-      team2: { name: "Levante", logo: "https://imgs.ysscores.com/teams/128/2601690370530.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
-      competitionName: "La Liga",
-      matchTime: '2026-02-22T16:15:00',
-      streamUrlEnglish: "https://d16hmfe2m9krvw.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    }, 
-
-     {
-      team1: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
-      team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-22T17:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
-      team2: { name: "Parma", logo: "https://imgs.ysscores.com/teams/128/4061690823331.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-02-22T18:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-    {
-      team1: { name: "Roma", logo: "https://imgs.ysscores.com/teams/128/1041749305816.png" },
-      team2: { name: "Cremonese", logo: "https://imgs.ysscores.com/teams/128/5011690370508.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-02-22T20:45:00',
-      streamUrlEnglish: "https://encryptrates.store/default/4/default.default",
-      streamUrlArabic: "https://cdn.zicotv.cc/as_roma_cremonese/index.m3u8",
-      streamUrlServer3: "https://liveua.score806.cc/event1/index.m3u8",
-      streamUrlServer4: "https://liveua.score806.cc/paramount4/tracks-v1a1/mono.m3u8"
-    },
-
-    {
-      team1: { name: "Strasbourg", logo: "https://imgs.ysscores.com/teams/128/8951690287872.png" },
-      team2: { name: "Lyon", logo: "https://imgs.ysscores.com/teams/128/4081690287528.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/53.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
-      competitionName: "Ligue 1",
-      matchTime: '2026-02-22T20:45:00',
-      streamUrlEnglish: "https://encryptrates.store/default/2/default.default",
-      streamUrlArabic: "https://liveua.cdnfly.click/pt_sporttv3/index.m3u8",
-      streamUrlServer3: "https://liveua.score806.cc/pt_sporttv3/tracks-v1a1/mono.m3u8",
-      streamUrlServer4: ""
-    },
        
     
   ];
