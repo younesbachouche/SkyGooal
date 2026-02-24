@@ -5,7 +5,7 @@ import StreamPopup from "@/components/StreamPopup";
 import CompetitionFilter from "@/components/CompetitionFilter";
 import LiveTicker from "@/components/LiveTicker";
 import PullToRefresh from "@/components/PullToRefresh";
-import { Moon, Sun, RefreshCw, X, Send } from "lucide-react";
+import { Moon, Sun, RefreshCw, Send } from "lucide-react";
 
 interface Team {
   name: string;
@@ -33,7 +33,6 @@ const Index = () => {
   const [selectedCompetition, setSelectedCompetition] = useState<string | null>(null);
   const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
-  const [showTelegramPopup, setShowTelegramPopup] = useState<boolean>(false);
   const [currentStreamUrls, setCurrentStreamUrls] = useState<{ 
     english: string; 
     arabic: string; 
@@ -49,14 +48,6 @@ const Index = () => {
     }
     
     setAllMatches(getMatchData());
-    
-    // Show Telegram popup on first visit (check localStorage)
-    const hasSeenTelegramPopup = localStorage.getItem("has-seen-telegram-popup");
-    if (!hasSeenTelegramPopup) {
-      setTimeout(() => {
-        setShowTelegramPopup(true);
-      }, 1000); // Show after 1 second
-    }
   }, []);
 
   // Get unique competitions from matches
@@ -126,11 +117,6 @@ const Index = () => {
     setCurrentStreamUrls(null);
   };
 
-  const closeTelegramPopup = () => {
-    setShowTelegramPopup(false);
-    localStorage.setItem("has-seen-telegram-popup", "true");
-  };
-
   const openTelegramChannel = () => {
     window.open(TELEGRAM_CHANNEL_URL, "_blank");
   };
@@ -151,6 +137,15 @@ const Index = () => {
               </p>
             </div>
             <div className="flex items-center gap-2">
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={openTelegramChannel}
+                className="rounded-full text-[#0088cc] hover:text-[#0088cc] hover:bg-[#0088cc]/10"
+                title="Join Telegram Channel"
+              >
+                <Send className="h-5 w-5" />
+              </Button>
               <Button
                 variant="ghost"
                 size="icon"
@@ -247,89 +242,6 @@ const Index = () => {
           onClose={closeStreamPopup}
         />
       )}
-
-      {/* Telegram Popup */}
-      {showTelegramPopup && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
-          <div className="relative bg-card rounded-2xl border border-border shadow-2xl max-w-md w-full animate-in fade-in zoom-in duration-300">
-            {/* Close Button */}
-            <button
-              onClick={closeTelegramPopup}
-              className="absolute top-4 right-4 z-10 rounded-full p-1.5 hover:bg-accent transition-colors"
-            >
-              <X className="h-5 w-5 text-muted-foreground" />
-            </button>
-            
-            <div className="p-6 sm:p-8">
-              {/* Telegram Logo */}
-              <div className="flex justify-center mb-6">
-                <div className="relative">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
-                    <Send className="h-10 w-10 text-white" />
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-10 h-10 rounded-full bg-card border-4 border-background flex items-center justify-center">
-                    <span className="text-2xl">📢</span>
-                  </div>
-                </div>
-              </div>
-              
-              {/* Content */}
-              <div className="text-center space-y-4">
-                <h3 className="text-xl sm:text-2xl font-bold">
-                  Join Our Community
-                </h3>
-                
-                <p className="text-muted-foreground">
-                  Get the latest updates, match schedules, and stream links directly on Telegram!
-                </p>
-                
-                <div className="pt-2">
-                  <ul className="text-sm text-left text-muted-foreground space-y-2">
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Instant match notifications</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Backup stream links</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Live score updates</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-500 mt-0.5">✓</span>
-                      <span>Community support</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              
-              {/* Join Button */}
-              <div className="mt-8">
-                <button
-                  onClick={openTelegramChannel}
-                  className="w-full py-4 px-6 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold rounded-xl flex items-center justify-center gap-3 transition-all hover:shadow-lg hover:scale-[1.02] active:scale-[0.98]"
-                >
-                  <Send className="h-5 w-5" />
-                  <span>Join Our Telegram Channel</span>
-                </button>
-                
-                <p className="text-center text-xs text-muted-foreground mt-3">
-                  Over 1k+ members already joined!
-                </p>
-              </div>
-              
-              {/* Footer Note */}
-              <div className="mt-6 pt-6 border-t border-border/50">
-                <p className="text-xs text-center text-muted-foreground">
-                  Join to stay updated with all live matches and never miss a game!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </>
   );
 };
@@ -362,20 +274,63 @@ function getMatchData() {
   return [
     
      
-   {
-      team1: { name: "Everton", logo: "https://imgs.ysscores.com/teams/128/8461690118694.png" },
-      team2: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-02-23T21:00:00',
-      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlArabic: "https://d1pds5gq7p4s0a.cloudfront.net/status/1/fronts.woff2?6dff72",
-      streamUrlServer3: "https://mando.mohamedabomalek632.workers.dev/?url=http://het000.4rouwanda-shop.store/live/918454578001/index.m3u8",
-      streamUrlServer4: "https://ioswatch.xyz/ios/embed_view.php?id=6dcd08803db4e29b"
-    }, 
-       
+      {
+      team1: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
+      team2: { name: "Club Brugge", logo: "https://imgs.ysscores.com/teams/128/121690370520.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-24T18:45:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+
+
+    {
+      team1: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
+      team2: { name: "Bodoe Glimt", logo: "https://imgs.ysscores.com/teams/128/8781690370522.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-24T21:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+
     
+
+    {
+      team1: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
+      team2: { name: "Qarabag FK", logo: "https://imgs.ysscores.com/teams/128/5151690822077.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-24T21:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
+
+     {
+      team1: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
+      team2: { name: "Olympiacos", logo: "https://imgs.ysscores.com/teams/128/1401690370533.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-02-24T21:00:00',
+      streamUrlEnglish: "https://storage.googleapis.com/westorevoer1/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    }, 
+     
+
+
   ];
   
 }
