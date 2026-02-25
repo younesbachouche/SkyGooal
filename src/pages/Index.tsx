@@ -284,7 +284,7 @@ function getMatchData() {
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://d1pds5gq7p4s0a.cloudfront.net/status/1/fronts.woff2?98af47",
       streamUrlServer3: "https://llodggs.store/default/1/default.default",
-      streamUrlServer4: "https://mando.mohamedabomalek632.workers.dev/?url=http://het000.4rouwanda-shop.store/live/9787488847/index.m3u8"
+      streamUrlServer4: "https://cdn3-mejarhosting.cfd/2025-posttv1080p-ch04/master.m3u8"
     },
 
 
