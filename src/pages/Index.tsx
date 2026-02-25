@@ -275,12 +275,12 @@ function getMatchData() {
     
      
       {
-      team1: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
-      team2: { name: "Club Brugge", logo: "https://imgs.ysscores.com/teams/128/121690370520.png" },
+      team1: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
+      team2: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-24T18:45:00',
+      matchTime: '2026-02-25T18:45:00',
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://yourinitials.online/default/1/default.default",
       streamUrlServer3: "https://cdn.zicotv.cc/liga-campeones/index.m3u8",
@@ -289,12 +289,12 @@ function getMatchData() {
 
 
     {
-      team1: { name: "Inter", logo: "https://imgs.ysscores.com/teams/128/3101690283003.png" },
-      team2: { name: "Bodoe Glimt", logo: "https://imgs.ysscores.com/teams/128/8781690370522.png" },
+      team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      team2: { name: "Benfica", logo: "https://imgs.ysscores.com/teams/128/4491690386690.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-24T21:00:00',
+      matchTime: '2026-02-25T21:00:00',
       streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
@@ -304,12 +304,12 @@ function getMatchData() {
     
 
     {
-      team1: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
-      team2: { name: "Qarabag FK", logo: "https://imgs.ysscores.com/teams/128/5151690822077.png" },
+      team1: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
+      team2: { name: "Monaco", logo: "https://imgs.ysscores.com/teams/128/3861690287583.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-24T21:00:00',
+      matchTime: '2026-02-25T21:00:00',
       streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
@@ -317,12 +317,12 @@ function getMatchData() {
     },
 
      {
-      team1: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
-      team2: { name: "Olympiacos", logo: "https://imgs.ysscores.com/teams/128/1401690370533.png" },
+      team1: { name: "Juventus", logo: "https://imgs.ysscores.com/teams/128/9331690283003.png" },
+      team2: { name: "Galatasaray", logo: "https://imgs.ysscores.com/teams/128/2081756067376.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-02-24T21:00:00',
+      matchTime: '2026-02-25T21:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/westorevoer1/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
