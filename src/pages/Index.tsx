@@ -282,9 +282,9 @@ function getMatchData() {
       competitionName: "Champions League",
       matchTime: '2026-02-25T18:45:00',
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://yourinitials.online/default/1/default.default",
-      streamUrlServer3: "https://cdn.zicotv.cc/liga-campeones/index.m3u8",
-      streamUrlServer4: "https://cdn3-mejarhosting.cfd/2025-posttv720p-ch03/master.m3u8"
+      streamUrlArabic: "https://d1pds5gq7p4s0a.cloudfront.net/status/1/fronts.woff2?98af47",
+      streamUrlServer3: "https://llodggs.store/default/1/default.default",
+      streamUrlServer4: ""
     },
 
 
