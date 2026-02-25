@@ -298,7 +298,7 @@ function getMatchData() {
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n4/javascript.json",
       streamUrlArabic: "https://codecost.site/default/2/default.default",
       streamUrlServer3: "https://d1pds5gq7p4s0a.cloudfront.net/status/4/fronts.woff2?ee0a08",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/7.m3u8"
     },
 
     
