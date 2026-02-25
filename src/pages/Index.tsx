@@ -295,9 +295,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-02-25T21:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n4/javascript.json",
       streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://d1pds5gq7p4s0a.cloudfront.net/status/4/fronts.woff2?ee0a08",
       streamUrlServer4: ""
     },
 
@@ -310,8 +310,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-02-25T21:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/3/fronts.woff2?e80794",
+      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n2/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -323,8 +323,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-02-25T21:00:00',
-      streamUrlEnglish: "https://storage.googleapis.com/westorevoer1/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
+      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
