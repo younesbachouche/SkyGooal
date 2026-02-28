@@ -274,7 +274,7 @@ function getMatchData() {
   return [
     
      
-      
+     
     {
       team1: { name: "Vallecano", logo: "https://imgs.ysscores.com/teams/128/1511690196745.png" },
       team2: { name: "A.Bilbao", logo: "https://imgs.ysscores.com/teams/128/1061690197944.png" },
@@ -336,8 +336,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-28T16:00:00',
-      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
+      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/3/fronts.woff2?b72880",
+      streamUrlArabic: "https://storage.googleapis.com/uncetrunvover1/mux_video_ts1/index-1.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -349,8 +349,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-28T16:00:00',
-      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n2/javascript.json",
-      streamUrlArabic: "https://d26j67yylfyzqx.cloudfront.net/default/2/default.default",
+      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
+      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -364,8 +364,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-28T16:00:00',
-      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
+      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -377,9 +377,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-02-28T16:15:00',
-      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/4/fronts.woff2?4a802d",
+      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlServer3: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/dep.m3u8",
       streamUrlServer4: ""
     },
      
@@ -392,11 +392,12 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-02-28T18:00:00',
       streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlArabic: "https://encryptrates.store/default/5/default.default",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
 
+     
 
   ];
   
