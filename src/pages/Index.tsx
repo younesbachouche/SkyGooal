@@ -296,7 +296,7 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-02-28T15:00:00',
       streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlArabic: "",
+      streamUrlArabic: "http://sportkn.store/AD1/video.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
