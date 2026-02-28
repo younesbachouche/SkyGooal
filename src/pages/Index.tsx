@@ -394,7 +394,7 @@ function getMatchData() {
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
       streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://x.eryx68.shop/embed_view.php?id=4f3b47c5fd0b1b10"
     },
 
     {
