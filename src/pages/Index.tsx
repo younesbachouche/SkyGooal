@@ -391,8 +391,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-02-28T18:00:00',
-      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
+      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
