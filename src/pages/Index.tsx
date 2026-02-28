@@ -431,7 +431,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-02-28T20:45:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n2/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
