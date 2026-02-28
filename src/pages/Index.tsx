@@ -336,8 +336,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-28T16:00:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
+      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -349,8 +349,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-28T16:00:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n2/javascript.json",
+      streamUrlArabic: "https://d26j67yylfyzqx.cloudfront.net/default/2/default.default",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -364,8 +364,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-02-28T16:00:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -377,8 +377,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-02-28T16:15:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n4/javascript.json",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -392,7 +392,7 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-02-28T18:00:00',
       streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://encryptrates.store/default/5/default.default",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
