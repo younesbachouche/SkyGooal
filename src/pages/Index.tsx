@@ -459,7 +459,7 @@ function getMatchData() {
       matchTime: '2026-02-28T21:05:00',
       streamUrlEnglish: "https://codecost.site/default/2/default.default",
       streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://601.833577.xyz/beines.m3u8",
       streamUrlServer4: ""
     },
 
