@@ -325,7 +325,7 @@ function getMatchData() {
       matchTime: '2026-02-28T15:30:00',
       streamUrlEnglish: "https://liveua.score806.cc/espn4/index.m3u8",
       streamUrlArabic: "https://liveua.score806.cc/event6/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://cdn.zicotv.cc/bayer_leverkusen_mainz_05/index.m3u8",
       streamUrlServer4: "http://sportkn.store/MBC-ACTION/video.m3u8"
     },
 
