@@ -458,7 +458,7 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-02-28T21:05:00',
       streamUrlEnglish: "https://codecost.site/default/2/default.default",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
