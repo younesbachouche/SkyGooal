@@ -406,7 +406,7 @@ function getMatchData() {
       matchTime: '2026-02-28T18:30:00',
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
       streamUrlArabic: "https://601.xn--1000-ugoa0hsb9a0hb.com/one.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://601.xn--1000-ugoa0hsb9a0hb.com/football.m3u8",
       streamUrlServer4: ""
     },
 
