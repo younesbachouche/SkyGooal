@@ -283,7 +283,7 @@ function getMatchData() {
       matchTime: '2026-02-28T13:30:00',
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
       streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
       streamUrlServer4: ""
     },
 
