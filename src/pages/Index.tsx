@@ -282,7 +282,7 @@ function getMatchData() {
       competitionName: "Premier League",
       matchTime: '2026-02-28T13:30:00',
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
+      streamUrlArabic: "http://sportkn.store/BEIN-SPO---1/video.m3u8",
       streamUrlServer3: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
       streamUrlServer4: ""
     },
