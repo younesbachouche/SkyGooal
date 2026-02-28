@@ -308,10 +308,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-02-28T15:00:00',
-      streamUrlEnglish: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlArabic: "http://sportkn.store/AD1/video.m3u8",
+      streamUrlEnglish: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "http://sportkn.store/AD1/video.m3u8"
     },
 
     
@@ -323,10 +323,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-02-28T15:30:00',
-      streamUrlEnglish: "http://sportkn.store/MBC-ACTION/video.m3u8",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://liveua.score806.cc/espn4/index.m3u8",
+      streamUrlArabic: "https://liveua.score806.cc/event6/tracks-v1a1/mono.m3u8",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "http://sportkn.store/MBC-ACTION/video.m3u8"
     },
 
      {
