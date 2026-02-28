@@ -457,7 +457,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
       competitionName: "Ligue 1",
       matchTime: '2026-02-28T21:05:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://codecost.site/default/2/default.default",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
