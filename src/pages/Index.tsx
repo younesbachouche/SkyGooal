@@ -404,8 +404,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-02-28T18:30:00',
-      streamUrlEnglish: "https://601.xn--1000-ugoa0hsb9a0hb.com/one.m3u8",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
+      streamUrlArabic: "https://601.xn--1000-ugoa0hsb9a0hb.com/one.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
