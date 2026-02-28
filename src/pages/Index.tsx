@@ -419,7 +419,7 @@ function getMatchData() {
       matchTime: '2026-02-28T18:30:00',
       streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/5/fronts.woff2?4b8a0d",
       streamUrlArabic: "https://d26j67yylfyzqx.cloudfront.net/default/1/default.default",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https",
       streamUrlServer4: "https://storage.googleapis.com/uncetrunvover1/mux_video_ts1/index-1.m3u8"
     }, 
 
