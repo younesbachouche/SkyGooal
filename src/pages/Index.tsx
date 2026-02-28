@@ -275,26 +275,26 @@ function getMatchData() {
     
      
       {
-      team1: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
-      team2: { name: "Dortmund", logo: "https://imgs.ysscores.com/teams/128/4201690288818.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-02-25T18:45:00',
+      team1: { name: "Bournemouth", logo: "https://imgs.ysscores.com/teams/128/7651690118769.png" },
+      team2: { name: "Sunderland", logo: "https://imgs.ysscores.com/teams/128/10001690823905.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-28T13:30:00',
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://d1pds5gq7p4s0a.cloudfront.net/status/1/fronts.woff2?98af47",
-      streamUrlServer3: "https://llodggs.store/default/1/default.default",
-      streamUrlServer4: "https://cdn3-mejarhosting.cfd/2025-posttv1080p-ch04/master.m3u8"
+      streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
 
     {
-      team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
-      team2: { name: "Benfica", logo: "https://imgs.ysscores.com/teams/128/4491690386690.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-02-25T21:00:00',
+      team1: { name: "Como", logo: "https://imgs.ysscores.com/teams/128/8641690823614.png" },
+      team2: { name: "Lecce", logo: "https://imgs.ysscores.com/teams/128/9031690283003.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-02-28T15:00:00',
       streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n4/javascript.json",
       streamUrlArabic: "https://codecost.site/default/2/default.default",
       streamUrlServer3: "https://d1pds5gq7p4s0a.cloudfront.net/status/4/fronts.woff2?ee0a08",
@@ -304,12 +304,12 @@ function getMatchData() {
     
 
     {
-      team1: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
-      team2: { name: "Monaco", logo: "https://imgs.ysscores.com/teams/128/3861690287583.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-02-25T21:00:00',
+      team1: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
+      team2: { name: "Mainz 05", logo: "https://imgs.ysscores.com/teams/128/8131690288819.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
+      competitionName: "Bundesliga",
+      matchTime: '2026-02-28T15:30:00',
       streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/3/fronts.woff2?e80794",
       streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n2/javascript.json",
       streamUrlServer3: "",
@@ -317,18 +317,17 @@ function getMatchData() {
     },
 
      {
-      team1: { name: "Juventus", logo: "https://imgs.ysscores.com/teams/128/9331690283003.png" },
-      team2: { name: "Galatasaray", logo: "https://imgs.ysscores.com/teams/128/2081756067376.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Champions League",
-      matchTime: '2026-02-25T21:00:00',
+      team1: { name: "Liverpool", logo: "https://imgs.ysscores.com/teams/128/4081724601375.png" },
+      team2: { name: "West Ham", logo: "https://imgs.ysscores.com/teams/128/7191690118603.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
+      competitionName: "Premier League",
+      matchTime: '2026-02-28T16:00:00',
       streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
       streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
-     
 
 
   ];
