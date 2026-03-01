@@ -282,7 +282,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-03-01T12:30:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8",
+      streamUrlEnglish: "https://cdn.zicotv.cc/cremonese_ac_milan/index.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: "http://sportkn.store/AD1/video.m3u8"
