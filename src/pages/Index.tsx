@@ -292,12 +292,12 @@ function getMatchData() {
 
         
     {
-      team1: { name: "Torino", logo: "https://imgs.ysscores.com/teams/128/7501690283003.png" },
-      team2: { name: "Lazio", logo: "https://imgs.ysscores.com/teams/128/5111690283002.png" },
+      team1: { name: "Udinese", logo: "https://imgs.ysscores.com/teams/128/8741690284718.png" },
+      team2: { name: "Fiorentina", logo: "https://imgs.ysscores.com/teams/128/1231690283002.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
-      matchTime: '2026-03-01T18:00:00',
+      matchTime: '2026-03-02T20:45:00',
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
       streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
       streamUrlServer3: "https://liveua.score806.cc/paramount2/index.m3u8",
@@ -306,12 +306,12 @@ function getMatchData() {
 
 
      {
-      team1: { name: "Real Betis", logo: "https://imgs.ysscores.com/teams/128/17645945054618.png" },
-      team2: { name: "Sevilla", logo: "https://imgs.ysscores.com/teams/128/6931690196743.png" },
+      team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      team2: { name: "Getafe", logo: "https://imgs.ysscores.com/teams/128/3451691957863.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/87.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
-      matchTime: '2026-03-01T18:30:00',
+      matchTime: '2026-03-02T21:00:00',
       streamUrlEnglish: "https://daffodil.lifesharper.com/dep.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
