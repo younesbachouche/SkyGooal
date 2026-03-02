@@ -299,9 +299,9 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-03-02T20:45:00',
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
-      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
-      streamUrlServer3: "https://liveua.score806.cc/paramount2/index.m3u8",
-      streamUrlServer4: "https://x.eryx68.shop/embed_view.php?id=4f3b47c5fd0b1b10"
+      streamUrlArabic: "https://cdn.zicotv.cc/dazn-liga-1/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
 
