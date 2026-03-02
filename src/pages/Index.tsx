@@ -285,7 +285,7 @@ function getMatchData() {
       streamUrlEnglish: "https://cdn.zicotv.cc/pisa_bologna/index.m3u8",
       streamUrlArabic: "https://liveua.score806.cc/paramount1/index.m3u8",
       streamUrlServer3: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://daffodil.serverbandel.sbs/bein.m3u8"
     },
 
     
