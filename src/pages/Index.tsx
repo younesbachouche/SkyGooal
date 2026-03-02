@@ -312,7 +312,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-03-02T21:00:00',
-      streamUrlEnglish: "https://daffodil.lifesharper.com/dep.m3u8",
+      streamUrlEnglish: "https://flowermahi.sbs/svg/n1/javascript.json",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
