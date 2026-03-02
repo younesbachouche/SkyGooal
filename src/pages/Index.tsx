@@ -313,7 +313,7 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-03-02T21:00:00',
       streamUrlEnglish: "https://daffodil.833577.xyz/madrid.m3u8",
-      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
+      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
       streamUrlServer3: "https://yaewe.mohamedabomalek632.workers.dev/?url=http://het000.4rouwanda-shop.store/live/918454578001/index.m3u8",
       streamUrlServer4: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/5.m3u8"
     },
