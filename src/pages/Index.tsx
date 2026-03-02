@@ -283,8 +283,8 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-03-02T18:30:00',
       streamUrlEnglish: "https://cdn.zicotv.cc/pisa_bologna/index.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://liveua.score806.cc/paramount1/index.m3u8",
+      streamUrlServer3: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
       streamUrlServer4: ""
     },
 
