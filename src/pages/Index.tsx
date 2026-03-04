@@ -296,8 +296,8 @@ function getMatchData() {
       matchTime: '2026-03-04T20:30:00',
       streamUrlEnglish: "https://d2e9f3cy6zs7ww.cloudfront.net/svg/n3/javascript.json",
       streamUrlArabic: "https://cdn.zicotv.cc/liga-campeones/index.m3u8",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer3: "https://d2e9f3cy6zs7ww.cloudfront.net/svg/n3/javascript.json",
+      streamUrlServer4: "https://eventcdn02-nowe.akamaized.net/hls/CH624/index.m3u8"
     }, 
 
      {
@@ -309,7 +309,7 @@ function getMatchData() {
       matchTime: '2026-03-04T20:30:00',
       streamUrlEnglish: "https://storage.googleapis.com/potughertung2/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH623/index.m3u8",
       streamUrlServer4: ""
     },
 
@@ -324,7 +324,7 @@ function getMatchData() {
       matchTime: '2026-03-04T20:30:00',
       streamUrlEnglish: "https://storage.googleapis.com/ozikeembt/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/potughertung1/mux_video_ts/index-1.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH625/index.m3u8",
       streamUrlServer4: ""
     }, 
 
