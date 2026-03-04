@@ -281,10 +281,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-04T21:15:00',
-      streamUrlEnglish: "https://liveua.score806.cc/espn4/index.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/event6/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "https://cdn.zicotv.cc/bayer_leverkusen_mainz_05/index.m3u8",
-      streamUrlServer4: "http://sportkn.store/MBC-ACTION/video.m3u8"
+      streamUrlEnglish: "https://storage.googleapis.com/wesgutjerfnjakw/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/limozoooc/mux_video_ts/index-1.m3u8",
+      streamUrlServer3: "https://storage.googleapis.com/potughertung3/mux_video_ts1/index-1.m3u8",
+      streamUrlServer4: "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8"
     },
 
      {
