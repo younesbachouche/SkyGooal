@@ -361,10 +361,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/138.png",
       competitionName: "Copa del Rey",
       matchTime: '2026-03-04T21:00:00',
-      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
-      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
-      streamUrlServer3: "https://liveua.score806.cc/paramount2/index.m3u8",
-      streamUrlServer4: "https://x.eryx68.shop/embed_view.php?id=4f3b47c5fd0b1b10"
+      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT1",
+      streamUrlArabic: "https://m3u8proxy-b66.pages.dev/dlhd?id=ElevenSports1PL",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
      {
