@@ -375,7 +375,7 @@ function getMatchData() {
       competitionName: "Coppa Italia",
       matchTime: '2026-03-04T21:00:00',
       streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT2",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://yourinitials.online/default/7/default.default",
       streamUrlServer3: "",
       streamUrlServer4: "https://sky.ioswatch.xyz/embed_view.php?id=94e741b996a6cef3"
     },
