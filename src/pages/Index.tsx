@@ -325,7 +325,7 @@ function getMatchData() {
       streamUrlEnglish: "https://storage.googleapis.com/ozikeembt/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/potughertung1/mux_video_ts/index-1.m3u8",
       streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH625/index.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://cdn.zicotv.cc/aston_villa_chelsea/index.m3u8"
     }, 
 
     {
