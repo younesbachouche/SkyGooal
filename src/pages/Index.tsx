@@ -294,8 +294,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/3/fronts.woff2?b72880",
-      streamUrlArabic: "https://storage.googleapis.com/uncetrunvover1/mux_video_ts1/index-1.m3u8",
+      streamUrlEnglish: "https://d2e9f3cy6zs7ww.cloudfront.net/svg/n3/javascript.json",
+      streamUrlArabic: "https://cdn.zicotv.cc/liga-campeones/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -307,8 +307,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://storage.googleapis.com/potughertung2/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -322,8 +322,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://storage.googleapis.com/ozikeembt/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/potughertung1/mux_video_ts/index-1.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -335,10 +335,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
-      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
-      streamUrlServer3: "https://liveua.score806.cc/paramount2/index.m3u8",
-      streamUrlServer4: "https://x.eryx68.shop/embed_view.php?id=4f3b47c5fd0b1b10"
+      streamUrlEnglish: "https://d2e9f3cy6zs7ww.cloudfront.net/svg/n4/javascript.json",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
      {
@@ -348,10 +348,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
-      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
-      streamUrlServer3: "https://liveua.score806.cc/paramount2/index.m3u8",
-      streamUrlServer4: "https://x.eryx68.shop/embed_view.php?id=4f3b47c5fd0b1b10"
+      streamUrlEnglish: "https://cdn.zicotv.cc/dazn-liga-1/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
      {
