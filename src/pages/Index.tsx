@@ -350,7 +350,7 @@ function getMatchData() {
       matchTime: '2026-03-04T20:30:00',
       streamUrlEnglish: "https://show1.beinconnect.us/hls/17.m3u8",
       streamUrlArabic: "https://encryptrates.store/default/6/default.default",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://liveua.score806.cc/espn1/tracks-v2a1/mono.m3u8",
       streamUrlServer4: "https://cdn.zicotv.cc/dazn-liga-1/index.m3u8"
     },
 
