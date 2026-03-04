@@ -348,10 +348,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://cdn.zicotv.cc/dazn-liga-1/index.m3u8",
+      streamUrlEnglish: "https://show1.beinconnect.us/hls/17.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://cdn.zicotv.cc/dazn-liga-1/index.m3u8"
     },
 
      {
@@ -374,10 +374,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/141.png",
       competitionName: "Coppa Italia",
       matchTime: '2026-03-04T21:00:00',
-      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
-      streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
-      streamUrlServer3: "https://liveua.score806.cc/paramount2/index.m3u8",
-      streamUrlServer4: "https://x.eryx68.shop/embed_view.php?id=4f3b47c5fd0b1b10"
+      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT2",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: "https://sky.ioswatch.xyz/embed_view.php?id=94e741b996a6cef3"
     },
 
   
