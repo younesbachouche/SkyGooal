@@ -276,40 +276,40 @@ function getMatchData() {
      
   {
       team1: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
-      team2: { name: "Man United", logo: "https://imgs.ysscores.com/teams/128/4871690119302.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-03-04T21:15:00',
-      streamUrlEnglish: "https://cdn.zicotv.cc/newcastle_united_manchester_united/index.m3u8",
-      streamUrlArabic: "https://storage.googleapis.com/limozoooc/mux_video_ts/index-1.m3u8",
-      streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
-      streamUrlServer4: ""
+      team2: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-03-10T21:00:00',
+      streamUrlEnglish: "https://d1i0ue6rk681c6.cloudfront.net/index.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/wungdhrvhsdwesc/mux_video_ts/index-1.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: "https://cdn.xmorbo.com/liga-campeones/index.m3u8"
     },
 
      {
-      team1: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
-      team2: { name: "Nottingham", logo: "https://imgs.ysscores.com/teams/128/7741690119007.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://d2e9f3cy6zs7ww.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "https://cdn.zicotv.cc/liga-campeones/index.m3u8",
-      streamUrlServer3: "https://d2e9f3cy6zs7ww.cloudfront.net/svg/n3/javascript.json",
-      streamUrlServer4: "https://eventcdn02-nowe.akamaized.net/hls/CH624/index.m3u8"
+      team1: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
+      team2: { name: "Bayern Munich", logo: "https://imgs.ysscores.com/teams/128/2351690288818.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-03-10T21:00:00',
+      streamUrlEnglish: "https://d3o8vt70hi9n79.cloudfront.net/index_1.m3u8",
+      streamUrlArabic: "https://daffodil.xn--1000-ugoa0hsb9a0hb.com/tnt2.m3u8",
+      streamUrlServer3: "https://d3o8vt70hi9n79.cloudfront.net/index_1.m3u8",
+      streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones-3/index.m3u8"
     }, 
 
      {
       team1: { name: "Brighton", logo: "https://imgs.ysscores.com/teams/128/2271696710594.png" },
       team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://storage.googleapis.com/potughertung2/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
-      streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH623/index.m3u8",
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Champions League",
+      matchTime: '2026-03-10T21:00:00',
+      streamUrlEnglish: "https://d15ehe6besod5i.cloudfront.net/index_1.m3u8",
+      streamUrlArabic: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8",
+      streamUrlServer3: "https://602.serverbandel.sbs/tntalt.m3u8",
       streamUrlServer4: ""
     },
 
