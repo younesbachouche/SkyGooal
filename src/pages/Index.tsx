@@ -301,84 +301,19 @@ function getMatchData() {
     }, 
 
      {
-      team1: { name: "Brighton", logo: "https://imgs.ysscores.com/teams/128/2271696710594.png" },
-      team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
+      team1: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
+      team2: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-03-10T21:00:00',
       streamUrlEnglish: "https://d15ehe6besod5i.cloudfront.net/index_1.m3u8",
-      streamUrlArabic: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "https://602.serverbandel.sbs/tntalt.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8"
     },
 
  
-
-     {
-      team1: { name: "Aston Villa", logo: "https://imgs.ysscores.com/teams/128/9921723414870.png" },
-      team2: { name: "Chelsea", logo: "https://imgs.ysscores.com/teams/128/2571690118280.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://storage.googleapis.com/ozikeembt/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://storage.googleapis.com/potughertung1/mux_video_ts/index-1.m3u8",
-      streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH625/index.m3u8",
-      streamUrlServer4: "https://cdn.zicotv.cc/aston_villa_chelsea/index.m3u8"
-    }, 
-
-    {
-      team1: { name: "Fulham", logo: "https://imgs.ysscores.com/teams/128/4711690118927.png" },
-      team2: { name: "West Ham", logo: "https://imgs.ysscores.com/teams/128/7191690118603.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
-      competitionName: "Premier League",
-      matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://d2e9f3cy6zs7ww.cloudfront.net/svg/n4/javascript.json",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Hamburger SV", logo: "https://imgs.ysscores.com/teams/128/261690370540.png" },
-      team2: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/54.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
-      competitionName: "Bundesliga",
-      matchTime: '2026-03-04T20:30:00',
-      streamUrlEnglish: "https://show1.beinconnect.us/hls/17.m3u8",
-      streamUrlArabic: "https://encryptrates.store/default/6/default.default",
-      streamUrlServer3: "https://liveua.score806.cc/espn1/tracks-v2a1/mono.m3u8",
-      streamUrlServer4: "https://cdn.zicotv.cc/dazn-liga-1/index.m3u8"
-    },
-
-     {
-      team1: { name: "Sociedad", logo: "https://imgs.ysscores.com/teams/128/9441690196745.png" },
-      team2: { name: "A.Bilbao", logo: "https://imgs.ysscores.com/teams/128/1061690197944.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/138.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/138.png",
-      competitionName: "Copa del Rey",
-      matchTime: '2026-03-04T21:00:00',
-      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT1",
-      streamUrlArabic: "https://m3u8proxy-b66.pages.dev/dlhd?id=ElevenSports1PL",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
-    },
-
-     {
-      team1: { name: "Lazio", logo: "https://imgs.ysscores.com/teams/128/5111690283002.png" },
-      team2: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/141.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/141.png",
-      competitionName: "Coppa Italia",
-      matchTime: '2026-03-04T21:00:00',
-      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT2",
-      streamUrlArabic: "https://yourinitials.online/default/7/default.default",
-      streamUrlServer3: "",
-      streamUrlServer4: "https://sky.ioswatch.xyz/embed_view.php?id=94e741b996a6cef3"
-    },
 
   
   
