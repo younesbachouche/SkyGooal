@@ -282,7 +282,7 @@ function getMatchData() {
       competitionName: "Champions League",
       matchTime: '2026-03-10T21:00:00',
       streamUrlEnglish: "https://d1i0ue6rk681c6.cloudfront.net/index.m3u8",
-      streamUrlArabic: "https://storage.googleapis.com/wungdhrvhsdwesc/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/7.m3u8",
       streamUrlServer3: "https://grand-s-main.faggotsports.tv/out/v2/157c48d9d519cec2ddda17b420e4effb/index.m3u8",
       streamUrlServer4: "https://cdn.xmorbo.com/liga-campeones/index.m3u8"
     },
