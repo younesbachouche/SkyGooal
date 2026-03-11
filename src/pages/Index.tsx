@@ -296,7 +296,7 @@ function getMatchData() {
       matchTime: '2026-03-11T21:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/pozzytzz/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut2/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://embedsports.top/embed/admin/ppv-paris-vs-chelsea/1",
+      streamUrlServer3: "https://on-tv.site/bb2.php",
       streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8"
     }, 
 
