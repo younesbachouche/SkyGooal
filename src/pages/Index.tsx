@@ -283,7 +283,7 @@ function getMatchData() {
       matchTime: '2026-03-11T21:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/qwyyzzmt/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut1/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://player.twitch.tv/?channel=edwardsam1&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.5",
       streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones/index.m3u8"
     },
 
