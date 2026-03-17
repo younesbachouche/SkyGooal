@@ -281,10 +281,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
       matchTime: '2026-03-17T18:45:00',
-      streamUrlEnglish: "https://storage.googleapis.com/qwyyzzmt/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut1/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://player.twitch.tv/?channel=edwardsam1&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.5",
-      streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones/index.m3u8"
+      streamUrlEnglish: "https://d1vgxtyrxlxxuv.cloudfront.net/status/1/fronts.woff2?fe9a5e",
+      streamUrlArabic: "https://d3izosn7ff2iru.cloudfront.net/svg/n1/javascript.json",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
     
