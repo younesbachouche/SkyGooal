@@ -315,6 +315,20 @@ function getMatchData() {
       streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8"
     }, 
 
+
+     {
+      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
+      team2: { name: "Khenchela", logo: "https://imgs.ysscores.com/teams/128/3231693418426.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/516.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
+      competitionName: "Ligue 1 Mobilis",
+      matchTime: '2026-03-17T22:00:00',
+      streamUrlEnglish: "https://storage.googleapis.com/pozzytzz/mux_video_ts/index-1.m3u8",
+      streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut2/mux_video_ts1/index-1.m3u8",
+      streamUrlServer3: "https://on-tv.site/bb2.php",
+      streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8"
+    }, 
+
      
 
   
