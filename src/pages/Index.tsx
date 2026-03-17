@@ -283,7 +283,7 @@ function getMatchData() {
       matchTime: '2026-03-17T18:45:00',
       streamUrlEnglish: "https://d1vgxtyrxlxxuv.cloudfront.net/status/1/fronts.woff2?fe9a5e",
       streamUrlArabic: "https://d3izosn7ff2iru.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "https://playersbassam.blogspot.com/p/bein4pro.html",
+      streamUrlServer3: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/9.m3u8",
       streamUrlServer4: "https://bein.ioswatch.xyz/embed_view.php?id=71dad6b97fa3be81"
     },
 
