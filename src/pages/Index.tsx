@@ -274,13 +274,13 @@ function getMatchData() {
   return [
 
 
-     {
-      team1: { name: "Sporting CP", logo: "https://imgs.ysscores.com/teams/128/9791690386587.png" },
-      team2: { name: "Bodø/Glimt", logo: "https://imgs.ysscores.com/teams/128/8781690370522.png" },
+    {
+      team1: { name: "Barcelona", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
+      team2: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-03-17T18:45:00',
+      matchTime: '2026-03-18T18:45:00',
       streamUrlEnglish: "https://d1vgxtyrxlxxuv.cloudfront.net/status/1/fronts.woff2?fe9a5e",
       streamUrlArabic: "https://d3izosn7ff2iru.cloudfront.net/svg/n1/javascript.json",
       streamUrlServer3: "https://cluone.dad/live/388FAA8743C4E2980F7B4089B7E81087/9.m3u8",
@@ -290,12 +290,12 @@ function getMatchData() {
     
      
   {
-      team1: { name: "Man City", logo: "https://imgs.ysscores.com/teams/128/4481690118308.png" },
-      team2: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      team1: { name: "Liverpool", logo: "https://imgs.ysscores.com/teams/128/4081724601375.png" },
+      team2: { name: "Galatasaray", logo: "https://imgs.ysscores.com/teams/128/2081756067376.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-03-17T21:00:00',
+      matchTime: '2026-03-18T21:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/qwyyzzmt/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut1/mux_video_ts1/index-1.m3u8",
       streamUrlServer3: "https://player.twitch.tv/?channel=edwardsam1&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=auto&volume=0.5",
@@ -303,12 +303,12 @@ function getMatchData() {
     },
 
      {
-      team1: { name: "Chelsea", logo: "https://imgs.ysscores.com/teams/128/2571690118280.png" },
-      team2: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
+      team1: { name: "Bayern Munich", logo: "https://imgs.ysscores.com/teams/128/2351690288818.png" },
+      team2: { name: "Atalanta", logo: "https://imgs.ysscores.com/teams/128/3541690283001.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-03-17T21:00:00',
+      matchTime: '2026-03-18T21:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/pozzytzz/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut2/mux_video_ts1/index-1.m3u8",
       streamUrlServer3: "https://on-tv.site/bb2.php",
@@ -316,35 +316,18 @@ function getMatchData() {
     }, 
 
      {
-      team1: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
-      team2: { name: "Leverkusen", logo: "https://imgs.ysscores.com/teams/128/7151690288816.png" },
+      team1: { name: "Tottenham", logo: "https://imgs.ysscores.com/teams/128/2501692467226.png" },
+      team2: { name: "Atlético", logo: "https://imgs.ysscores.com/teams/128/1431719588699.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Champions League",
-      matchTime: '2026-03-17T21:00:00',
+      matchTime: '2026-03-18T21:00:00',
       streamUrlEnglish: "https://storage.googleapis.com/pozzytzz/mux_video_ts/index-1.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut2/mux_video_ts1/index-1.m3u8",
       streamUrlServer3: "https://on-tv.site/bb2.php",
       streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8"
     }, 
 
-
-     {
-      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
-      team2: { name: "Khenchela", logo: "https://imgs.ysscores.com/teams/128/3231693418426.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/516.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/516.png",
-      competitionName: "Ligue 1 Mobilis",
-      matchTime: '2026-03-17T22:00:00',
-      streamUrlEnglish: "https://storage.googleapis.com/pozzytzz/mux_video_ts/index-1.m3u8",
-      streamUrlArabic: "https://storage.googleapis.com/unjhgertyngyut2/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://on-tv.site/bb2.php",
-      streamUrlServer4: "https://cdn.xmorbo.com/lb/liga-campeones-2/index.m3u8"
-    }, 
-
-     
-
-  
   
   ];
   
