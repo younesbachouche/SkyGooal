@@ -293,9 +293,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-03-21T15:30:00',
-      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
-      streamUrlServer3: "https://601.833577.xyz/tnt.m3u8",
+      streamUrlEnglish: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },
 
@@ -306,9 +306,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga",
       matchTime: '2026-03-21T15:30:00',
-      streamUrlEnglish: "https://d366vag81fyxha.cloudfront.net/svg/n1/javascript.json",
-      streamUrlArabic: "https://cdn.zicotv.cc/dazn-1/index.m3u8",
-      streamUrlServer3: "https://601.833577.xyz/tnt.m3u8",
+      streamUrlEnglish: "https://smarthard.click/hls/9gSZoyFska/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },
 
