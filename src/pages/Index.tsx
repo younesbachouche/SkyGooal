@@ -281,8 +281,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-21T13:30:00',
-      streamUrlEnglish: "https://daffodil.serverbandel.sbs/dep.m3u8",
-      streamUrlArabic: "https://liveua.score806.cc/espn0/index.m3u8",
+      streamUrlEnglish: "https://d3izosn7ff2iru.cloudfront.net//svg/n1/javascript.json",
+      streamUrlArabic: "https://dzgz7v5hqopq1.cloudfront.net/default/1/default.default",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
