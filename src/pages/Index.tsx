@@ -283,7 +283,7 @@ function getMatchData() {
       matchTime: '2026-03-21T13:30:00',
       streamUrlEnglish: "https://d3izosn7ff2iru.cloudfront.net//svg/n1/javascript.json",
       streamUrlArabic: "https://dzgz7v5hqopq1.cloudfront.net/default/1/default.default",
-      streamUrlServer3: "https://mosports1.mohamedabomalek632.workers.dev/?url=http://het000.4rouwanda-shop.store/live/918454578001/index.m3u8",
+      streamUrlServer3: "https://husa.wizgan2013.workers.dev/?id=1424",
       streamUrlServer4: "http://sportfet.shop/BEIN-S1/video.m3u8"
     },
        {
