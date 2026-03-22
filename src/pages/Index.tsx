@@ -308,7 +308,7 @@ function getMatchData() {
       matchTime: '2026-03-22T14:00:00',
       streamUrlEnglish: "https://d3izosn7ff2iru.cloudfront.net//svg/n3/javascript.json",
       streamUrlArabic: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
-      streamUrlServer3: "https://d3izosn7ff2iru.cloudfront.net//svg/n3/javascript.json",
+      streamUrlServer3: "https://husa.wizgan2013.workers.dev/?id=1424",
       streamUrlServer4: "http://sportook.online/BEIN-S1/tracks-v1a1/mono.m3u8"
     },
 
