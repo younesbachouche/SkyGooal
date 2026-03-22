@@ -448,7 +448,7 @@ function getMatchData() {
       streamUrlEnglish: "https://feed5v.shikeaben.site/albaplayer/p3/?serv=1",
       streamUrlArabic: "https://d1ty6vdfecne8k.cloudfront.net/status/6/fronts.woff2?36a96d",
       streamUrlServer3: "https://storage.googleapis.com/qweryngherovo2/mux_video_ts/index-1.m3u8",
-      streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8"
+      streamUrlServer4: "https://cdn.zicotv.cc/m-liga/index.m3u8"
     },
    
 
