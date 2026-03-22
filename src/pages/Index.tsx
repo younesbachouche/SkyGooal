@@ -388,7 +388,7 @@ function getMatchData() {
       competitionName: "Ligue 1",
       matchTime: '2026-03-22T17:15:00',
       streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT5",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://m3u8proxy-b66.pages.dev/dlhd?id=ElevenSports2PL",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
