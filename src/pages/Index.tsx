@@ -361,8 +361,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-22T15:15:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/3/fronts.woff2?b72880",
-      streamUrlArabic: "https://storage.googleapis.com/uncetrunvover1/mux_video_ts1/index-1.m3u8",
+      streamUrlEnglish: "https://d2um2ti91retf4.cloudfront.net/status/2/fronts.woff2?7484e1",
+      streamUrlArabic: "https://dxbcj93410zcr.cloudfront.net//svg/n1/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
@@ -373,8 +373,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-22T15:15:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/3/fronts.woff2?b72880",
-      streamUrlArabic: "https://storage.googleapis.com/uncetrunvover1/mux_video_ts1/index-1.m3u8",
+      streamUrlEnglish: "https://d2um2ti91retf4.cloudfront.net/status/3/fronts.woff2?ffe818",
+      streamUrlArabic: "https://dxbcj93410zcr.cloudfront.net//svg/n2/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     }, 
