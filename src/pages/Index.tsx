@@ -404,7 +404,7 @@ function getMatchData() {
       streamUrlEnglish: "https://glittery-nougat-72a058.netlify.app/city2",
       streamUrlArabic: "https://d3prtf0egvr3w1.cloudfront.net//svg/n1/javascript.json",
       streamUrlServer3: "https://d1ty6vdfecne8k.cloudfront.net/status/4/fronts.woff2?296710",
-      streamUrlServer4: "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https"
+      streamUrlServer4: "https://liveua.score806.cc/uk_ssfb/index.m3u8"
     },
     
        
