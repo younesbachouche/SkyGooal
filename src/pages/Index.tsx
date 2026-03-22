@@ -295,8 +295,8 @@ function getMatchData() {
       matchTime: '2026-03-22T13:00:00',
       streamUrlEnglish: "https://d1r7gmumpv7lw0.cloudfront.net/status/1/fronts.woff2?2b7b09",
       streamUrlArabic: "https://d3izosn7ff2iru.cloudfront.net//svg/n1/javascript.json",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer3: "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https",
+      streamUrlServer4: "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8"
     },
    
     {
