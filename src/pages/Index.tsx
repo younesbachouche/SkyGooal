@@ -351,7 +351,7 @@ function getMatchData() {
       streamUrlEnglish: "https://liveua.score806.cc/pt_sporttv3/index.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "http://sportook.online/BEIN-S4/video.m3u8"
     },
 
      {
