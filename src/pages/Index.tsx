@@ -282,9 +282,9 @@ function getMatchData() {
       competitionName: "Serie A",
       matchTime: '2026-03-22T12:30:00',
       streamUrlEnglish: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8",
-      streamUrlArabic: "http://bouygues-cdn.r1v.us:8080/live/d49dc02ec79b/k5cfhnm1/239247.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: "http://sportkn.store/AD1/video.m3u8"
+      streamUrlServer4: "http://bouygues-cdn.r1v.us:8080/live/d49dc02ec79b/k5cfhnm1/239247.m3u8"
     },
     {
       team1: { name: "Newcastle", logo: "https://imgs.ysscores.com/teams/128/3721690119405.png" },
