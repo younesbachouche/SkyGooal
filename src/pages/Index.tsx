@@ -293,8 +293,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League",
       matchTime: '2026-03-22T13:00:00',
-      streamUrlEnglish: "https://d3izosn7ff2iru.cloudfront.net//svg/n1/javascript.json",
-      streamUrlArabic: "https://dzgz7v5hqopq1.cloudfront.net/default/1/default.default",
+      streamUrlEnglish: "https://d1r7gmumpv7lw0.cloudfront.net/status/1/fronts.woff2?2b7b09",
+      streamUrlArabic: "https://d3izosn7ff2iru.cloudfront.net//svg/n1/javascript.json",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
