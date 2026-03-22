@@ -401,10 +401,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/133.png",
       competitionName: "EFL Cup",
       matchTime: '2026-03-22T17:30:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
-      streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlEnglish: "https://glittery-nougat-72a058.netlify.app/city2",
+      streamUrlArabic: "https://d3prtf0egvr3w1.cloudfront.net//svg/n1/javascript.json",
+      streamUrlServer3: "https://d1ty6vdfecne8k.cloudfront.net/status/4/fronts.woff2?296710",
+      streamUrlServer4: "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https"
     },
     
        
