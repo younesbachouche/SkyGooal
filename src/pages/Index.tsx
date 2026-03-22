@@ -320,8 +320,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A",
       matchTime: '2026-03-22T15:00:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount2/index.m3u8",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=ElevenSports2PL",
+      streamUrlArabic: "https://liveua.score806.cc/paramount2/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: "http://bouygues-cdn.r1v.us:8080/live/d49dc02ec79b/k5cfhnm1/239247.m3u8"
     },
