@@ -418,7 +418,7 @@ function getMatchData() {
       matchTime: '2026-03-22T18:00:00',
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
       streamUrlArabic: "https://live.alahly-eg.com/live/channels/dlhd?id=SPT2",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/13.m3u8",
       streamUrlServer4: ""
     },
 
