@@ -306,10 +306,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga",
       matchTime: '2026-03-22T14:00:00',
-      streamUrlEnglish: "https://d1r7gmumpv7lw0.cloudfront.net/status/5/fronts.woff2?c77c5b",
+      streamUrlEnglish: "https://live20.bozztv.com/akamaissh101/ssh101/osnmixflix/playlist.m3u8",
       streamUrlArabic: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
-      streamUrlServer3: "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-      streamUrlServer4: "https://d3izosn7ff2iru.cloudfront.net//svg/n3/javascript.json"
+      streamUrlServer3: "https://d3izosn7ff2iru.cloudfront.net//svg/n3/javascript.json",
+      streamUrlServer4: ""
     },
 
 
