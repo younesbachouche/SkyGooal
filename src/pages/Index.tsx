@@ -309,7 +309,7 @@ function getMatchData() {
       streamUrlEnglish: "https://d1r7gmumpv7lw0.cloudfront.net/status/5/fronts.woff2?c77c5b",
       streamUrlArabic: "https://totednffs.store/default/2/default.default",
       streamUrlServer3: "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://d3izosn7ff2iru.cloudfront.net//svg/n3/javascript.json"
     },
 
 
