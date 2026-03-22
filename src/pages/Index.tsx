@@ -448,7 +448,7 @@ function getMatchData() {
       streamUrlEnglish: "http://xmrcars.org:8080/bn1hd/tracks-v1a1/mono.m3u8",
       streamUrlArabic: "https://d1ty6vdfecne8k.cloudfront.net/status/6/fronts.woff2?36a96d",
       streamUrlServer3: "https://storage.googleapis.com/qweryngherovo2/mux_video_ts/index-1.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8"
     },
    
 
