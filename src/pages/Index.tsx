@@ -387,10 +387,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/53.png",
       competitionName: "Ligue 1",
       matchTime: '2026-03-22T17:15:00',
-      streamUrlEnglish: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8",
+      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT5",
       streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: "http://sportkn.store/AD1/video.m3u8"
+      streamUrlServer4: ""
     },
     
 
