@@ -307,7 +307,7 @@ function getMatchData() {
       competitionName: "La Liga",
       matchTime: '2026-03-22T14:00:00',
       streamUrlEnglish: "https://d1r7gmumpv7lw0.cloudfront.net/status/5/fronts.woff2?c77c5b",
-      streamUrlArabic: "https://totednffs.store/default/2/default.default",
+      streamUrlArabic: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
       streamUrlServer3: "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
       streamUrlServer4: "https://d3izosn7ff2iru.cloudfront.net//svg/n3/javascript.json"
     },
