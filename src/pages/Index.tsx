@@ -341,8 +341,8 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "Friendlies",
       matchTime: '2026-03-26T21:00:00',
-      streamUrlEnglish: "https://simorayane.cachefly.net/hls/simo2005/index.m3u8",
-      streamUrlArabic: "https://razko2.blogspot.com/",
+      streamUrlEnglish: "https://w.shahidtv.net/live/34682514/73347194/416.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: "https://1.hls-syria.live/live/time3.m3u8",
       streamUrlPc: ""
