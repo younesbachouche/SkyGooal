@@ -343,7 +343,7 @@ function getMatchData() {
       matchTime: '2026-03-26T21:00:00',
       streamUrlEnglish: "",
       streamUrlArabic: "",
-      streamUrlServer3: "https://1.hls-syria.live/live/time3.m3u8",
+      streamUrlServer3: "https://simorayane.cachefly.net/hls/simo2005/index.m3u8",
       streamUrlServer4: "",
       streamUrlPc: ""
     },
