@@ -288,6 +288,19 @@ function getMatchData() {
       streamUrlPc: ""
     },
 
+     {
+      team1: { name: "Italy", logo: "https://imgs.ysscores.com/teams/128/4141763081186.png" },
+      team2: { name: "Northern Ireland", logo: "https://imgs.ysscores.com/teams/128/7571763084342.png" },
+      competitionLogo: "https://imagecache.365scores.com/image/upload/f_png,w_64,h_64,c_limit,q_auto:eco,dpr_2,d_Countries:Round:19.png/v1/Competitions/light/5421",
+      competitionDarkLogo: "https://imagecache.365scores.com/image/upload/f_png,w_64,h_64,c_limit,q_auto:eco,dpr_2,d_Countries:Round:19.png/v1/Competitions/light/5421.png",
+      competitionName: "WC - Qualification UEFA",
+      matchTime: '2026-03-26T20:45:00',
+      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: "",
+      streamUrlPc: ""
+    },
     
      
     
