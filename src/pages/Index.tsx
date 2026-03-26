@@ -343,7 +343,7 @@ function getMatchData() {
       matchTime: '2026-03-26T21:00:00',
       streamUrlEnglish: "https://w.shahidtv.net/live/34682514/73347194/416.m3u8",
       streamUrlArabic: "https://flu.systemnet.tv/Al.Fajer.1.720p/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://on-tv.site/bb1.php",
       streamUrlServer4: "https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/PEnAwSMqjnXd1oyJdzp3yLdT9f2tpPPQIJ19B47vBBgjCETPX5QnVufZZlPAGny0NW_1lb2MYpwh5wN-bswqmA/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live",
       streamUrlPc: ""
     },
