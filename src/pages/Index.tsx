@@ -342,9 +342,9 @@ function getMatchData() {
       competitionName: "Friendlies",
       matchTime: '2026-03-26T21:00:00',
       streamUrlEnglish: "https://w.shahidtv.net/live/34682514/73347194/416.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://flu.systemnet.tv/Al.Fajer.1.720p/index.m3u8",
       streamUrlServer3: "",
-      streamUrlServer4: "https://1.hls-syria.live/live/time3.m3u8",
+      streamUrlServer4: "",
       streamUrlPc: ""
     },
     
