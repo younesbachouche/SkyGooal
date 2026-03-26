@@ -281,11 +281,11 @@ function getMatchData() {
       competitionDarkLogo: "https://imagecache.365scores.com/image/upload/f_png,w_64,h_64,c_limit,q_auto:eco,dpr_2,d_Countries:Round:19.png/v1/Competitions/light/5421.png",
       competitionName: "WC - Qualification UEFA",
       matchTime: '2026-03-26T18:00:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://live.thmanyah.blog/live/ClapprPlayer2?ch=https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/51.m3u8",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: "",
-      streamUrlPc: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8"
+      streamUrlPc: ""
     },
 
     
