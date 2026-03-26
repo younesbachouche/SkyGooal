@@ -341,11 +341,11 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "Friendlies",
       matchTime: '2026-03-26T21:00:00',
-      streamUrlEnglish: "https://d1pds5gq7p4s0a.cloudfront.net/status/2/fronts.woff2?b2e739",
-      streamUrlArabic: "https://d366vag81fyxha.cloudfront.net/svg/n3/javascript.json",
-      streamUrlServer3: "",
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "https://1.hls-syria.live/live/time3.m3u8",
       streamUrlServer4: "",
-      streamUrlPc: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8"
+      streamUrlPc: ""
     },
     
    
