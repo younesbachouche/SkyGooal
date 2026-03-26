@@ -342,10 +342,10 @@ function getMatchData() {
       competitionName: "Friendlies",
       matchTime: '2026-03-26T21:00:00',
       streamUrlEnglish: "https://on-tv.site/bb1.php",
-      streamUrlArabic: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8",
-      streamUrlServer3: "https://liveua.score806.cc/pt_sporttv1/tracks-v1a1/mono.m3u8",
-      streamUrlServer4: "https://liveua.score806.cc/uk_itv4/tracks-v1a1/mono.m3u8",
-      streamUrlPc: ""
+      streamUrlArabic: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT1",
+      streamUrlServer3: "https://liveua.score806.cc/paramount1/tracks-v1a1/mono.m3u8",
+      streamUrlServer4: "https://liveua.score806.cc/pt_sporttv1/tracks-v1a1/mono.m3u8",
+      streamUrlPc: "https://m3u8proxy-b66.pages.dev/dlhd?id=SPT1",
     },
     
    
