@@ -282,7 +282,7 @@ function getMatchData() {
       competitionName: "WC - Qualification UEFA",
       matchTime: '2026-03-26T18:00:00',
       streamUrlEnglish: "https://live.thmanyah.blog/live/ClapprPlayer2?ch=https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/51.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://feed5v.shikeaben.site/albaplayer/p2/?serv=2",
       streamUrlServer3: "",
       streamUrlServer4: "",
       streamUrlPc: ""
