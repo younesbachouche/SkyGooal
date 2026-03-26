@@ -298,7 +298,7 @@ function getMatchData() {
       streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
       streamUrlArabic: "https://601.simplyataide.boutique/bbc.m3u8",
       streamUrlServer3: "",
-      streamUrlServer4: "http://xmrcars.org:8080/bn1hd/tracks-v1a1/mono.m3u8",
+      streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8",
       streamUrlPc: ""
     },
     
