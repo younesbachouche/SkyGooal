@@ -342,9 +342,9 @@ function getMatchData() {
       competitionName: "Friendlies",
       matchTime: '2026-03-26T21:00:00',
       streamUrlEnglish: "https://simorayane.cachefly.net/hls/simo2005/index.m3u8",
-      streamUrlArabic: "https://1.hls-syria.live/live/time3.m3u8",
-      streamUrlServer3: "https://egyfilm.online/b1.php",
-      streamUrlServer4: "https://www.youtube.com/embed/aIZxWlVd6Uk",
+      streamUrlArabic: "https://razko2.blogspot.com/",
+      streamUrlServer3: "",
+      streamUrlServer4: "https://1.hls-syria.live/live/time3.m3u8",
       streamUrlPc: ""
     },
     
