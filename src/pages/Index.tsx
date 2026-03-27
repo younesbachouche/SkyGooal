@@ -307,22 +307,7 @@ function getMatchData() {
     },
 
 
-    {
-      team1: { name: "South Africa", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/South_Africa_national_soccer_team_logo.svg/250px-South_Africa_national_soccer_team_logo.svg.png" },
-      team2: { name: "Panama", logo: "https://images.elbotola.com/stats/logos/v2y8m4zho2eql07.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T18:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
-
-
-   
+     
     
 
     {
