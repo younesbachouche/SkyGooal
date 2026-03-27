@@ -298,10 +298,11 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "International Friendly",
       matchTime: '2026-03-27T18:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
+      streamUrlEnglish: "https://husa.wizgan2013.workers.dev/?id=1424",
+      streamUrlArabic: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
+
+      streamUrlServer3: "https://live20.bozztv.com/akamaissh101/ssh101/osnmixflix/playlist.m3u8",
+      streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8",
       streamUrlPc: ""
     },
 
