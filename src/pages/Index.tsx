@@ -409,7 +409,7 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "International Friendly",
       matchTime: '2026-03-27T21:00:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://husa.wizgan2013.workers.dev/?id=1424",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: "",
