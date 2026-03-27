@@ -348,9 +348,9 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "International Friendly",
       matchTime: '2026-03-27T20:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://razko2.blogspot.com/?m=0",
+      streamUrlArabic: "https://match3dzt.blogspot.com/",
+      streamUrlServer3: "https://www.youtube.com/embed/ymTh0Bvv55g",
       streamUrlServer4: "",
       streamUrlPc: ""
     },
