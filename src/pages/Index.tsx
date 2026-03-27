@@ -318,7 +318,7 @@ function getMatchData() {
       competitionName: "International Friendly",
       matchTime: '2026-03-27T18:30:00',
       streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/14.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://a8.sia-koora.live/albaplayer/on-time-sport/",
       streamUrlServer3: "",
       streamUrlServer4: "",
       streamUrlPc: ""
