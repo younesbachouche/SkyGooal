@@ -351,7 +351,7 @@ function getMatchData() {
       streamUrlEnglish: "https://razko2.blogspot.com/?m=0",
       streamUrlArabic: "https://match3dzt.blogspot.com/",
       streamUrlServer3: "https://www.youtube.com/embed/ymTh0Bvv55g",
-      streamUrlServer4: "",
+      streamUrlServer4: "https://30.taktikora.live/hls/simo2005/index.m3u8",
       streamUrlPc: ""
     },
 
