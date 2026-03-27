@@ -364,7 +364,7 @@ function getMatchData() {
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "International Friendly",
       matchTime: '2026-03-27T20:45:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://601.simplyataide.boutique/itv.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: "",
