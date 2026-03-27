@@ -321,19 +321,7 @@ function getMatchData() {
     },
 
 
-    {
-      team1: { name: "Saudi Arabia", logo: "https://images.elbotola.com/stats/logos/j1l4rjnh05ym7vx.png" },
-      team2: { name: "Egypt", logo: "https://images.elbotola.com/stats/logos/4zp5rzgh84yq82w.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T18:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
+   
     
 
     {
@@ -342,8 +330,8 @@ function getMatchData() {
       competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "International Friendly",
-      matchTime: '2026-03-27T18:00:00',
-      streamUrlEnglish: "",
+      matchTime: '2026-03-27T18:30:00',
+      streamUrlEnglish: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/14.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: "",
