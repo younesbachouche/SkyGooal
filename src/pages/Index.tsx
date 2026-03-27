@@ -335,7 +335,7 @@ function getMatchData() {
       streamUrlEnglish: "",
       streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: "",
+      streamUrlServer4: "http://93.184.10.248/JordanSport/index.m3u8",
       streamUrlPc: ""
     },
        
