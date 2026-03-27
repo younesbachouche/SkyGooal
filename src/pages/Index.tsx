@@ -350,8 +350,8 @@ function getMatchData() {
       matchTime: '2026-03-27T20:30:00',
       streamUrlEnglish: "https://razko2.blogspot.com/?m=0",
       streamUrlArabic: "https://match3dzt.blogspot.com/",
-      streamUrlServer3: "https://www.youtube.com/embed/ymTh0Bvv55g",
-      streamUrlServer4: "https://30.taktikora.live/hls/simo2005/index.m3u8",
+      streamUrlServer3: "https://yskylive.netlify.app/city2",
+      streamUrlServer4: "https://www.youtube.com/embed/ymTh0Bvv55g",
       streamUrlPc: ""
     },
 
