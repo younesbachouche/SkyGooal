@@ -288,7 +288,7 @@ function getMatchData() {
       competitionName: "International Friendly",
       matchTime: '2026-03-30T19:45:00',
       streamUrlEnglish: "https://live.thmanyah.blog/live/ClapprPlayer2?ch=https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://tv.beinconnect.us/hls/50.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8",
       streamUrlPc: ""
