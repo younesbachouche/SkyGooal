@@ -274,49 +274,19 @@ function getMatchData() {
   return [
 
 
-  {
-      team1: { name: "Russia", logo: "https://upload.wikimedia.org/wikipedia/ar/archive/e/ec/20231126084417!Russia_football_association.png" },
-      team2: { name: "Nicaragua", logo: "https://upload.wikimedia.org/wikipedia/fr/c/c8/Logo_F%C3%A9d%C3%A9ration_Nicaragua_Football.svg" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T17:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
+
 
     
-     
-
-      {
-      team1: { name: "Austria", logo: "https://images.elbotola.com/stats/logos/gpxwrxlh6d1ryk0.png" },
-      team2: { name: "Ghana", logo: "https://images.elbotola.com/stats/logos/j1l4rjnhoz6m7vx.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T18:00:00',
-      streamUrlEnglish: "https://husa.wizgan2013.workers.dev/?id=1424",
-      streamUrlArabic: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/50.m3u8",
-
-      streamUrlServer3: "https://live20.bozztv.com/akamaissh101/ssh101/osnmixflix/playlist.m3u8",
-      streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8",
-      streamUrlPc: ""
-    },
-
-
      
     
 
     {
-      team1: { name: "Saudi Arabia", logo: "https://images.elbotola.com/stats/logos/j1l4rjnh05ym7vx.png" },
+      team1: { name: "Germany", logo: "https://images.elbotola.com/stats/logos/d23xmvkh590qg8n.png" },
       team2: { name: "Egypt", logo: "https://images.elbotola.com/stats/logos/4zp5rzgh84yq82w.png" },
       competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionName: "International Friendly",
-      matchTime: '2026-03-27T18:30:00',
+      matchTime: '2026-03-30T19:45:00',
       streamUrlEnglish: "https://yskylive.netlify.app/city2",
       streamUrlArabic: "https://m3u8proxy-b66.pages.dev/Proxy?url=https://tv.beinconnect.us/hls/14.m3u8",
       streamUrlServer3: "",
@@ -325,112 +295,6 @@ function getMatchData() {
     },
 
 
-     {
-      team1: { name: "Jordan", logo: "https://images.elbotola.com/stats/logos/j1l4rjnho9jm7vx.png" },
-      team2: { name: "Costa Rica", logo: "https://images.elbotola.com/stats/logos/kdj2ryoholnq1zp.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T18:30:00',
-      streamUrlEnglish: "https://30.taktikora.live/hls/simo2003/index.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "http://93.184.10.248/JordanSport/index.m3u8",
-      streamUrlPc: ""
-    },
-       
-
-     
-    {
-      team1: { name: "Algeria", logo: "https://upload.wikimedia.org/wikipedia/fr/8/8b/Nouveau_logo_%C3%89quipe_d%27Alg%C3%A9rie.png" },
-      team2: { name: "Guatemala", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Guatemala_National_Football_team_badge.png/250px-Guatemala_National_Football_team_badge.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T20:30:00',
-      streamUrlEnglish: "https://razko2.blogspot.com/?m=0",
-      streamUrlArabic: "https://match3dzt.blogspot.com/",
-      streamUrlServer3: "https://yskylive.netlify.app/city2",
-      streamUrlServer4: "https://www.youtube.com/embed/ymTh0Bvv55g",
-      streamUrlPc: ""
-    },
-
-
-
-     {
-      team1: { name: "England", logo: "https://images.elbotola.com/stats/logos/z8yomo4hl08q0j6.png" },
-      team2: { name: "Uruguay", logo: "https://images.elbotola.com/stats/logos/z318q66hln7qo9j.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T20:45:00',
-      streamUrlEnglish: "https://601.simplyataide.boutique/itv.m3u8",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
-   
-
-     {
-      team1: { name: "Switzerland", logo: "https://images.elbotola.com/stats/logos/e4wyrn4hn3gq86p.png" },
-      team2: { name: "Germany", logo: "https://images.elbotola.com/stats/logos/d23xmvkh590qg8n.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T20:45:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
-
-
-     {
-      team1: { name: "Netherlands", logo: "https://images.elbotola.com/stats/logos/9dn1m1ghzj5moep.png" },
-      team2: { name: "Norway", logo: "https://images.elbotola.com/stats/logos/8y39mp1h77lmojx.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T20:45:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
-
-
-    {
-      team1: { name: "Spain", logo: "https://images.elbotola.com/stats/logos/dn1m1gh4vgymoep.png" },
-      team2: { name: "Serbia", logo: "https://images.elbotola.com/stats/logos/9k82rekhd7prepz.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T21:00:00',
-      streamUrlEnglish: "https://husa.wizgan2013.workers.dev/?id=1424",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
-
-
-    
-    {
-      team1: { name: "Morocco", logo: "https://images.elbotola.com/stats/logos/56ypq3nh9nzmd7o.png" },
-      team2: { name: "Ecuador", logo: "https://images.elbotola.com/stats/logos/p3glrw7h2z5qdyj.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-27T21:15:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
-      streamUrlServer4: "",
-      streamUrlPc: ""
-    },
 
   ];
   
