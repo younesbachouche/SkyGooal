@@ -289,7 +289,7 @@ function getMatchData() {
       matchTime: '2026-03-30T19:45:00',
       streamUrlEnglish: "https://tv.beinconnect.us/hls/50.m3u8",
       streamUrlArabic: "https://razkoooo.blogspot.com/?m=0",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://daffodil.shdigital.site/fs1.m3u8",
       streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8",
       streamUrlPc: ""
     },
