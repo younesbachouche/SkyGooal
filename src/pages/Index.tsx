@@ -281,7 +281,7 @@ function getMatchData() {
     
 
     {
-      team1: { name: "Germany", logo: "https://images.elbotola.com/stats/logos/d23xmvkh590qg8n.png" },
+      team1: { name: "Germany", logo: "https://logodownload.org/wp-content/uploads/2018/06/germany-national-football-team-logo-0.png" },
       team2: { name: "Egypt", logo: "https://images.elbotola.com/stats/logos/4zp5rzgh84yq82w.png" },
       competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
       competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
