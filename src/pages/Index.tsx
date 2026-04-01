@@ -281,19 +281,17 @@ function getMatchData() {
     
 
     {
-      team1: { name: "Germany", logo: "https://images.vexels.com/media/users/3/152460/isolated/preview/825e80bac186d247dd9332f1440d20df-germany-football-team-logo.png?w=360" },
-      team2: { name: "Ghana", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ghana_Football_Association_logo.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/7671693419239.png",
-      competitionName: "International Friendly",
-      matchTime: '2026-03-30T19:45:00',
-      streamUrlEnglish: "https://tv.beinconnect.us/hls/50.m3u8",
-      streamUrlArabic: "https://razkoooo.blogspot.com/?m=0",
-      streamUrlServer3: "https://daffodil.shdigital.site/fs1.m3u8",
-      streamUrlServer4: "http://sportook.online/BEIN-S1/video.m3u8",
-      streamUrlPc: ""
+      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
+      team2: { name: "Usma", logo: "https://imgs.ysscores.com/teams/128/9611695834503.png" },
+      competitionLogo: "https://imgs.ysscores.com/championship/150/8131693416988.png",
+      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/8131693416988.png",
+      competitionName: "Algerian Professional League 1",
+      matchTime: '2026-04-01T16:00:00',
+      streamUrlEnglish: "",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
-
 
 
   ];
