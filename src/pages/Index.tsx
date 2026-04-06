@@ -281,14 +281,14 @@ function getMatchData() {
     
 
     {
-      team1: { name: "MC Algiers", logo: "https://imgs.ysscores.com/teams/128/7391693665631.png" },
-      team2: { name: "Usma", logo: "https://imgs.ysscores.com/teams/128/9611695834503.png" },
-      competitionLogo: "https://imgs.ysscores.com/championship/150/8131693416988.png",
-      competitionDarkLogo: "https://imgs.ysscores.com/championship/150/8131693416988.png",
-      competitionName: "Algerian Professional League 1",
-      matchTime: '2026-04-01T16:00:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
+      team1: { name: "SSC Napoli", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
+      team2: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionName: "Serie A",
+      matchTime: '2026-04-06T19:45:00',
+      streamUrlEnglish: "https://a4.kora-plus.dad/watch/ad1.m3u8",
+      streamUrlArabic: "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
