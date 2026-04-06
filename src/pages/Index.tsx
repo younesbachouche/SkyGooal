@@ -290,7 +290,7 @@ function getMatchData() {
       streamUrlEnglish: "https://a4.kora-plus.dad/watch/ad1.m3u8",
       streamUrlArabic: "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "http://sportfet.shop/STC-SPORT-1/video.m3u8"
     },
 
 
