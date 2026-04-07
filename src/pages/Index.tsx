@@ -294,6 +294,21 @@ function getMatchData() {
     },
 
 
+
+     {
+      team1: { name: "Sporting CP", logo: "https://imgs.ysscores.com/teams/128/9791690386587.png" },
+      team2: { name: "Arsenal", logo: "https://imgs.ysscores.com/teams/128/1701690118820.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Quarter Final - CHAMPIONS LEAGUE",
+      matchTime: '2026-04-07T20:00:00',
+      streamUrlEnglish: "https://a4.kora-plus.dad/watch/ad1.m3u8",
+      streamUrlArabic: "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
+      streamUrlServer3: "",
+      streamUrlServer4: "http://sportfet.shop/STC-SPORT-1/video.m3u8"
+    },
+
+
   ];
   
 }
