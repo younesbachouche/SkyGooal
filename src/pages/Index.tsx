@@ -285,7 +285,7 @@ function getMatchData() {
       team2: { name: "Bayern Munich", logo: "https://imgs.ysscores.com/teams/128/2351690288818.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
-      competitionName: "Quarter Final - CHAMPIONS LEAGUE,
+      competitionName: "Quarter Final - CHAMPIONS LEAGUE",
       matchTime: '2026-04-07T20:00:00',
       streamUrlEnglish: "https://a4.kora-plus.dad/watch/ad1.m3u8",
       streamUrlArabic: "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
