@@ -289,8 +289,8 @@ function getMatchData() {
       matchTime: '2026-04-07T20:00:00',
       streamUrlEnglish: "https://yskylive.netlify.app/bein1",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "https://602.simplyataide.boutique/tnt.m3u8",
-      streamUrlServer4: ""
+      streamUrlServer3: "https://a4.kora-plus.dad/watch/b1.m3u8",
+      streamUrlServer4: "https://602.simplyataide.boutique/tnt.m3u8"
     },
 
 
