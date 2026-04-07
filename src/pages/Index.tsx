@@ -281,12 +281,12 @@ function getMatchData() {
     
 
     {
-      team1: { name: "SSC Napoli", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
-      team2: { name: "AC Milan", logo: "https://imgs.ysscores.com/teams/128/3181690283002.png" },
-      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
-      competitionName: "Serie A",
-      matchTime: '2026-04-06T19:45:00',
+      team1: { name: "Real Madrid", logo: "https://imgs.ysscores.com/teams/128/1871690196746.png" },
+      team2: { name: "Bayern Munich", logo: "https://imgs.ysscores.com/teams/128/2351690288818.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/42.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
+      competitionName: "Quarter Final - CHAMPIONS LEAGUE,
+      matchTime: '2026-04-07T20:00:00',
       streamUrlEnglish: "https://a4.kora-plus.dad/watch/ad1.m3u8",
       streamUrlArabic: "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
       streamUrlServer3: "",
