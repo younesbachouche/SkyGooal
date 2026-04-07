@@ -289,7 +289,7 @@ function getMatchData() {
       matchTime: '2026-04-07T20:00:00',
       streamUrlEnglish: "https://yskylive.netlify.app/bein1",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://602.simplyataide.boutique/tnt.m3u8",
       streamUrlServer4: ""
     },
 
@@ -302,9 +302,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/42.png",
       competitionName: "Quarter Final - CHAMPIONS LEAGUE",
       matchTime: '2026-04-07T20:00:00',
-      streamUrlEnglish: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
-      streamUrlArabic: "https://yskylive.netlify.app/bein2",
-      streamUrlServer3: "",
+      streamUrlEnglish: "https://yskylive.netlify.app/bein2",
+      streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
+      streamUrlServer3: "https://602.simplyataide.boutique/arsenal.m3u8",
       streamUrlServer4: ""
     },
 
