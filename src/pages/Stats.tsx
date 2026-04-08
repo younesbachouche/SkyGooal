@@ -47,12 +47,14 @@ interface StatsData {
 
 // ---------------- Competitions ----------------
 const competitions: Competition[] = [
-  {
-    id: 'afcon',
-    name: 'AFCON 2025',
-    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,d_Countries:Round:44.png/v11/Competitions/light/167',
-    apiUrl: 'https://webws.365scores.com/web/stats/?appTypeId=5&langId=10&userCountryId=139&competitions=167&competitors=&withSeasons=true'
+
+     {
+    id: 'Champions League',
+    name: 'Champions League',
+    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_24,h_24,c_limit,q_auto:eco,dpr_3,d_Countries:Round:19.png/v5/Competitions/light/572',
+    apiUrl: 'https://webws.365scores.com/web/stats/?appTypeId=5&langId=1&timezoneName=Africa/Lagos&userCountryId=139&competitions=572&competitors=&withSeasons=true'
   },
+ 
   {
     id: 'ligue1-mobilis',
     name: 'Ligue 1 Mobilis',
@@ -65,12 +67,7 @@ const competitions: Competition[] = [
     logo: 'https://imagecache.365scores.com/image/upload/f_png,w_24,h_24,c_limit,q_auto:eco,dpr_3,d_Countries:Round:2.png/v5/Competitions/light/11',
     apiUrl: 'https://webws.365scores.com/web/stats/?appTypeId=5&langId=10&userCountryId=139&competitions=11&competitors=&withSeasons=true'
   },
-   {
-    id: 'Champions League',
-    name: 'Champions League',
-    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_24,h_24,c_limit,q_auto:eco,dpr_3,d_Countries:Round:19.png/v5/Competitions/light/572',
-    apiUrl: 'https://webws.365scores.com/web/stats/?appTypeId=5&langId=1&timezoneName=Africa/Lagos&userCountryId=139&competitions=572&competitors=&withSeasons=true'
-  },
+
   {
     id: 'Premier League',
     name: 'Premier League',
@@ -101,6 +98,12 @@ const competitions: Competition[] = [
     name: 'Eredivisie',
     logo: 'https://imagecache.365scores.com/image/upload/f_png,w_24,h_24,c_limit,q_auto:eco,dpr_3,d_Countries:Round:5.png/v5/Competitions/light/57',
     apiUrl: 'https://webws.365scores.com/web/stats/?appTypeId=5&langId=1&timezoneName=Africa/Lagos&userCountryId=139&competitions=57&competitors=&withSeasons=true'
+  },
+   {
+    id: 'afcon',
+    name: 'AFCON 2025',
+    logo: 'https://imagecache.365scores.com/image/upload/f_png,w_68,h_68,c_limit,q_auto:eco,d_Countries:Round:44.png/v11/Competitions/light/167',
+    apiUrl: 'https://webws.365scores.com/web/stats/?appTypeId=5&langId=10&userCountryId=139&competitions=167&competitors=&withSeasons=true'
   },
    {
     id: 'Europa League 1',
