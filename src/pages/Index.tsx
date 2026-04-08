@@ -50,7 +50,6 @@ const Index = () => {
     setAllMatches(getMatchData());
   }, []);
 
-  // Get unique competitions from matches
   const competitions = useMemo(() => {
     const uniqueComps = new Map<string, { name: string; logo: string }>();
     allMatches.forEach(match => {
@@ -76,7 +75,7 @@ const Index = () => {
     const now = new Date().getTime();
     const live = sorted.ongoingOrUpcoming.filter(match => {
       const matchStartTime = new Date(match.matchTime).getTime();
-      return now >= matchStartTime - 5 * 60 * 1000; // Started or starting in 5 min
+      return now >= matchStartTime - 5 * 60 * 1000; 
     });
     
     return { ...sorted, liveMatches: live };
@@ -252,9 +251,8 @@ function sortMatches(matches: Match[]) {
   const ended: Match[] = [];
 
   matches.forEach(match => {
-    // Parse match time - treat as UTC if it has 'Z', otherwise as local time
     const matchStartTime = new Date(match.matchTime).getTime();
-    const matchEndTime = matchStartTime + 2 * 60 * 60 * 1000; // 2 hours after match start
+    const matchEndTime = matchStartTime + 2 * 60 * 60 * 1000; 
 
     if (now >= matchEndTime) {
       ended.push(match);
@@ -273,11 +271,6 @@ function sortMatches(matches: Match[]) {
 function getMatchData() {
   return [
 
-
-
-
-    
-     
     
 {
       team1: { name: "PSG", logo: "https://imgs.ysscores.com/teams/128/4461690287785.png" },
