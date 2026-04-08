@@ -297,7 +297,7 @@ function getMatchData() {
       streamUrlEnglish: "https://yskylive.netlify.app/bein1",
       streamUrlArabic: "https://storage.googleapis.com/uhgertyobrixaovo3/mux_video_ts1/index-1.m3u8",
       streamUrlServer3: "https://d3h8gvxs6hajby.cloudfront.net/status/2/fronts.woff2?84e3b4",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://is.gd/QKWLVe.m3u8"
     },
 
 
