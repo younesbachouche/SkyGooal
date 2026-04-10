@@ -296,7 +296,7 @@ function getMatchData() {
       matchTime: '2026-04-10T20:00:00',
       streamUrlEnglish: "https://yskylive.netlify.app/bein2",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
       streamUrlServer4: ""
     },
 
