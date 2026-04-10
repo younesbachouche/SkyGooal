@@ -288,8 +288,8 @@ function getMatchData() {
 
 
      {
-      team1: { name: "West Ham", logo: "https://imgs.ysscores.com/teams/128/9541690196746.png" },
-      team2: { name: "Wolves", logo: "https://imgs.ysscores.com/teams/128/7191690118603.png" },
+      team1: { name: "West Ham", logo: "https://imgs.ysscores.com/teams/128/7191690118603.png" },
+      team2: { name: "Wolves", logo: "https://imgs.ysscores.com/teams/128/9631690118479.png" },
       competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League - ENGLAND",
