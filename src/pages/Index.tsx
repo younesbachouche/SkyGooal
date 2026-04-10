@@ -279,10 +279,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Series A - ITALY",
       matchTime: '2026-04-10T20:45:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein1",
-      streamUrlArabic: "https://storage.googleapis.com/uhgertyobrixaovo1/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://d3h8gvxs6hajby.cloudfront.net/status/1/fronts.woff2?0261bc",
-      streamUrlServer4: "https://602.simplyataide.boutique/tnt.m3u8"
+      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
 
