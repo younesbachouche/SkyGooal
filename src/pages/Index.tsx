@@ -280,7 +280,7 @@ function getMatchData() {
       competitionName: "Series A - ITALY",
       matchTime: '2026-04-10T19:45:00',
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://flu.systemnet.tv/Al.Fajer.4.720p/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
