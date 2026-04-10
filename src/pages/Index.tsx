@@ -309,7 +309,7 @@ function getMatchData() {
       matchTime: '2026-04-10T20:00:00',
       streamUrlEnglish: "https://yskylive.netlify.app/bein1",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n1/javascript.json",
-      streamUrlServer3: "https://is.gd/AD1O87.m3u8",
+      streamUrlServer3: "https://flu.systemnet.tv/Al.Fajer.1.720p/index.m3u8",
       streamUrlServer4: "https://live20.bozztv.com/akamaissh101/ssh101/osnmixflix/playlist.m3u8"
     },
 
