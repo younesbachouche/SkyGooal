@@ -371,9 +371,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League - ENGLAND",
       matchTime: '2026-04-11T17:30:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein2",
+      streamUrlEnglish: "https://yskylive.netlify.app/bein1",
       streamUrlArabic: "https://storage.googleapis.com/obrixaovertung2/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://1syrialive.s3.us-east-2.amazonaws.com/bein1/bein1_1080p/index.m3u8",
       streamUrlServer4: ""
     },
 
