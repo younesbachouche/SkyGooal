@@ -82,42 +82,12 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
     setIframeKey(Date.now());
   };
 
-  // Function to create autoplay URL
-  const createAutoplayUrl = (url: string): string => {
-    try {
-      const urlObj = new URL(url);
-      
-      // Add autoplay parameter for common streaming formats
-      if (url.includes('.m3u8') || url.includes('.mpd') || url.includes('.mp4') || 
-          url.includes('.m4v') || url.includes('.webm') || url.includes('.ogg')) {
-        urlObj.searchParams.set('autoplay', '1');
-      }
-      
-      // For iframe embeds (like YouTube, Vimeo)
-      if (url.includes('youtube.com/embed') || url.includes('youtu.be') || 
-          url.includes('vimeo.com') || url.includes('dailymotion.com')) {
-        urlObj.searchParams.set('autoplay', '1');
-      }
-      
-      // For direct video files
-      if (url.match(/\.(mp4|webm|ogg|mov|avi|wmv|flv|mkv)$/i)) {
-        return url + (url.includes('?') ? '&' : '?') + 'autoplay=1';
-      }
-      
-      return urlObj.toString();
-    } catch {
-      // If URL parsing fails, just return the original URL
-      return url;
-    }
-  };
-
   if (availableServers.length === 0) {
     onClose();
     return null;
   }
 
   const isMobile = window.innerWidth < 768;
-  const autoplayUrl = createAutoplayUrl(url);
 
   return (
     <div className="fixed inset-0 z-[99999] flex flex-col items-center justify-center p-2 sm:p-4 
@@ -203,13 +173,12 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
             >
               <iframe
                 key={iframeKey}
-                src={autoplayUrl}
+                src={url}
                 className="absolute top-0 left-0 w-full h-full border-0"
-                allow="autoplay; fullscreen; encrypted-media; picture-in-picture; accelerometer; gyroscope; web-share"
+                allow="fullscreen; encrypted-media; picture-in-picture; accelerometer; gyroscope; web-share"
                 allowFullScreen
                 title="Live Stream"
                 loading="eager"
-                // Additional attributes for autoplay
                 sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
                 referrerPolicy="no-referrer-when-downgrade"
               />
