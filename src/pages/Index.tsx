@@ -403,7 +403,7 @@ function getMatchData() {
       competitionName: "Bundesliga - GERMANY",
       matchTime: '2026-04-11T17:30:00',
       streamUrlEnglish: "",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
