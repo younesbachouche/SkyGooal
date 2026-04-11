@@ -296,8 +296,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga - GERMANY",
       matchTime: '2026-04-11T14:30:00',
-      streamUrlEnglish: "",
-      streamUrlArabic: "",
+      streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
+      streamUrlArabic: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
