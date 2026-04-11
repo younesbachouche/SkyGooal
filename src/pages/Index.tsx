@@ -371,7 +371,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League - ENGLAND",
       matchTime: '2026-04-11T17:30:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein1",
+      streamUrlEnglish: "https://yskylive.netlify.app/bein2",
       streamUrlArabic: "https://storage.googleapis.com/obrixaovertung2/mux_video_ts1/index-1.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
@@ -386,7 +386,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga - SPAIN",
       matchTime: '2026-04-11T17:30:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein2",
+      streamUrlEnglish: "https://yskylive.netlify.app/bein1",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
       streamUrlServer3: "https://d3unczxi7x1u.cloudfront.net/status/3/fronts.woff2?a2918f",
       streamUrlServer4: ""
