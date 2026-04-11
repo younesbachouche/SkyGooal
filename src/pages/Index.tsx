@@ -371,9 +371,9 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png",
       competitionName: "Premier League - ENGLAND",
       matchTime: '2026-04-11T17:30:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein2",
+      streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/bein2/bein2_1080p/index.m3u8",
       streamUrlArabic: "https://storage.googleapis.com/obrixaovertung2/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://1syrialive.s3.us-east-2.amazonaws.com/bein1/bein1_1080p/index.m3u8",
+      streamUrlServer3: "",
       streamUrlServer4: ""
     },
 
@@ -386,7 +386,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga - SPAIN",
       matchTime: '2026-04-11T17:30:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein1",
+      streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/bein1/bein1_1080p/index.m3u8",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
       streamUrlServer3: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F61563742538654%2Fvideos%2F26103282212701169%2F",
       streamUrlServer4: ""
