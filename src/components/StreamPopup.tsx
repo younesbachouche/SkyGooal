@@ -250,4 +250,3 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
 };
 
 export default StreamPopup;
-
