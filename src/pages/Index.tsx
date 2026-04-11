@@ -418,7 +418,7 @@ function getMatchData() {
       competitionName: "Serie A - ITALY",
       matchTime: '2026-04-11T19:45:00',
       streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/ad1/ad1_1080p/index.m3u8",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd?%7CdrmScheme=clearkey&drmLicense=b253c726c24c7c94a3ddf9b1907e2c76:097963d6ad73c3d712a104981de0ed42",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
