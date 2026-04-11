@@ -283,7 +283,7 @@ function getMatchData() {
       competitionName: "Premier League - ENGLAND",
       matchTime: '2026-04-11T12:30:00',
       streamUrlEnglish: "https://yskylive.netlify.app/bein1",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://flu.systemnet.tv/Al.Fajer.1.720p/index.m3u8",
       streamUrlServer3: "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
       streamUrlServer4: "https://w.shahidtv.net/live/34682514/73347194/404.m3u8"
     },
