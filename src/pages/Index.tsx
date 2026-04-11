@@ -358,7 +358,7 @@ function getMatchData() {
       competitionName: "Serie A - ITALY",
       matchTime: '2026-04-11T17:00:00',
       streamUrlEnglish: "https://duyfb1fyoot3j.cloudfront.net/svg/n3/javascript.json",
-      streamUrlArabic: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61563742538654%2Fvideos%2F26103282212701169",
+      streamUrlArabic: "https://ai.photogood.site/live/event3/playlist.m3u8?token=1775966413_c5315a1fec067a88d378b9c0daff265566b9cd82404b5fc973d467294d0d5015",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
