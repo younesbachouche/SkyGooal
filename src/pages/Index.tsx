@@ -297,8 +297,8 @@ function getMatchData() {
       competitionName: "Bundesliga - GERMANY",
       matchTime: '2026-04-11T14:30:00',
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports1PL",
-      streamUrlArabic: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://1syrialive.s3.us-east-2.amazonaws.com/shahid1/shahid1_1080p/index.m3u8",
+      streamUrlServer3: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
       streamUrlServer4: ""
     },
 
