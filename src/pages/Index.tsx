@@ -389,7 +389,7 @@ function getMatchData() {
       streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/bein1/bein1_1080p/index.m3u8",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
       streamUrlServer3: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F61563742538654%2Fvideos%2F26103282212701169%2F",
-      streamUrlServer4: ""
+      streamUrlServer4: "https://storage.googleapis.com/unxewrtynfgaover2/mux_video_ts1/index-1.m3u8"
     },
    
 
