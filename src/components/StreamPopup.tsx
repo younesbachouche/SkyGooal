@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { X, ExternalLink } from "lucide-react";
+import JWPlayer from "./JWPlayer";
 
 interface StreamPopupProps {
   streams: {
@@ -7,45 +8,107 @@ interface StreamPopupProps {
     arabic?: string;
     server3?: string;
     server4?: string;
+    pc?: string;
   };
   onClose: () => void;
 }
 
 const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   // Filter out empty servers and create a clean list
   const availableServers = useMemo(() => {
-    const servers: Array<{ key: string; url: string; label: string; isExternal?: boolean }> = [];
+    const servers: Array<{ 
+      key: string; 
+      url: string; 
+      label: string; 
+      isExternal?: boolean;
+      isDesktopOnly?: boolean;
+      isM3u8?: boolean;
+    }> = [];
     
+    // Check if URL is m3u8 (any protocol)
+    const isM3u8Link = (url: string) => {
+      return url?.includes(".m3u8");
+    };
+
+    // Only add servers that are m3u8 or server4 (external)
     if (streams.english?.trim()) {
-      servers.push({ key: "english", url: streams.english.trim(), label: "Server 1" });
+      const url = streams.english.trim();
+      if (isM3u8Link(url)) {
+        servers.push({ 
+          key: "english", 
+          url: url, 
+          label: "English", 
+          isM3u8: true
+        });
+      }
     }
     if (streams.arabic?.trim()) {
-      servers.push({ key: "arabic", url: streams.arabic.trim(), label: "Server 2" });
+      const url = streams.arabic.trim();
+      if (isM3u8Link(url)) {
+        servers.push({ 
+          key: "arabic", 
+          url: url, 
+          label: "Arabic", 
+          isM3u8: true
+        });
+      }
     }
     if (streams.server3?.trim()) {
-      servers.push({ key: "server3", url: streams.server3.trim(), label: "Server 3" });
+      const url = streams.server3.trim();
+      if (isM3u8Link(url)) {
+        servers.push({ 
+          key: "server3", 
+          url: url, 
+          label: "Server 3", 
+          isM3u8: true
+        });
+      }
     }
+    // Server 4 - always show as external link
     if (streams.server4?.trim()) {
       servers.push({ 
         key: "server4", 
         url: streams.server4.trim(), 
         label: "Server 4", 
-        isExternal: true 
+        isExternal: true,
+        isM3u8: false
       });
+    }
+    // PC server - only available on desktop and m3u8
+    if (streams.pc?.trim() && !isMobile) {
+      const url = streams.pc.trim();
+      if (isM3u8Link(url)) {
+        servers.push({ 
+          key: "pc", 
+          url: url, 
+          label: "PC", 
+          isDesktopOnly: true,
+          isM3u8: true
+        });
+      }
     }
     
     return servers;
-  }, [streams]);
+  }, [streams, isMobile]);
 
-  const getFirstNonExternal = () => {
-    return availableServers.find(s => !s.isExternal)?.key || "english";
+  const getFirstM3u8 = () => {
+    return availableServers.find(s => s.isM3u8)?.key || availableServers[0]?.key || "english";
   };
 
-  const [active, setActive] = useState<string>(getFirstNonExternal());
-  const [iframeKey, setIframeKey] = useState(Date.now());
+  const [active, setActive] = useState<string>(getFirstM3u8());
 
   const activeServer = availableServers.find(s => s.key === active);
-  const url = activeServer?.url || "";
 
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -57,9 +120,9 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
   useEffect(() => {
     // Update active if current server is no longer available
     if (!activeServer && availableServers.length > 0) {
-      const nonExternal = availableServers.find(s => !s.isExternal);
-      if (nonExternal) {
-        setActive(nonExternal.key);
+      const firstM3u8 = availableServers.find(s => s.isM3u8);
+      if (firstM3u8) {
+        setActive(firstM3u8.key);
       }
     }
   }, [activeServer, availableServers]);
@@ -68,51 +131,23 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
     const server = availableServers.find(s => s.key === serverKey);
     if (!server) return;
     
-    // Skip if same server
-    if (serverKey === active) return;
-    
-    // If external server (server4), open in new tab and don't switch in popup
+    // If external server, open in new tab
     if (server.isExternal) {
       window.open(server.url, '_blank', 'noopener,noreferrer');
       return;
     }
     
-    // For non-external servers, switch in the popup
+    // Skip if same server
+    if (serverKey === active) return;
+    
+    // Switch server
     setActive(serverKey);
-    setIframeKey(Date.now());
-  };
-
-  // Function to add autoplay parameter but not force it
-  const addAutoplayIfPossible = (url: string): string => {
-    try {
-      const urlObj = new URL(url);
-      
-      // Add autoplay parameter - browser will decide to honor it or not
-      // This is the standard way - no forced autoplay with mute
-      if (url.includes('youtube.com/embed') || url.includes('youtu.be')) {
-        urlObj.searchParams.set('autoplay', '1');
-      } else if (url.includes('vimeo.com')) {
-        urlObj.searchParams.set('autoplay', '1');
-      } else if (url.includes('dailymotion.com')) {
-        urlObj.searchParams.set('autoplay', '1');
-      } else if (url.match(/\.(mp4|webm|m3u8|mpd)$/i)) {
-        urlObj.searchParams.set('autoplay', '1');
-      }
-      
-      return urlObj.toString();
-    } catch {
-      // If URL parsing fails, just return the original URL
-      return url;
-    }
   };
 
   if (availableServers.length === 0) {
     onClose();
     return null;
   }
-
-  const isMobile = window.innerWidth < 768;
-  const autoplayUrl = addAutoplayIfPossible(url);
 
   return (
     <div className="fixed inset-0 z-[99999] flex flex-col items-center justify-center p-2 sm:p-4 
@@ -131,7 +166,8 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
           onClick={onClose}
           className="relative mb-2 z-50 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 
             text-white p-3 rounded-full transition-all duration-200 shadow-xl shadow-red-500/30 
-            backdrop-blur-sm border border-red-500/20"
+            backdrop-blur-sm border border-red-500/20 hover:scale-110 transform"
+          title="Close Stream"
         >
           <X size={26} />
         </button>
@@ -151,7 +187,8 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
               bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 
               text-white p-2 rounded-full transition-all duration-200 
               shadow-lg shadow-red-500/30 
-              backdrop-blur-sm border border-red-500/20"
+              backdrop-blur-sm border border-red-500/20 hover:scale-110 transform"
+            title="Close Stream"
           >
             <X size={20} />
           </button>
@@ -169,44 +206,41 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
               onClick={() => handleServerChange(server.key)}
               className={`
                 px-4 sm:px-5 py-2.5 sm:py-2.5 rounded-xl font-semibold transition-all duration-200
-                backdrop-blur-sm
-                ${active === server.key && !server.isExternal
-                  ? 'bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-lg shadow-red-500/40 scale-105 border border-red-500/30' 
-                  : server.isExternal
+                backdrop-blur-sm whitespace-nowrap
+                ${server.isExternal
                   ? 'bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-md shadow-blue-500/30 border border-blue-500/30'
+                  : active === server.key
+                  ? 'bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-lg shadow-red-500/40 scale-105 border border-red-500/30' 
                   : 'bg-white/60 dark:bg-slate-700/50 text-slate-700 dark:text-slate-300 hover:bg-white/80 dark:hover:bg-slate-700 border border-slate-300/50 dark:border-slate-600/50 hover:border-slate-400 dark:hover:border-slate-500'
                 }
-                ${isMobile ? 'text-base min-w-[90px]' : 'text-sm min-w-[100px]'}
-                flex items-center justify-center gap-2
+                ${isMobile ? 'text-sm min-w-[80px]' : 'text-sm min-w-[100px]'}
+                flex items-center justify-center gap-2 hover:scale-105 transform
               `}
+              title={server.isDesktopOnly ? "Desktop only" : server.isExternal ? "Opens in new tab" : ""}
             >
               {server.label}
-              {server.isExternal && <ExternalLink size={isMobile ? 18 : 14} />}
+              {server.isExternal && <ExternalLink size={14} />}
             </button>
           ))}
         </div>
 
-        {/* Stream Container - 16:9 Ratio */}
-        {!activeServer?.isExternal && activeServer?.url && (
+        {/* JW Player Stream Container - 16:9 Ratio */}
+        {activeServer?.url && !activeServer.isExternal && (
           <div className="relative w-full bg-black">
             <div 
               className="relative w-full mx-auto"
               style={{ 
-                paddingBottom: '56.25%',
-                maxWidth: isMobile ? '95vw' : '100%'
+                paddingBottom: '56.25%'
               }}
             >
-              <iframe
-                key={iframeKey}
-                src={autoplayUrl}
-                className="absolute top-0 left-0 w-full h-full border-0"
-                allow="autoplay; fullscreen; encrypted-media; picture-in-picture; accelerometer; gyroscope; web-share"
-                allowFullScreen
-                title="Live Stream"
-                loading="eager"
-                sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-presentation"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+              <div className="absolute top-0 left-0 w-full h-full">
+                <JWPlayer 
+                  key={`${activeServer.key}-${activeServer.url}`}
+                  src={activeServer.url}
+                  autoplay={true}
+                  className="w-full h-full"
+                />
+              </div>
             </div>
           </div>
         )}
@@ -216,3 +250,4 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
 };
 
 export default StreamPopup;
+
