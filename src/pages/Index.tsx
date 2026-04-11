@@ -417,10 +417,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A - ITALY",
       matchTime: '2026-04-11T19:45:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein2",
-      streamUrlArabic: "https://storage.googleapis.com/uhgertyobrixaovo3/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://d3h8gvxs6hajby.cloudfront.net/status/2/fronts.woff2?84e3b4",
-      streamUrlServer4: "https://is.gd/QKWLVe.m3u8"
+      streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/ad1/ad1_1080p/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
 
 
@@ -431,10 +431,10 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga - SPAIN",
       matchTime: '2026-04-11T20:00:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein2",
-      streamUrlArabic: "https://storage.googleapis.com/uhgertyobrixaovo3/mux_video_ts1/index-1.m3u8",
-      streamUrlServer3: "https://d3h8gvxs6hajby.cloudfront.net/status/2/fronts.woff2?84e3b4",
-      streamUrlServer4: "https://is.gd/QKWLVe.m3u8"
+      streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/bein4/bein4_1080p/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
     },
    
 
