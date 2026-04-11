@@ -402,7 +402,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/54.png",
       competitionName: "Bundesliga - GERMANY",
       matchTime: '2026-04-11T17:30:00',
-      streamUrlEnglish: "",
+      streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/shahid1/shahid1_1080p/index.m3u8",
       streamUrlArabic: "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
