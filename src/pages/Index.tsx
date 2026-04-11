@@ -386,7 +386,7 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/87.png",
       competitionName: "La Liga - SPAIN",
       matchTime: '2026-04-11T17:30:00',
-      streamUrlEnglish: "https://yskylive.netlify.app/bein1",
+      streamUrlEnglish: "https://1syrialive.s3.us-east-2.amazonaws.com/bein3/master.m3u8",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
       streamUrlServer3: "https://d3unczxi7x1u.cloudfront.net/status/3/fronts.woff2?a2918f",
       streamUrlServer4: ""
