@@ -388,7 +388,7 @@ function getMatchData() {
       matchTime: '2026-04-11T17:30:00',
       streamUrlEnglish: "https://yskylive.netlify.app/bein1",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n2/javascript.json",
-      streamUrlServer3: "https://d3unczxi7x1u.cloudfront.net/status/3/fronts.woff2?a2918f",
+      streamUrlServer3: "https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/61563742538654/videos/26103282212701169",
       streamUrlServer4: ""
     },
    
