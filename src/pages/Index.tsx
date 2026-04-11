@@ -357,8 +357,8 @@ function getMatchData() {
       competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
       competitionName: "Serie A - ITALY",
       matchTime: '2026-04-11T17:00:00',
-      streamUrlEnglish: "https://proxify.kooretna.site/stream/tz9mz",
-      streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n3/javascript.json",
+      streamUrlEnglish: "https://duyfb1fyoot3j.cloudfront.net/svg/n3/javascript.json",
+      streamUrlArabic: "",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
