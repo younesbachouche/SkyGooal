@@ -82,12 +82,37 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
     setIframeKey(Date.now());
   };
 
+  // Function to add autoplay parameter but not force it
+  const addAutoplayIfPossible = (url: string): string => {
+    try {
+      const urlObj = new URL(url);
+      
+      // Add autoplay parameter - browser will decide to honor it or not
+      // This is the standard way - no forced autoplay with mute
+      if (url.includes('youtube.com/embed') || url.includes('youtu.be')) {
+        urlObj.searchParams.set('autoplay', '1');
+      } else if (url.includes('vimeo.com')) {
+        urlObj.searchParams.set('autoplay', '1');
+      } else if (url.includes('dailymotion.com')) {
+        urlObj.searchParams.set('autoplay', '1');
+      } else if (url.match(/\.(mp4|webm|m3u8|mpd)$/i)) {
+        urlObj.searchParams.set('autoplay', '1');
+      }
+      
+      return urlObj.toString();
+    } catch {
+      // If URL parsing fails, just return the original URL
+      return url;
+    }
+  };
+
   if (availableServers.length === 0) {
     onClose();
     return null;
   }
 
   const isMobile = window.innerWidth < 768;
+  const autoplayUrl = addAutoplayIfPossible(url);
 
   return (
     <div className="fixed inset-0 z-[99999] flex flex-col items-center justify-center p-2 sm:p-4 
@@ -173,13 +198,13 @@ const StreamPopup: React.FC<StreamPopupProps> = ({ streams, onClose }) => {
             >
               <iframe
                 key={iframeKey}
-                src={url}
+                src={autoplayUrl}
                 className="absolute top-0 left-0 w-full h-full border-0"
-                allow="fullscreen; encrypted-media; picture-in-picture; accelerometer; gyroscope; web-share"
+                allow="autoplay; fullscreen; encrypted-media; picture-in-picture; accelerometer; gyroscope; web-share"
                 allowFullScreen
                 title="Live Stream"
                 loading="eager"
-                sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-presentation"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
