@@ -359,7 +359,7 @@ function getMatchData() {
       matchTime: '2026-04-11T17:00:00',
       streamUrlEnglish: "https://live.alahly-eg.com/live/channels/dlhd?id=ElevenSports2PL",
       streamUrlArabic: "https://duyfb1fyoot3j.cloudfront.net/svg/n3/javascript.json",
-      streamUrlServer3: "",
+      streamUrlServer3: "https://proxify.kooretna.site/stream/tz9mz",
       streamUrlServer4: ""
     },
 
