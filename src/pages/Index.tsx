@@ -330,7 +330,7 @@ function getMatchData() {
       streamUrlEnglish: "https://flu.systemnet.tv/Al.Fajer.4.720p/index.m3u8",
       streamUrlArabic: "",
       streamUrlServer3: "",
-      streamUrlServer4: ""
+      streamUrlServer4: "http://sportook.online/STC-SPORT-1/video.m3u8"
     },
     
    
