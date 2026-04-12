@@ -283,7 +283,7 @@ function getMatchData() {
       competitionName: "Premier League - ENGLAND",
       matchTime: '2026-04-12T14:00:00',
       streamUrlEnglish: "https://d3unczxi7x1u.cloudfront.net/status/1/fronts.woff2?fbb9e9",
-      streamUrlArabic: "",
+      streamUrlArabic: "https://flu.systemnet.tv/Al.Fajer.3.720p/index.m3u8",
       streamUrlServer3: "",
       streamUrlServer4: ""
     },
@@ -299,8 +299,8 @@ function getMatchData() {
       competitionName: "Premier League - ENGLAND",
       matchTime: '2026-04-12T14:00:00',
       streamUrlEnglish: "https://d3unczxi7x1u.cloudfront.net/status/3/fronts.woff2?72b8de",
-      streamUrlArabic: "",
-      streamUrlServer3: "",
+      streamUrlArabic: "https://flu.systemnet.tv/Al.Fajer.1.720p/index.m3u8",
+      streamUrlServer3: "https://live20.bozztv.com/akamaissh101/ssh101/osnmixflix/playlist.m3u8",
       streamUrlServer4: ""
     },
 
@@ -320,7 +320,18 @@ function getMatchData() {
     },
 
 
-
+{
+      team1: { name: "Parma", logo: "https://imgs.ysscores.com/teams/128/4061690823331.png" },
+      team2: { name: "Napoli", logo: "https://imgs.ysscores.com/teams/128/9521720636634.png" },
+      competitionLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/55.png",
+      competitionDarkLogo: "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/55.png",
+      competitionName: "Serie A - ITALY",
+      matchTime: '2026-04-12T14:00:00',
+      streamUrlEnglish: "https://flu.systemnet.tv/Al.Fajer.4.720p/index.m3u8",
+      streamUrlArabic: "",
+      streamUrlServer3: "",
+      streamUrlServer4: ""
+    },
     
    
      
